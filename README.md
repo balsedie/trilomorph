@@ -6,11 +6,15 @@ The purpose of this repository is to allow the constant input of new data into t
 ### Specimen
 - [ ] select the specimen
 
-specimens included in the database have to be housed in official collections (preferentially having a collection number) or illustrated in the literature. Specimens can be cephala and/or pigydia. Be sure that the selected specimen is not distored, for cephala make sure that free cheeks are in place and not slighly disarticulated.
+<sup>specimens included in the database have to be housed in official collections (preferentially having a collection number) or illustrated in the literature. Specimens can be cephala and/or pigydia. Be sure that the selected specimen is **not distored**, for cephala make sure that free cheeks are in place and not slighly disarticulated.</sup>
+
 - [ ] select the picture
-the picture used for the landmarking (see below) has to be a *strictly dorsal* picture of the specimen, either cephalon or pigidia. If the specimen is articulated make sure that both parts are photographed in dorsal view, if not use different pictures for each part.
+
+<sup>the picture used for the landmarking (see below) has to be a *strictly dorsal* picture of the specimen, either cephalon or pigidia. If the specimen is articulated make sure that both parts are photographed in dorsal view, if not use different pictures for each part.</sup>
+
 - [ ] name the picture
-the picture has to be named using the specimen's collection number and prefix
+
+<sup>the picture has to be named using the specimen's collection number and acronym. The file name has to have the suffix _C when it is the cephalon, and _P for the pygidium </sup>
 
 ### Landmarking
 - [X] select the specimen
