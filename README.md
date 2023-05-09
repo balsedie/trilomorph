@@ -14,7 +14,7 @@ The purpose of this repository is to allow the constant input of new data into t
 
 - [ ] name the picture
 
-<sup>the picture has to be named using the specimen's collection number and acronym. The file name has to have the suffix _C when it is the cephalon, and _P for the pygidium. **Important:** If a single specimen and picture is used to landmark both cephalon and pygidium, two different files need to be created and named one for the pygidum (_P) and one for the cephalon (_C) </sup>
+<sup>the picture has to be named using the specimen's collection acronym and number. The file name has to have the suffix _C when it is the cephalon, and _P for the pygidium. **Important:** If a single specimen and picture is used to landmark both cephalon and pygidium, two different files need to be created and named one for the pygidum (_P) and one for the cephalon (_C) </sup>
 
 ### Landmarking
 - [X] select the specimen
