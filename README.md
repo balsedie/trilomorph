@@ -26,6 +26,43 @@ The purpose of this repository is to allow the constant input of new data into t
 
 <sup>You can use different landmarking program, namely tpsDig[^3], geomorph package for R[^4], StereoMorph package for R[^5]. </sup>
 
+### Complete de specimen metadata
+- [X] select the specimen
+- [X] select the picture
+- [x] name de picture
+- [x] landmark the specimen
+- [ ] fill the form
+<sub> you have to fill the information about the specimen. **It is very important to complete the form (particularly the stratigraphic fields) relative to the _specimen_ and _not the species_**
+  
+  You have to fill the following form. Please **copy and paste it as it is (including hyphens)** in a text editor and fill each field. If missing information in a field, you can leave it blank or remove the field.
+```
+  -
+  ID: 
+  taxonomy: #this line has to remain blank `#0969DA`
+    genus: 
+    sp: 
+    subsp: 
+    orig_genus: 
+    sp_author: 
+    gen_author: 
+  ref_pic: 
+  morphology: #this line has to remain blank
+    part: Cranidium
+    eyes: yes
+    ontogeny: Holaspis
+  geography:    # la info geográfica
+    locality: South_Canyon_Range
+    country: Canada
+    map: yes
+    lat: 62.5
+    long: -125.016
+  stratigraphy:
+    formation: Delorme_Formation
+    min_age: Pragian
+    max_age: Pragian
+    ref_age: Lane,_Onniston_1973
+```
+
   
 ## Licence:
 All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
