@@ -76,7 +76,7 @@ The purpose of this repository is to allow the constant input of new data into t
     landmark:
     date:
 ```
-  The information and format for each field is described in Serra et al[^1] [table 2](https://www.figshare.com/blabbla).
+  The information needed and format for each field is described in Serra et al[^1] [table 2](https://www.figshare.com/blabbla).
 
 ### Upload all data to Trilomorph
 - [X] select the specimen
@@ -86,11 +86,12 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] fill the form
 - [ ] login in github
   
-  <sup>if you don't have a github account you have to sign in first. You only need an email.</sub>
+  <sup>if you don't have a github account you have to sign in first. You will only need an email.</sub>
+  
   <sup>if it is your first time contributing to Trilomorph, please contact us[^6] first to be aware of your intention to contribute.
 - [ ] upload picture file
   
-  <sup>go to 
+  <sup>go to the [pictures folder](/pictures) and upload the picture(s). The press the "commit changes..." button (upper right)</sup>
 
 ## Licence:
 All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
@@ -101,4 +102,5 @@ All material is distributed under Creative Commons Attribution-Non Commercial-Sh
 [^3]: cita tpsDig 
 [^4]: Adams D.C, Collyer M.L. and Kaliontzopoulou A. 2020. Geomorph: Software for geometric morphometric analyses. R package version 3.2.1. https://cran.r-project.org/package=geomorph.
 [^5]: Olsen A.M. and Westneat M.W. 2015. StereoMorph: an R package for the collection of 3D landmarks and curves using a stereo camera set-up. Methods in Ecology and Evolution 6:351-356. DOI: [10.1111/2041-210X.12326](https://doi.org/10.1111/2041-210X.12326).
+[^6]: The data base is currently maintained by [Diego Balseiro](mailto:dbalseiro@unc.edu.ar) and [Fernanda Serra](mailto:fserra@unc.edu.ar)
 [^N]: https://creativecommons.org/licenses/by-nc-sa/4.0/
