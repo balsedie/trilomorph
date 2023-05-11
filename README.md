@@ -103,13 +103,13 @@ The purpose of this repository is to allow the constant input of new data into t
     
   Go the [specimens' metadata file](/main/trilomorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
   
-  <sup>**Important:** if this is your first time contributing to Trilomorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) telling you that need to fork of this repository. Go ahead and **press "Fork this repository"**. It might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
+  <sup>**Important:** if this is your first time contributing to Trilomorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) telling you that need to fork of this repository. Go ahead and **press "Fork this repository"**. Github might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
   
   Once editing the metadata file, paste the **new filled form(s)** in the second line (below the two hyphens [--])
        
 After pasting the new form(s):
   
-  * press the "commit changes..." button which will open a [small window](https://figshare.com/ndownloader/files/40539908/preview/40539908/preview.jpg)
+  * press the "commit changes..." button, which will open a [small window](https://figshare.com/ndownloader/files/40539908/preview/40539908/preview.jpg)
   * press "propose changes". The github page will now have the [heading **"Comparing changes"**](https://figshare.com/ndownloader/files/40539902/preview/40539902/preview.jpg).
   * press "Create pull request". 
 
