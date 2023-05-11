@@ -85,7 +85,7 @@ The purpose of this repository is to allow the constant input of new data into t
     landmark:
     date:
 ```
-  The information needed and format for each field is described in Serra et al[^1] [table 2](https://www.figshare.com/blabbla).
+  The information needed and format for each field is described in Serra et al[^1] [table 2](https://figshare.com/ndownloader/files/40538360/preview/40538360/preview.pdf).
 
 ### Upload all data to Trilomorph
 - [X] select the specimen
