@@ -6,7 +6,7 @@ The purpose of this repository is to allow the constant input of new data into t
 ### Specimen
 - [ ] select the specimen
 
-  <sup>specimens included in the database have to be housed in official collections (preferentially having a collection number) or illustrated in the literature. Specimens can be cephala and/or pigydia. Be sure that the selected specimen is **not distored**, for cephala make sure that free cheeks are in place and not slighly disarticulated.</sup>
+  <sup>specimens included in the database have to be housed in official collections (preferentially having a collection number) or illustrated in the scientific literature. Specimens can be cephala and/or pigydia. Be sure that the selected specimen is **not distored**, for cephala make sure that free cheeks are in place and not slighly disarticulated.</sup>
 
 - [ ] select the picture
 
@@ -22,9 +22,9 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] name de picture
 - [ ] landmark the specimen
 
-  <sup>the specimen needs to be landmarked following the protocol in Serra et al[^1], which is explained in figure 1 </sup>
+  <sup>the specimen needs to be landmarked following the protocol in Serra et al[^1], which is explained in figure 1 and table 1 </sup>
 
-  <sup>You can use different landmarking program, namely tpsDig[^3], geomorph package for R[^4], StereoMorph package for R[^5]. </sup>
+  <sup>You can use different landmarking program, namely tpsDig2[^3], geomorph package for R[^4], StereoMorph package for R[^5]. </sup>
 
 ### Complete the specimen's metadata
 - [X] select the specimen
@@ -33,7 +33,7 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] landmark the specimen
 - [ ] fill the form
 
-  <sub> you have to fill the information about the specimen. **It is very important to complete the form (particularly the stratigraphic fields) relative to the _specimen_ and _not the species_**
+  <sub> you have to fill the information about the specimen. **It is very important to complete the form (particularly the stratigraphic fields) relative to the _specimen_, _not the species_**
   
   Specimen's metadata is entered in the following form, please **copy and paste it as it is (including hyphens)** in a text editor and fill each field. If missing information in a field, you can leave it blank or remove the field. Fill one form per landmarked **specimen**. If a single specimen has cephalon and pygidum, just fill a single form indicating that it has cephalon and pygidum.
 ```
@@ -86,26 +86,28 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] fill the form
 - [ ] login in github
   
-  <sup>if you don't have a github account you have to sign in first. You will only need an email.</sub>
+  <sup>if you don't have a github account you have to sign in first. You will only need an email, but don't be afraid using github is very simple.</sub>
   
-  <sup>if it is your first time contributing to Trilomorph, please contact us[^6] first to be aware of your intention to contribute.
-- [ ] upload picture file
+  <sup>**if it is your first time contributing to Trilomorph, we suggest to contact us[^6] first**</sup>.
+
+- [ ] upload the metadata
+    
+  Go the [specimens' metadata file](/main/trilomorph.yaml) and press the "edit" button.
   
-  <sup>go to the [pictures folder](/pictures) and upload the picture(s).</sup>
-    
-  <sup>**Then press the "pull request..." button** (upper right)</sup>
-    
+  **Important:** if this is your first time contributing to Trilomorph, github will tell you that it will create a new fork of this 
+  
+  Once editing the metadata file, paste the **new filled form(s)** in the second line (below the two hyphens [--])
+       
+  Then  
+  
+  * press the "commit changes..." button which will open a small window
+  * press "propose changes" button. The github page will now have the heading **"Comparing changes"**.
+  * press "Create pull request". After pressing the button the github page will now have the heading **Open a pull request**
+ 
+  In this page you will have a field where you have to  
+- [ ] upload the picture file
 - [ ] upload the landmark file
     
-  <sup>go to the [landmarks folder](/landmarks) and upload the .txt file.</sup>
-    
-  <sup>**Then press the "pull request..." button** (upper right)</sup>
-
-- [ ] uploaod the metadata
-    
-  <sup>go the [specimens' metadata file](/main/trilomorph.yaml) and press the "edit" button. Once editing the metadata file, **paste the _new filled form(s)_ in the second line (below the two hyphens [--])**.</sup>
-    
-  <sup>**Then press the "pull request..." button** (upper right)</sup>
     
 ### Wait for file revison and acceptance
 - [X] select the specimen
@@ -114,11 +116,11 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] landmark the specimen
 - [x] fill the form
 - [x] login in github
-- [x] upload picture file
+- [x] uploaod the metadata
+- [X] upload picture file
 - [x] upload the landmark file
-- [X] uploaod the metadata
-  
-After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The Trilomorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. If you want your data to be reviewed and accepted faster please contact us[^6].
+
+After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The Trilomorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. After accepting the new data you will recieve an email informing that the data was merged to Trilomorph. If you need your data to be reviewed and accepted faster please contact us[^6].
     
 ## Licence
 All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
