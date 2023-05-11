@@ -95,9 +95,9 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] fill the form
 - [ ] login in github
   
-  <sup>if you don't have a github account you have to sign in first. You will only need an email, but don't be afraid using github is very simple.</sub>
+  <sup>If you don't have a github account you have to sign in first. You will only need an email, but don't be afraid using github is very simple.</sub>
   
-  <sup>**if it is your first time contributing to Trilomorph, we suggest to contact us[^6] first**</sup>.
+  <sup>**If it is your first time contributing to Trilomorph, we suggest to contact us[^6] first**</sup>.
 
 - [ ] upload the metadata
     
