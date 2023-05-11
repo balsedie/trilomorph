@@ -123,7 +123,7 @@ In this page you will have a [field](https://docs.github.com/assets/cb-33734/mw-
   
 - [ ] upload the landmark file(s)
     
-Once you've uploaded the files, the field will look like [this](https://figshare.com/ndownloader/files/40539917/preview/40539917/preview.jpg). You can alsi take a look at the [preview tab](https://figshare.com/ndownloader/files/40539911/preview/40539911/preview.jpg) to make sure that the image(s) have been uploaded correctly.
+Once you've uploaded all files, the field will look like [this](https://figshare.com/ndownloader/files/40539917/preview/40539917/preview.jpg). You can also take a look at the [preview tab](https://figshare.com/ndownloader/files/40539911/preview/40539911/preview.jpg) to make sure that the image(s) have been uploaded correctly.
 
 **Then you must press the "Create pull request" button**.
 
