@@ -12,7 +12,7 @@ The purpose of this repository is to allow the constant input of new data into t
 
 - [ ] select the picture
 
-  <sup>The picture used for the landmarking (see below) has to be a ***strictly dorsal*** picture of the specimen, either cephalon or pigidia. If the specimen is articulated make sure that both parts are photographed in dorsal view, if not use different pictures for each part.</sup>
+  <sup>The picture used for the landmarking (see below) has to be a ***strictly dorsal*** picture of the specimen, either cephalon or pygidium. If the specimen is articulated make sure that both parts are photographed in dorsal view, if not use different pictures for each part.</sup>
   
   <sup>**IMPORTANT**: each picture has to include a graphical scale. If it is missing in the original publication, include one. You can easily include graphical scale bars with sorftware such as ImageJ[^7]</sup>
   
