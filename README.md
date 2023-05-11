@@ -91,15 +91,42 @@ The purpose of this repository is to allow the constant input of new data into t
   <sup>if it is your first time contributing to Trilomorph, please contact us[^6] first to be aware of your intention to contribute.
 - [ ] upload picture file
   
-  <sup>go to the [pictures folder](/pictures) and upload the picture(s). The press the "commit changes..." button (upper right)</sup>
+  <sup>go to the [pictures folder](/pictures) and upload the picture(s).</sup>
+    
+  <sup>**Then press the "pull request..." button** (upper right)</sup>
+    
+- [ ] upload the landmark file
+    
+  <sup>go to the [landmarks folder](/landmarks) and upload the .txt file.</sup>
+    
+  <sup>**Then press the "pull request..." button** (upper right)</sup>
 
-## Licence:
+- [ ] uploaod the metadata
+    
+  <sup>go the [specimens' metadata file](/main/trilomorph.yaml) and press the "edit" button. Once editing the metadata file, **paste the _new filled form(s)_ in the second line (below the two hyphens [--])**.</sup>
+    
+  <sup>**Then press the "pull request..." button** (upper right)</sup>
+    
+### Wait for file revison and acceptance
+- [X] select the specimen
+- [X] select the picture
+- [x] name de picture
+- [x] landmark the specimen
+- [x] fill the form
+- [x] login in github
+- [x] upload picture file
+- [x] upload the landmark file
+- [X] uploaod the metadata
+  
+After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The Trilomorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. If you want your data to be included asap please contact us[^6].
+    
+## Licence
 All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
 
-<!-- References -->
+### References
 [^1]: Serra F., Balseiro D., Monnet C., et al. submitted. TriloMorph: a dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data.
 [^2]: Latest and previous stable releases are available at https://rdu.unc.edu.ar/handle/11086/nnnnnnn
-[^3]: cita tpsDig 
+[^3]: Rohlf F.J. 2015. The tps series of software. Hystrix, the Italian Journal of Mammalogy, 26(1), 9-12. DOI: [10.4404/hystrix-26.1-11264](https://doi.org/10.4404/hystrix-26.1-11264)
 [^4]: Adams D.C, Collyer M.L. and Kaliontzopoulou A. 2020. Geomorph: Software for geometric morphometric analyses. R package version 3.2.1. https://cran.r-project.org/package=geomorph.
 [^5]: Olsen A.M. and Westneat M.W. 2015. StereoMorph: an R package for the collection of 3D landmarks and curves using a stereo camera set-up. Methods in Ecology and Evolution 6:351-356. DOI: [10.1111/2041-210X.12326](https://doi.org/10.1111/2041-210X.12326).
 [^6]: The data base is currently maintained by [Diego Balseiro](mailto:dbalseiro@unc.edu.ar) and [Fernanda Serra](mailto:fserra@unc.edu.ar)
