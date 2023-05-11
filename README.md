@@ -13,6 +13,8 @@ The purpose of this repository is to allow the constant input of new data into t
   <sup>The picture used for the landmarking (see below) has to be a ***strictly dorsal*** picture of the specimen, either cephalon or pigidia. If the specimen is articulated make sure that both parts are photographed in dorsal view, if not use different pictures for each part.</sup>
   
   <sup>**IMPORTANT**: each picture has to include a graphical scale. If it is missing in the original publication, include one. You can easily include graphical scale bars with sorftware such as ImageJ[^7]</sup>
+  
+  <sup>Accepted formats are PNG and JPG/JPEG. Please avoid using TIFF files</sup>
 
 - [ ] name the picture
 
@@ -106,12 +108,19 @@ The purpose of this repository is to allow the constant input of new data into t
   
   * press the "commit changes..." button which will open a small window
   * press "propose changes" button. The github page will now have the heading **"Comparing changes"**.
-  * press "Create pull request". After pressing the button the github page will now have the heading **Open a pull request**
+  * press "Create pull request". 
+
+After pressing the button the github page will now have the heading **Open a pull request**
  
-  In this page you will have a field where you have to  
+In this page you will have a [field](https://docs.github.com/assets/cb-33734/mw-1440/images/help/pull_requests/select-bar.webp) where you have upload the following files:
+
 - [ ] upload the picture file
+  
+  <sup>Please note that the maximum size for images is 10MB</sup>
+  
 - [ ] upload the landmark file
     
+  <sup>After uploading both files the filed should look like this.</sup>
     
 ### Wait for file revison and acceptance
 - [X] select the specimen
