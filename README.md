@@ -1,8 +1,7 @@
 # Trilomorph
 ## About the database
-TriloMorph is an openly accessible database for morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records landmark and semilandmark information on trilobite cephala and pygidia. 
+TriloMorph is an openly accessible database for morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records raw landmark and semilandmark information on trilobite cephala and pygidia following the protocol proposed by Serra et al[^1]. If you are willing to use the database for an analysis, we strongly suggest to download the stable release that is accesible in the Digital repository of the Universidad Nacional de Córdoba[^2].
 
-If you are willing to use the database, we strongly suggest to download the stable release that is accesible in the Digital repository of the Universidad Nacional de Córdoba[^2].
 The purpose of this repository is to allow the constant input of new data into the database. Below we explain step by step the procedure to upload new data to Trilomorph:
 
 ### Specimen
@@ -28,11 +27,13 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] name de picture
 - [ ] landmark the specimen
 
-  <sup>The specimen needs to be landmarked following the protocol in Serra et al[^1], which is explained in figure 1 and table 1 </sup>
+  <sup>The specimen needs to be landmarked following the protocol in Serra et al[^1], which is explained in [figure 2](https://figshare.com/ndownloader/files/40535717/preview/40535717/preview.jpg) and [table 1](https://figshare.com/ndownloader/files/40538384/preview/40538384/preview.pdf)</sup>
 
-  <sup>You can use different landmarking program, namely tpsDig2[^3], geomorph package for R[^4], StereoMorph package for R[^5]. </sup>
+  <sup>You can use various landmarking software, namely tpsDig2[^3], geomorph package for R[^4], StereoMorph package for R[^5]. </sup>
   
-  <sup>Check that the landmark file is a.txt file with the same name as the image file</sup>
+  <sup>If you are using the `digitizeImages()` function from the StereoMorph package[^5], you can use [our template](/main/functions/LM.csv) for landmarks and curves definitions.</sup>
+  
+  <sup>Please check that the final landmark file is a.txt file with the same name as the image file</sup>
 
 ### Complete the specimen's metadata
 - [X] select the specimen
@@ -100,30 +101,34 @@ The purpose of this repository is to allow the constant input of new data into t
 
 - [ ] upload the metadata
     
-  Go the [specimens' metadata file](/main/trilomorph.yaml) and press the "edit" button.
+  Go the [specimens' metadata file](/main/trilomorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
   
-  **Important:** if this is your first time contributing to Trilomorph, github will tell you that it will create a new fork of this 
+  **Important:** if this is your first time contributing to Trilomorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) telling you that need to fork of this repository. Go ahead and **press "Fork this repository"**. It might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.
   
   Once editing the metadata file, paste the **new filled form(s)** in the second line (below the two hyphens [--])
        
-  Then  
+After pasting the new form(s):
   
-  * press the "commit changes..." button which will open a small window
-  * press "propose changes" button. The github page will now have the heading **"Comparing changes"**.
+  * press the "commit changes..." button which will open a [small window](https://figshare.com/ndownloader/files/40539908/preview/40539908/preview.jpg)
+  * press "propose changes". The github page will now have the [heading **"Comparing changes"**](https://figshare.com/ndownloader/files/40539902/preview/40539902/preview.jpg).
   * press "Create pull request". 
 
 After pressing the button the github page will now have the heading **Open a pull request**
  
-In this page you will have a [field](https://docs.github.com/assets/cb-33734/mw-1440/images/help/pull_requests/select-bar.webp) where you have upload the following files:
+In this page you will have a [field](https://docs.github.com/assets/cb-33734/mw-1440/images/help/pull_requests/select-bar.webp) where **you _must upload_ the following files**:
 
-- [ ] upload the picture file
+- [ ] upload the picture file(s)
   
   <sup>Please note that the maximum size for images is 10MB</sup>
   
-- [ ] upload the landmark file
+- [ ] upload the landmark file(s)
     
-  <sup>After uploading both files the filed should look like this.</sup>
-    
+Once you've uploaded the files, the field will look like [this](https://figshare.com/ndownloader/files/40539917/preview/40539917/preview.jpg). You can alsi take a look at the [preview tab](https://figshare.com/ndownloader/files/40539911/preview/40539911/preview.jpg) to make sure that the image(s) have been uploaded correctly.
+
+**Then you must press the "Create pull request" button**.
+
+The final step should look something similar to [this](https://figshare.com/ndownloader/files/40539914/preview/40539914/preview.jpg)
+
 ### Wait for file revison and acceptance
 - [X] select the specimen
 - [X] select the picture
@@ -131,7 +136,7 @@ In this page you will have a [field](https://docs.github.com/assets/cb-33734/mw-
 - [x] landmark the specimen
 - [x] fill the form
 - [x] login in github
-- [x] uploaod the metadata
+- [x] upload the metadata
 - [X] upload picture file
 - [x] upload the landmark file
 
