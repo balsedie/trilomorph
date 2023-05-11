@@ -118,7 +118,7 @@ The purpose of this repository is to allow the constant input of new data into t
 - [x] upload the landmark file
 - [X] uploaod the metadata
   
-After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The Trilomorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. If you want your data to be included asap please contact us[^6].
+After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The Trilomorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. If you want your data to be reviewed and accepted faster please contact us[^6].
     
 ## Licence
 All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
