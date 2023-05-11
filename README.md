@@ -103,7 +103,7 @@ The purpose of this repository is to allow the constant input of new data into t
     
   Go the [specimens' metadata file](/main/trilomorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
   
-  **Important:** if this is your first time contributing to Trilomorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) telling you that need to fork of this repository. Go ahead and **press "Fork this repository"**. It might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.
+  <sup>**Important:** if this is your first time contributing to Trilomorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) telling you that need to fork of this repository. Go ahead and **press "Fork this repository"**. It might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
   
   Once editing the metadata file, paste the **new filled form(s)** in the second line (below the two hyphens [--])
        
