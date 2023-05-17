@@ -35,7 +35,7 @@ The purpose of this repository is to allow the constant input of new data into t
   
   <sup>If you are using the `digitizeImages()` function from the StereoMorph package[^5], you can use [our template](/main/functions/LM.csv) for landmarks and curves definitions.</sup>
   
-  <sup>Please check that the final landmark file is a.txt file with the same name as the image file</sup>
+  <sup>Please check that the final shape file is a XML-type (.txt)[^5] or TPS-type (.tps)[^3] file with the same name as the image file</sup>
 
 ### Complete the specimen's metadata
 - [X] select the specimen
