@@ -7,7 +7,7 @@ Geomorphometric data in **Trilomorph** is intended to be analyzed in R using the
 Trilomorph, in addition to hosting geometric morphometric data, supplies additional R functions that where develop to overcome some potential problems relative to the nature of the data hosted in the database. Therefore we provide a set of R functions that allow you to
   * Analyze both StereoMorph XML-based shape files and tpsDig2 TPS-based files. 
   * Read shape files with different number of missing landmarks, define a landmark template for the analysis, and discard shape files that do not have all the desired landmarks.[^3]
-  * Resample semilandmarks, as TPS files have fixed semilandmarks but Steremorph shape files do not fix semi-landmarks _a priori_
+  * Resample semilandmarks, as TPS shape files have fixed semilandmarks but Steremorph shape files do not fix semi-landmarks _a priori_
 
 
 ### References
