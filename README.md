@@ -1,10 +1,10 @@
-# Trilomorph
+# TriloMorph
 ## About the database
 TriloMorph is an openly accessible database for morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records raw landmark and semilandmark information on trilobite cephala and pygidia following the protocol proposed by Serra et al[^1]. 
 
 The purpose of this repository is to allow the constant input of new data into the database. If you are willing to use the database for an analysis, we strongly suggest to download the stable release that is accesible in the Digital repository of the Universidad Nacional de Córdoba[^2]. Further explanation about the R functions and how to download and analyze data hosted in this repository can be found [here](/analyze_data.md)
 
-**Below we explain step by step the procedure to upload new data to Trilomorph:**
+**Below we explain step by step the procedure to upload new data to TriloMorph:**
 
 ### Specimen
 - [ ] select the specimen
@@ -89,7 +89,7 @@ The purpose of this repository is to allow the constant input of new data into t
 ```
   The information needed and format for each field is described in Serra et al[^1] [table 2](https://figshare.com/ndownloader/files/40538360/preview/40538360/preview.pdf).
 
-### Upload all data to Trilomorph
+### Upload all data to TriloMorph
 - [X] select the specimen
 - [X] select the picture
 - [x] name de picture
@@ -99,13 +99,13 @@ The purpose of this repository is to allow the constant input of new data into t
   
   <sup>If you don't have a github account you have to sign in first. You will only need an email, but don't be afraid using github is very simple.</sub>
   
-  <sup>**If it is your first time contributing to Trilomorph, we suggest to contact us[^6] first**</sup>.
+  <sup>**If it is your first time contributing to TriloMorph, we suggest to contact us[^6] first**</sup>.
 
 - [ ] upload the metadata
     
-  Go the [specimens' metadata file](/main/trilomorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
+  Go the [specimens' metadata file](/main/triloMorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
   
-  <sup>**Important:** if this is your first time contributing to Trilomorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) indicating that you need to fork this repository. Go ahead and **press "Fork this repository"**. Github might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
+  <sup>**Important:** if this is your first time contributing to TriloMorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) indicating that you need to fork this repository. Go ahead and **press "Fork this repository"**. Github might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
   
   Once editing the metadata file, paste the **new filled form(s)** in the second line (below the two hyphens [--])
        
@@ -142,7 +142,7 @@ The final step should look something similar to [this](https://figshare.com/ndow
 - [X] upload picture file
 - [x] upload the landmark file
 
-After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The Trilomorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. After accepting the new data you will recieve an email informing that the data was merged to Trilomorph. If you need your data to be reviewed and accepted faster please contact us[^6].
+After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The TriloMorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. After accepting the new data you will recieve an email informing that the data was merged to TriloMorph. If you need your data to be reviewed and accepted faster please contact us[^6].
     
 ## Licence
 All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
