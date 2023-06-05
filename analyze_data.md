@@ -1,6 +1,6 @@
-# Analize data hosted in Trilomorph
+# Analize data hosted in TriloMorph
 
-Geomorphometric data in **Trilomorph** is intended to be analyzed in R using the [functions](/TriloMorph-funs.R) developed to read the data and the geomorph package[^N]. You can still analyze Trilomorph data in any other software, as long as it is able to read both XML-based format for shapes digitized with the 'StereoMorph' package[^1] and TPS-based format for shapes digitized with tpsDig2[^2].
+Geomorphometric data in **TriloMorph** is intended to be analyzed in R using the [functions](/TriloMorph-funs.R) developed to read the data and the geomorph package[^N]. You can still analyze TriloMorph data in any other software, as long as it is able to read both XML-based format for shapes digitized with the 'StereoMorph' package[^1] and TPS-based format for shapes digitized with tpsDig2[^2].
 
 ## Trilomorph functions
 
@@ -9,7 +9,15 @@ Trilomorph, in addition to hosting geometric morphometric data, supplies additio
   * Read shape files with different number of missing landmarks, define a landmark template for the analysis, and discard shape files that do not have all the desired landmarks.[^3]
   * Resample semilandmarks, as TPS shape files have fixed semilandmarks but Steremorph shape files do not fix semi-landmarks _a priori_.
 
-The data can be read with the 
+To access the functions you have to copy and paste the following line in your R console.
+
+    source(https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-funs.R)
+
+Once you have uploaded the fuctions in R, you can download the TriloMorph metadata
+
+    yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
+
+
 
 
 ### References
