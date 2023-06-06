@@ -2,7 +2,7 @@
 
 Geomorphometric data in **TriloMorph** is intended to be analyzed in R using the [functions](/TriloMorph-funs.R) developed to read the data and the geomorph package[^N]. You can still analyze TriloMorph data in any other software, as long as it is able to read both XML-based format for shapes digitized with the 'StereoMorph' package[^1] and TPS-based format for shapes digitized with tpsDig2[^2].
 
-## Accessing landmark data
+## Accessing shape files
 
 The first step to access the data in the latest version of TriloMorph hosted in github is to download all shape files. There are two options for this, you can 
 
