@@ -71,7 +71,7 @@ now you can use the geomorph[^N] R package to continue with the general procrust
     # This morphological space is reconstructed by means of a principal components analysis (PCA).
     pcan <- geomorph::gm.prcomp(gpan$coords)
     
-    #you can now plot the morphospace rather easily
+    #you can now plot the morphospace very easily
     geomorph:::plot.gm.prcomp(pcan, main = "PCA-based morphospace", pch = 21, bg = "lightgray", cex = 1.5)
     mtext(paste0("n = ", nrow(pcan$x)), side = 3, adj = 1, font = 3)
 
