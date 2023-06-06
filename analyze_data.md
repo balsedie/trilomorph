@@ -6,7 +6,7 @@ Geomorphometric data in **TriloMorph** is intended to be analyzed in R using the
 
 The first step to access the data in the latest version of TriloMorph hosted in github is to download all shape files. There are two options for this, you can 
 
-   * download the whole repository (check [this](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-github-repository) for further instruction on downloading a whole github repoository). Note that the repository hosts both shape files and specimens pictures. *We suggest to download the whole repository only if you want to double-check the specimens' landmark configurations.*
+   * download the whole repository (check [this](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-github-repository) for further instruction on downloading a whole github repository). Note that the repository hosts both shape files and specimens pictures. *We suggest to download the whole repository only if you want to double-check the specimens' landmark configurations.*
 
 **If you just want to analyse TriloMorph data**, we suggest to download the respective folder containing the shape files. To do so we suggest you to follow the following steps
    * go to [this site](https://download-directory.github.io/)
