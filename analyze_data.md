@@ -30,9 +30,11 @@ To access the functions you have to copy and paste the following line in your R 
 
 Once you've uploaded the fuctions in R, you can access the TriloMorph metadata.
 
+    #access TriloMorph metadata
     trilomorph_metadata <- yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
 
-    #only keep information on specimens that have cephalon information. In case you want to analyse pygidia, you just need to change cephalon for pygidium in the line below
+    #keep only information on specimens that have cephalon information. 
+    #In case you want to analyse pygidia, you just need to change cephalon for pygidium in the line below
     trilomorph_metadata <- trilomorph_metadata[which(trilomorph_metadata$morphology.cephalon),]
     
 you can then access the TriloMorph shape files that you've downloaded previously,
@@ -46,7 +48,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
     #define the desired landmark configuration: 2 dimensions, 16 landmarks, 4 curves (12, 20, 20 and 20 semilandmarks respectively)
     nlms <- c(2, 16, 12, 20, 20, 20)
 
-    #now read the shape files. Note that sufix = "_C" is for cephala, change it to "_P" if analysing pygidia.
+    #read the shape files. Note that sufix = "_C" is for cephala, change it to "_P" if analysing pygidia.
     lmks <- shapRead(fids, sufix = "_C", subdir = dirlm)
     
     #remove specimens that don't fit the desired landmark configuration.
