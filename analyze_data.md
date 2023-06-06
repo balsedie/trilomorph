@@ -44,12 +44,19 @@ you can then access the TriloMorph shape files that you've downloaded previously
     #now read the shape files. Note that sufix = "_C" for cephala and "_P" for pygidia.
     lmks <- shapRead(fids, sufix = "_C", subdir = dirlm)
     
-    #remove specimens that don't fit the desired landmark configuration[^4].
+    #remove specimens that don't fit the desired landmark configuration.
     ldks <- shapFix(lmks, nlms)
+
+<sup>Comment: The function `shapFix` will warn the user and automatically remove specimens with landmark data not fitting the desired template. For example, we expect 4 curves of semilandmarks; but some species do not show these four structures and hence have not all of them landmarked. `shapFix` will remove these specimens.</sup>
+
+<sup>Note that the current version of `shapFix` does not let you choose a custom subset of landmarks or curves, it just removes specimes that do not fit the full configuration. We are planning to update the function in order to improve its versatility allowing to choose among any landmark configuration.</sup>
 
 
 and now you can use the geomorph[^1] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis.
 
+    #first load the geomorph package
+    library(geomorph)
+    
     #Superimpose by GPA.
     gpan <- geomorph::gpagen(ldks, Proj = TRUE, PrinAxes = FALSE)
     
