@@ -4,16 +4,16 @@ Geomorphometric data in **TriloMorph** is intended to be analyzed in R using the
 
 ## Accessing shape files
 
-The first step to access the data in the latest version of TriloMorph hosted in github is to download all shape files. There are two options for this, you can 
+The first step to access the data in the latest version of TriloMorph hosted in github is to download all shape files. There are two options for this,
 
-   * download the whole repository (check [this](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-github-repository) for further instruction on downloading a whole github repository). Note that the repository hosts both shape files and specimens pictures. *We suggest to download the whole repository only if you want to double-check the specimens' landmark configurations.*
+you can download the whole repository (check [this](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-github-repository) for further instruction on downloading a whole github repository). However, because the repository hosts both shape files and specimens pictures and whole repository size might be a large. *We suggest to download the whole repository only if you want to double-check the specimens' landmark configurations.*
 
-**If you just want to analyse TriloMorph data**, we suggest to download the respective folder containing the shape files. To do so we suggest you to follow the following steps
+**If you just want to analyse TriloMorph data**, we suggest to download the respective folder containing the shape files. To do so, we suggest you to follow the following steps,
    * go to [this site](https://download-directory.github.io/)
-   * copy and past the path for the desired shape files:
+   * copy and paste the path for the desired shape files:
        * for cephala the path is `https://github.com/balsedie/trilomorph/tree/main/Cephala/landmarks`
        * for pygidia the path is `https://github.com/balsedie/trilomorph/tree/main/Pygidia/landmarks`
-   * download the zip file to your computer and unzip it.
+   * download the zip file to your computer and unzip it in a new folder.
 
 ## Using TriloMorph functions
 
@@ -32,6 +32,9 @@ Once you've uploaded the fuctions in R, you can access the TriloMorph metadata.
 
     trilomorph_metadata <- yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
 
+    #only keep information on specimens that have cephalon information. In case you want to analyse pygidia, you just need to change cephalon for pygidium in the line below
+    trilomorph_metadata <- trilomorph_metadata[which(trilomorph_metadata$morphology.cephalon),]
+    
 you can then access the TriloMorph shape files that you've downloaded previously,
     
     #define the vector of specimens' IDs to read the shape files
@@ -43,7 +46,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
     #define the desired landmark configuration: 2 dimensions, 16 landmarks, 4 curves (12, 20, 20 and 20 semilandmarks respectively)
     nlms <- c(2, 16, 12, 20, 20, 20)
 
-    #now read the shape files. Note that sufix = "_C" is for cephala and "_P" for pygidia.
+    #now read the shape files. Note that sufix = "_C" is for cephala, change it to "_P" if analysing pygidia.
     lmks <- shapRead(fids, sufix = "_C", subdir = dirlm)
     
     #remove specimens that don't fit the desired landmark configuration.
