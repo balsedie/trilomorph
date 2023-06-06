@@ -2,7 +2,20 @@
 
 Geomorphometric data in **TriloMorph** is intended to be analyzed in R using the [functions](/TriloMorph-funs.R) developed to read the data and the geomorph package[^N]. You can still analyze TriloMorph data in any other software, as long as it is able to read both XML-based format for shapes digitized with the 'StereoMorph' package[^1] and TPS-based format for shapes digitized with tpsDig2[^2].
 
-## Trilomorph functions
+## Accessing landmark data
+
+The first step to access the data in the latest version of TriloMorph hosted in github is to download all shape files. There are two options for this, you can 
+
+   * download the whole repository (check [this](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-github-repository) for further instruction on downloading a whole github repoository). Note that the repository hosts both shape files and specimens pictures. *We suggest to download the whole repository only if you want to double-check the specimens' landmark configurations.*
+
+**If you just want to analyse TriloMorph data**, we suggest to download the respective folder containing the shape files. To do so we suggest you to follow the following steps
+   * go to [this site](https://download-directory.github.io/)
+   * copy and past the path for the desired shape files:
+       * for cephala the path is `https://github.com/balsedie/trilomorph/tree/main/Cephala/landmarks`
+       * for pygidia the path is `https://github.com/balsedie/trilomorph/tree/main/Pygidia/landmarks`
+   * download the zip file to your computer and unzip it.
+
+## Using TriloMorph functions
 
 Trilomorph, in addition to hosting geometric morphometric data, supplies additional R functions that where developed to overcome some potential problems relative to the nature of the data hosted in the database. Therefore we provide a set of R functions that allow you to
   * Analyze both StereoMorph XML-based shape files and tpsDig2 TPS-based files. 
@@ -17,6 +30,36 @@ Once you've uploaded the fuctions in R, you can access the TriloMorph metadata
 
     trilomorph_metadata <- yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
 
+And you can access the TriloMorph shape files that you've downloaded previously
+    
+    #define the vector of specimens' IDs to read the shape files
+    fids <- trilomoph_metadata$ID
+    
+    #set the path to the unzipped folder with the shape files
+    dirlm <- "~path/to_the/downloaded/folder" 
+    
+    #define the desired landmark configuration: 2 dimensions, 16 landmarks, 4 curves (12, 20, 20 and 20 semilandmarks respectively)
+    nlms <- c(2, 16, 12, 20, 20, 20)
+
+    #now read the shape files. Note that sufix = "_C" for cephala and "_P" for pygidia.
+    lmks <- shapRead(fids, sufix = "_C", subdir = dirlm)
+    
+    #remove specimens that don't fit the desired landmark configuration[^4].
+    ldks <- shapFix(lmks, nlms)
+
+
+now you can use the geomorph[^1] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis
+
+    #Superimpose by GPA.
+    gpan <- geomorph::gpagen(ldks, Proj = TRUE, PrinAxes = FALSE)
+    
+    # Then, construct the morphospace of selected configurations.
+    # This morphological space is reconstructed by means of a principal components analysis (PCA).
+    pcan <- geomorph::gm.prcomp(gpan$coords)
+    
+    #now you can plot the morphospace rather easily
+    geomorph:::plot.gm.prcomp(pcan, main = "PCA-based morphospace", pch = 21, bg = "lightgray", cex = 1.5)
+    mtext(paste0("n = ", nrow(pcan$x)), side = 3, adj = 1, font = 3)
 
 
 
