@@ -26,12 +26,12 @@ Below we list a step by step explanation to access and analyze the data.
 
 To access the functions you have to copy and paste the following line in your R console.
 
-    source(https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-funs.R)
+    source("https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-funs.R")
 
 Once you've uploaded the fuctions in R, you can access the TriloMorph metadata.
 
     #access TriloMorph metadata
-    trilomorph_metadata <- yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
+    trilomorph_metadata <- yaml_read(file="https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml")
 
     #keep only information on specimens that have cephalon information. 
     #In case you want to analyse pygidia, you just need to change cephalon for pygidium in the line below
