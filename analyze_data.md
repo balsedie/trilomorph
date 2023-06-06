@@ -13,9 +13,9 @@ To access the functions you have to copy and paste the following line in your R 
 
     source(https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-funs.R)
 
-Once you have uploaded the fuctions in R, you can download the TriloMorph metadata
+Once you've uploaded the fuctions in R, you can access the TriloMorph metadata
 
-    yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
+    trilomorph_metadata <- yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
 
 
 
