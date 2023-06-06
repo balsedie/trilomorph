@@ -26,11 +26,11 @@ To access the functions you have to copy and paste the following line in your R 
 
     source(https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-funs.R)
 
-Once you've uploaded the fuctions in R, you can access the TriloMorph metadata
+Once you've uploaded the fuctions in R, you can access the TriloMorph metadata.
 
     trilomorph_metadata <- yaml_read(https://raw.githubusercontent.com/balsedie/trilomorph/main/trilomorph.yaml)
 
-And you can access the TriloMorph shape files that you've downloaded previously
+you can then access the TriloMorph shape files that you've downloaded previously,
     
     #define the vector of specimens' IDs to read the shape files
     fids <- trilomoph_metadata$ID
@@ -48,16 +48,16 @@ And you can access the TriloMorph shape files that you've downloaded previously
     ldks <- shapFix(lmks, nlms)
 
 
-now you can use the geomorph[^1] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis
+and now you can use the geomorph[^1] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis.
 
     #Superimpose by GPA.
     gpan <- geomorph::gpagen(ldks, Proj = TRUE, PrinAxes = FALSE)
     
-    # Then, construct the morphospace of selected configurations.
+    # Construct the morphospace of selected configurations.
     # This morphological space is reconstructed by means of a principal components analysis (PCA).
     pcan <- geomorph::gm.prcomp(gpan$coords)
     
-    #now you can plot the morphospace rather easily
+    #you can now plot the morphospace rather easily
     geomorph:::plot.gm.prcomp(pcan, main = "PCA-based morphospace", pch = 21, bg = "lightgray", cex = 1.5)
     mtext(paste0("n = ", nrow(pcan$x)), side = 3, adj = 1, font = 3)
 
