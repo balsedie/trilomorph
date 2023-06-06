@@ -56,7 +56,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
 
 <sup>The function `shapFix` will warn the user and automatically remove specimens with landmark data not fitting the desired template. For example, we expect 4 curves of semilandmarks; but some species do not show these four structures and hence have not all of them landmarked. `shapFix` will remove these specimens.</sup>
 
-<sup>Note that the current version of `shapFix` does not let you choose a custom subset of landmarks or curves, it just removes specimes that do not fit the full configuration. We are planning to update the function in order to improve its versatility allowing to choose among any landmark configuration.</sup>
+<sup>Note that the current version of `shapFix` does not let you choose a custom subset of landmarks or curves, it just removes specimes that do not fit the full configuration. We are planning to update the function in order to improve its versatility allowing to choose among any subset of landmarks and curves.</sup>
 
 
 now you can use the geomorph[^N] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis.
