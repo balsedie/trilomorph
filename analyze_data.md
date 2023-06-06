@@ -40,7 +40,7 @@ Once you've uploaded the fuctions in R, you can access the TriloMorph metadata.
 you can then access the TriloMorph shape files that you've downloaded previously,
     
     #define the vector of specimens' IDs to read the shape files
-    fids <- trilomoph_metadata$ID
+    fids <- trilomorph_metadata$ID
     
     #set the path to the unzipped folder with the shape files
     dirlm <- "~path/to_the/downloaded/folder" 
