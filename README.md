@@ -46,7 +46,7 @@ The purpose of this repository is to allow the constant input of new data into t
 
   <sub>You have to fill the information about the specimen. **It is very important to complete the form (particularly the stratigraphic fields) relative to the _specimen_, _not the species_**
   
-  Specimen's metadata is entered in the following form, please **copy and paste it as it is (including hyphens)** in a text editor and fill each field. If missing information in a field, type NA. Fill one form per landmarked **specimen**. If a single specimen has cephalon and pygidum, just fill a single form indicating that it has cephalon and pygidum.
+  Specimen's metadata is entered in the following form, please **copy and paste it as it is (including hyphens)** in a text editor and fill each field. **If missing information in a field, type NA**. Fill one form per landmarked **specimen**. If a single specimen has cephalon and pygidum, just fill a single form indicating that it has cephalon and pygidum.
 ```
   -
   ID: 
@@ -107,7 +107,7 @@ The purpose of this repository is to allow the constant input of new data into t
   
   <sup>**Important:** if this is your first time contributing to TriloMorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) indicating that you need to fork this repository. Go ahead and **press "Fork this repository"**. Github might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
   
-  Once editing the metadata file, paste the **new filled form(s)** in the second line (below the two hyphens [--])
+  Once editing the metadata file, paste the **new filled form(s)** in the second line (below the three hyphens [---])
        
 After pasting the new form(s):
   
