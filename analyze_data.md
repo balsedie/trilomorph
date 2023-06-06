@@ -22,6 +22,8 @@ Trilomorph, in addition to hosting geometric morphometric data, supplies additio
   * Read shape files with different number of missing landmarks, define a landmark template for the analysis, and discard shape files that do not have all the desired landmarks.[^3]
   * Resample semilandmarks, as TPS shape files have fixed semilandmarks but Steremorph shape files do not fix semi-landmarks _a priori_.
 
+Below we list a step by step explanation to access and analyze the data.
+
 To access the functions you have to copy and paste the following line in your R console.
 
     source(https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-funs.R)
@@ -41,13 +43,13 @@ you can then access the TriloMorph shape files that you've downloaded previously
     #define the desired landmark configuration: 2 dimensions, 16 landmarks, 4 curves (12, 20, 20 and 20 semilandmarks respectively)
     nlms <- c(2, 16, 12, 20, 20, 20)
 
-    #now read the shape files. Note that sufix = "_C" for cephala and "_P" for pygidia.
+    #now read the shape files. Note that sufix = "_C" is for cephala and "_P" for pygidia.
     lmks <- shapRead(fids, sufix = "_C", subdir = dirlm)
     
     #remove specimens that don't fit the desired landmark configuration.
     ldks <- shapFix(lmks, nlms)
 
-<sup>Comment: The function `shapFix` will warn the user and automatically remove specimens with landmark data not fitting the desired template. For example, we expect 4 curves of semilandmarks; but some species do not show these four structures and hence have not all of them landmarked. `shapFix` will remove these specimens.</sup>
+<sup>The function `shapFix` will warn the user and automatically remove specimens with landmark data not fitting the desired template. For example, we expect 4 curves of semilandmarks; but some species do not show these four structures and hence have not all of them landmarked. `shapFix` will remove these specimens.</sup>
 
 <sup>Note that the current version of `shapFix` does not let you choose a custom subset of landmarks or curves, it just removes specimes that do not fit the full configuration. We are planning to update the function in order to improve its versatility allowing to choose among any landmark configuration.</sup>
 
