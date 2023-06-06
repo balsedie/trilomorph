@@ -1,0 +1,3 @@
+axis	LM1	LM2
+border	LM3	LM6
+margin	LM4	LM5
