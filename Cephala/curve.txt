@@ -1,0 +1,4 @@
+glabella	LM2	LM7
+suture	LM10	LM12
+anterior	LM13	LM15
+posterior	LM4	LM15
