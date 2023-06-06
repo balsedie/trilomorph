@@ -1,6 +1,6 @@
 # ----------------------------------------
 # TriloMorph
-# Functions for the morpho-geometric analysis of trilobites with R.
+# Functions for reading TriloMorph metadata and the morpho-geometric analysis of trilobites with R.
 # ----------------------------------------
 # Here is a series of R functions used to perform the morphological analyses computed in the manuscript :
 #   Serra F, Balseiro D, Monnet C, Randolfe E, Bignon A, Rustán JJ, Bault V,  Muñoz DF, Vaccari E, Martinetto M, Crönier C, & Waisfeld BG (2023).
@@ -361,4 +361,37 @@ shapSumVar <- function(m, ci = TRUE, nbot = 1000) {
     x <- SOV(m)
   }
   return(x)
+}
+
+                 
+#YAML function hack. 
+#This function allows reading a YAML file and creates a nested (flat=FALSE) or non-nested (flat=TRUE) dataframe.
+
+#first check dependencies and install them if necesary
+if (!any(installed.packages()[, 1] == "yaml")) {
+  install.packages("yaml")
+}
+
+if (!any(installed.packages()[, 1] == "jsonlite")) {
+  install.packages("jsonlite")
+}
+
+#load dependencies
+require(jsonlite, warn.conflicts = F)
+require(yaml, warn.conflicts = F)
+
+#function
+yaml_read <- function (file, flat = TRUE) {
+	out.1 <- read_yaml (file=file)	
+	out.1 <- toJSON(out.1)
+	out.1 <- fromJSON(out.1, flatten = flat)
+	out <- out.1
+	if (flat == TRUE) {
+	    out <- data.frame(unlist(out.1$ID))
+	    for (i in 2:length(colnames(out.1))) {
+	        out = cbind(out, unlist(out.1[,i]))
+	        }
+	    colnames(out) = colnames(out.1)
+	} 
+	return(out)
 }
