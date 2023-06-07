@@ -103,7 +103,7 @@ The purpose of this repository is to allow the constant input of new data into t
 
 - [ ] upload the metadata
     
-  Go the [specimens' metadata file](/main/triloMorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
+  Go the [specimens' metadata file](trilomorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
   
   <sup>**Important:** if this is your first time contributing to TriloMorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) indicating that you need to fork this repository. Go ahead and **press "Fork this repository"**. Github might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
   
