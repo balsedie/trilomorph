@@ -1,6 +1,6 @@
 # TriloMorph
 ## About the database
-TriloMorph is an openly accessible database for morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records raw landmark and semilandmark information on trilobite cephala and pygidia following the protocol proposed by Serra et al[^1]. 
+TriloMorph is an openly accessible database for the morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records raw landmark and semilandmark information on trilobite cephala and pygidia following the protocol proposed by Serra et al[^1]. 
 
 The purpose of this repository is to allow the constant input of new data into the database. If you are willing to use the database for an analysis, we strongly suggest to download the stable release that is accesible in the Digital repository of the Universidad Nacional de Córdoba[^2]. Further explanation about the R functions and how to download and analyze data hosted in this repository can be found [here](/analyze_data.md)
 
@@ -9,44 +9,44 @@ The purpose of this repository is to allow the constant input of new data into t
 ### Specimen
 - [ ] select the specimen
 
-  <sup>Specimens included in the database have to be housed in official collections (preferentially having a collection number) or illustrated in the scientific literature. Specimens can be cephala and/or pigydia. Be sure that the selected specimen is **not distored**, for cephala make sure that free cheeks are in place and not slighly disarticulated.</sup>
+  <sup>Specimens included in the database have to be housed in official collections (preferentially having a collection number) or illustrated in the scientific literature. Specimens can be cephala and/or pigydia. Be sure that the selected specimen is **not distorted**, for cephala make sure that free cheeks are in place and not slightly disarticulated.</sup>
 
 - [ ] select the picture
 
   <sup>The picture used for the landmarking (see below) has to be a ***strictly dorsal*** picture of the specimen, either cephalon or pygidium. If the specimen is articulated make sure that both parts are photographed in dorsal view, if not use different pictures for each part.</sup>
   
-  <sup>**IMPORTANT**: each picture has to include a graphical scale. If it is missing in the original publication, include one. You can easily include graphical scale bars with sorftware such as ImageJ[^7]</sup>
+  <sup>**IMPORTANT**: each picture has to include a graphical scale. If it is missing in the original publication, include one. You can easily include graphical scale bars with software such as ImageJ[^7]</sup>
   
   <sup>Accepted formats are PNG and JPG/JPEG. Please avoid using TIFF files</sup>
 
 - [ ] name the picture
 
-  <sup>The picture has to be named using the specimen's collection acronym and number. The file name must have the suffix _C when it is the cephalon, and _P for the pygidium. **Important:** If a single specimen and picture is used to landmark both cephalon and pygidium, two different files need to be created and named one for the pygidum (_P) and one for the cephalon (_C) </sup>
+  <sup>The picture has to be named using the specimen's collection acronym and number. The file name must have the suffix _C when it is the cephalon, and _P for the pygidium. **Important:** If a single specimen and picture is used to landmark both cephalon and pygidium, two different files need to be created and named, one for the pygidum (_P), and one for the cephalon (_C) </sup>
 
 ### Landmarking
 - [X] select the specimen
 - [X] select the picture
-- [x] name de picture
+- [x] name the picture
 - [ ] landmark the specimen
 
   <sup>The specimen needs to be landmarked following the protocol in Serra et al[^1], which is explained in [figure 2](https://figshare.com/ndownloader/files/40535717/preview/40535717/preview.jpg) and [table 1](https://figshare.com/ndownloader/files/40538384/preview/40538384/preview.pdf)</sup>
 
-  <sup>You can use various landmarking software, namely tpsDig2[^3], geomorph package for R[^4], StereoMorph package for R[^5]. </sup>
+  <sup>You can use various landmarking software, namely tpsDig2[^3], geomorph package for R[^4], and StereoMorph package for R[^5]. </sup>
   
-  <sup>If you are using the `digitizeImages()` function from the StereoMorph package[^5], you can use our templates for landmarks and curves for [cephala](Cephala/curve.txt) and [pygidium](Pygidia/curve.txt).</sup>
+  <sup>If you are using the `digitizeImages()` function from the StereoMorph package[^5], you can use our templates for landmarks and curves for [cephala](Cephala/curve.txt) and [pygidia](Pygidia/curve.txt).</sup>
   
   <sup>Please check that the final shape file is a XML-type (.txt)[^5] or TPS-type (.tps)[^3] file with the same name as the image file and their extension in lower case.</sup>
 
 ### Complete the specimen's metadata
 - [X] select the specimen
 - [X] select the picture
-- [x] name de picture
+- [x] name the picture
 - [x] landmark the specimen
-- [ ] fill the form
+- [ ] fill in the form
 
-  <sub>You have to fill the information about the specimen. **It is very important to complete the form (particularly the stratigraphic fields) relative to the _specimen_, _not the species_**
+  <sub>You have to fill in the information about the specimen. **It is very important to complete the form (particularly the stratigraphic fields) relative to the _specimen_, _not the species_**
   
-  Specimen's metadata is entered in the following form, please **copy and paste it as it is (including hyphens)** in a text editor and fill each field. **If missing information in a field, type NA**. Fill one form per landmarked **specimen**. If a single specimen has cephalon and pygidum, just fill a single form indicating that it has cephalon and pygidum.
+  A specimen's metadata is entered in the following form, please **copy and paste it as it is (including hyphens)** in a text editor and fill in each field. **If there is missing information in a field, type NA**. Fill one form per landmarked **specimen**. If a single specimen has cephalon and pygidum, just fill in a single form indicating that it has a cephalon and a pygidum.
 ```
   -
   ID: 
@@ -92,10 +92,10 @@ The purpose of this repository is to allow the constant input of new data into t
 ### Upload all data to TriloMorph
 - [X] select the specimen
 - [X] select the picture
-- [x] name de picture
+- [x] name the picture
 - [x] landmark the specimen
-- [x] fill the form
-- [ ] login in github
+- [x] fill in the form
+- [ ] login to github
   
   <sup>If you don't have a github account you have to sign in first. You will only need an email, but don't be afraid using github is very simple.</sub>
   
@@ -105,9 +105,9 @@ The purpose of this repository is to allow the constant input of new data into t
     
   Go the [specimens' metadata file](trilomorph.yaml) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
   
-  <sup>**Important:** if this is your first time contributing to TriloMorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) indicating that you need to fork this repository. Go ahead and **press "Fork this repository"**. Github might also [tell you that your fork is outdate](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
+  <sup>**Important:** if this is your first time contributing to TriloMorph, github will give a [message](https://figshare.com/ndownloader/files/40539905/preview/40539905/preview.jpg) indicating that you need to fork this repository. Go ahead and **press "Fork this repository"**. Github might also [tell you that your fork is outdated](https://figshare.com/ndownloader/files/40539920/preview/40539920/preview.jpg). Don't worry, just **press "Update your fork"**.</sup>
   
-  Once editing the metadata file, paste the **new filled form(s)** in the second line (below the three hyphens [---])
+  Once editing the metadata file, paste the **newly filled form(s)** in the second line (below the three hyphens [---])
        
 After pasting the new form(s):
   
@@ -134,10 +134,10 @@ The final step should look something similar to [this](https://figshare.com/ndow
 ### Wait for file revison and acceptance
 - [X] select the specimen
 - [X] select the picture
-- [x] name de picture
+- [x] name the picture
 - [x] landmark the specimen
-- [x] fill the form
-- [x] login in github
+- [x] fill in the form
+- [x] login to github
 - [x] upload the metadata
 - [X] upload picture file
 - [x] upload the landmark file
