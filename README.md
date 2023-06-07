@@ -33,7 +33,7 @@ The purpose of this repository is to allow the constant input of new data into t
 
   <sup>You can use various landmarking software, namely tpsDig2[^3], geomorph package for R[^4], StereoMorph package for R[^5]. </sup>
   
-  <sup>If you are using the `digitizeImages()` function from the StereoMorph package[^5], you can use our templates for landmarks and curves for [cephala](/main/Cephala/curve.txt) and [pygidium](/main/Pygidia/curve.txt).</sup>
+  <sup>If you are using the `digitizeImages()` function from the StereoMorph package[^5], you can use our templates for landmarks and curves for [cephala](Cephala/curve.txt) and [pygidium](/Pygidia/curve.txt).</sup>
   
   <sup>Please check that the final shape file is a XML-type (.txt)[^5] or TPS-type (.tps)[^3] file with the same name as the image file and their extension in lower case.</sup>
 
