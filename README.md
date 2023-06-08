@@ -132,6 +132,23 @@ Once you've uploaded all files, the field will look like [this](https://figshare
 
 The final step should look something similar to [this](https://figshare.com/ndownloader/files/40539914/preview/40539914/preview.jpg)
 
+
+### Include all new references
+  
+After submitting the specimen's metadata, shape file and picture, you need to
+  
+- [ ] update references list
+  
+To add new references, you go to the [references list](Reference_main_table.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
+
+Then you need to add the new references using the following format
+  
+`Author year, Author year Title. Journal. Volume pages. doi:`
+
+Paste the new references in the list, press the "commit changes..." button and follow the steps.
+
+<sup>Please make sure that the references used for the new record are not already included in the references list.</sup>
+  
 ### Wait for file revison and acceptance
 - [X] select the specimen
 - [X] select the picture
@@ -142,6 +159,7 @@ The final step should look something similar to [this](https://figshare.com/ndow
 - [x] upload the metadata
 - [X] upload picture file
 - [x] upload the landmark file
+- [x] update references list
 
 After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The TriloMorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. After accepting the new data you will recieve an email informing that the data was merged to TriloMorph. If you need your data to be reviewed and accepted faster please contact us[^6].
     
