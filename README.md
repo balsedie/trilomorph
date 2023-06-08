@@ -134,20 +134,29 @@ The final step should look something similar to [this](https://figshare.com/ndow
 
 
 ### Include all new references
+- [X] select the specimen
+- [X] select the picture
+- [x] name the picture
+- [x] landmark the specimen
+- [x] fill in the form
+- [x] login to github
+- [x] upload the metadata
+- [X] upload picture file
+- [x] upload the landmark file
   
 After submitting the specimen's metadata, shape file and picture, you need to
   
 - [ ] update references list
   
-To add new references, you go to the [references list](Reference_main_table.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp).
-
-Then you need to add the new references using the following format
+<sup>To add new references, you go to the [references list](Reference_main_table.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp). Add all new references using the following formats,</sup>
   
-`Author year, Author year Title. Journal. Volume pages. doi:`
+<sup>for single author: `Author year, Author I. (year). Title. Journal. Volume pages. doi:`</sup>
+
+<sup>for two authors: `Author Author year, Author I. Author I. (year). Title. Journal. Volume pages. doi:`</sup>
+
+<sup>for multiple authors: `Author et al year, Author I. Author I. Author I. (year). Title. Journal. Volume pages. doi:`</sup>
 
 Paste the new references in the list, press the "commit changes..." button and follow the steps.
-
-<sup>Please make sure that the references used for the new record are not already included in the references list.</sup>
   
 ### Wait for file revison and acceptance
 - [X] select the specimen
