@@ -75,12 +75,22 @@ now you can use the geomorph[^N] R package to continue with the general procrust
     geomorph:::plot.gm.prcomp(pcan, main = "PCA-based morphospace", pch = 21, bg = "lightgray", cex = 1.5)
     mtext(paste0("n = ", nrow(pcan$x)), side = 3, adj = 1, font = 3)
 
+## Further analyses
 
+`shapSumVar` function, also available in TriloMorph, allows the calculation of the classic Sum of Variances disparity measure and the estimation of bootstrapped confidence intervals.
+
+Further analysis are expected to be performed by joining TriloMorph morphometric data with occurrence data obtained from the Paleobiology Database[^4] of the Geobiology Database[^5].
+
+The expected workflow for the analysis is described in the following figure
+
+![workflow](https://figshare.com/ndownloader/files/40535714/preview/40535714/preview.jpg)
 
 ### References
 [^N]: Adams D.C, Collyer M.L. and Kaliontzopoulou A. 2020. Geomorph: Software for geometric morphometric analyses. R package version 3.2.1. https://cran.r-project.org/package=geomorph.
 [^1]: Olsen A.M. and Westneat M.W. 2015. StereoMorph: an R package for the collection of 3D landmarks and curves using a stereo camera set-up. Methods in Ecology and Evolution 6:351-356. DOI: [10.1111/2041-210X.12326](https://doi.org/10.1111/2041-210X.12326).
 [^2]: Rohlf F.J. 2015. The tps series of software. Hystrix, the Italian Journal of Mammalogy 26:9-12. DOI: [10.4404/hystrix-26.1-11264](https://doi.org/10.4404/hystrix-26.1-11264)
 [^3]: Because Trilomorph is intended to cover the whole trilobite phylogeny, missing landmarks are not necessarily related to incomplete specimens but to the absence of certain traits. For example, to analyze both sighted and blind trilobites, one needs to remove landmarks 8, 9 and 14 (see [figure](https://figshare.com/ndownloader/files/40535717/preview/40535717/preview.jpg)).
+[^4]: https://paleobiodb.org
+[^5]: http://www.geobiodiversity.com
 
 
