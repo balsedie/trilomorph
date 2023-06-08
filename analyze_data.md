@@ -1,12 +1,12 @@
 # Analize data hosted in TriloMorph
 
-Geomorphometric data in **TriloMorph** is intended to be analyzed in R using the [functions](/TriloMorph-funs.R) developed to read the data and the geomorph package[^N]. You can still analyze TriloMorph data in any other software, as long as it is able to read both XML-based format for shapes digitized with the 'StereoMorph' package[^1] and TPS-based format for shapes digitized with tpsDig2[^2].
+Geomorphometric data in **TriloMorph** is intended to be analyzed in R using the [functions](/TriloMorph-funs.R) developed to read the data and the geomorph package[^N]. You can still analyze TriloMorph data in any other software, as long as it is able to read both XML-based format for shapes digitized with the StereoMorph package[^1] and TPS-based format for shapes digitized with tpsDig2[^2].
 
 ## Accessing shape files
 
 The first step to access the data in the latest version of TriloMorph hosted in github is to download all shape files. There are two options for this,
 
-you can download the whole repository (check [this](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-github-repository) for further instruction on downloading a whole github repository). However, because the repository hosts both shape files and specimens pictures and whole repository size might be a large. *We suggest to download the whole repository only if you want to double-check the specimens' landmark configurations.*
+you can download the whole repository (check [this](https://www.gitkraken.com/learn/git/github-download#how-to-download-a-github-repository) for further instruction on downloading a whole github repository). However, because the repository hosts both shape files and specimens pictures and whole repository size might be large. *We suggest to download the whole repository only if you want to double-check the specimens' landmark configurations.*
 
 **If you just want to analyse TriloMorph data**, we suggest to download the respective folder containing the shape files. To do so, we suggest you to follow the following steps,
    * go to [this site](https://download-directory.github.io/)
@@ -20,7 +20,7 @@ you can download the whole repository (check [this](https://www.gitkraken.com/le
 Trilomorph, in addition to hosting geometric morphometric data, supplies additional R functions that where developed to overcome some potential problems relative to the nature of the data hosted in the database. Therefore we provide a set of R functions that allow you to
   * Analyze both StereoMorph XML-based shape files and tpsDig2 TPS-based files. 
   * Read shape files with different number of missing landmarks, define a landmark template for the analysis, and discard shape files that do not have all the desired landmarks.[^3]
-  * Resample semilandmarks, as TPS shape files have fixed semilandmarks but Steremorph shape files do not fix semi-landmarks _a priori_.
+  * Resample semilandmarks, as TPS shape files have fixed semilandmarks but StereoMorph shape files do not fix semi-landmarks _a priori_.
 
 Below we list a step by step explanation to access and analyze the data.
 
