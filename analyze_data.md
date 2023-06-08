@@ -81,7 +81,7 @@ now you can use the geomorph[^N] R package to continue with the general procrust
 
 Further analysis are expected to be performed by joining TriloMorph morphometric data with occurrence data obtained from the Paleobiology Database[^4] of the Geobiology Database[^5].
 
-The expected workflow for the analysis is described in the following figure
+The expected workflow for further analyses is described in the following figure
 
 ![workflow](https://figshare.com/ndownloader/files/40535714/preview/40535714/preview.jpg)
 
