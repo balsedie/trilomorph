@@ -148,7 +148,7 @@ After submitting the specimen's metadata, shape file and picture, you need to
   
 - [ ] update references list
   
-<sup>To add new references, you go to the [references list](Reference_main_table.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp). Add all new references using the following formats,</sup>
+<sup>You have to include the literature references used in the new record. To add new references, you go to the [references list](Reference_main_table.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp). Add all new references using the following formats,</sup>
   
 <sup>for single author: `Author year, Author I. (year). Title. Journal. Volume pages. doi:`</sup>
 
