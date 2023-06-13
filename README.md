@@ -177,7 +177,7 @@ All material is distributed under Creative Commons Attribution-Non Commercial-Sh
 
 ### References
 [^1]: Serra F., Balseiro D., Monnet C., et al. submitted. TriloMorph: a dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data.
-[^2]: Latest and previous stable releases are available at https://rdu.unc.edu.ar/handle/11086/nnnnnnn
+[^2]: Latest and previous stable releases are available at https://rdu.unc.edu.ar/handle/11086/547753
 [^3]: Rohlf F.J. 2015. The tps series of software. Hystrix, the Italian Journal of Mammalogy 26:9-12. DOI: [10.4404/hystrix-26.1-11264](https://doi.org/10.4404/hystrix-26.1-11264)
 [^4]: Adams D.C, Collyer M.L. and Kaliontzopoulou A. 2020. Geomorph: Software for geometric morphometric analyses. R package version 3.2.1. https://cran.r-project.org/package=geomorph.
 [^5]: Olsen A.M. and Westneat M.W. 2015. StereoMorph: an R package for the collection of 3D landmarks and curves using a stereo camera set-up. Methods in Ecology and Evolution 6:351-356. DOI: [10.1111/2041-210X.12326](https://doi.org/10.1111/2041-210X.12326).
