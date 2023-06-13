@@ -5,7 +5,7 @@ TriloMorph is an openly accessible database for the morpho-geometric information
 
 The purpose of this repository is to allow the constant input of new data into the database. If you are willing to use the database for an analysis, we strongly suggest to download the stable release that is accesible in the Digital repository of the Universidad Nacional de Córdoba and Zenodo[^2]. Further explanation about the R functions and how to download and analyze data hosted in this repository can be found [here](/analyze_data.md)
 
-latest stable release [![DOI](https://zenodo.org/badge/637921273.svg)](https://zenodo.org/badge/latestdoi/637921273)
+Latest stable release [![DOI](https://zenodo.org/badge/637921273.svg)](https://zenodo.org/badge/latestdoi/637921273)
 
 **Below we explain step by step the procedure to upload new data to TriloMorph:**
 
