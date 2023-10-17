@@ -11,6 +11,9 @@ If you would like to help with the maintenance of the dataset and file revision,
 
 Latest stable release [![DOI](https://zenodo.org/badge/637921273.svg)](https://zenodo.org/badge/latestdoi/637921273)
 
+## Entering new data
+You can enter more than one specimen at a time. The following explanation is for a single specimen, but uploding several specimens is possible as long as you include all specimens' metadata, shape files and pictures in the same commit (see below for detailed explanation).
+
 **Below we explain step by step the procedure to upload new data to TriloMorph:**
 
 ### Specimen
@@ -154,15 +157,27 @@ After submitting the specimen's metadata, shape file and picture, you need to
   
 - [ ] update references list
   
-<sup>You have to include the literature references used in the new record. To add new references, you go to the [references list](Reference_main_table.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp). Add all new references using the following formats,</sup>
+  <sup>You have to include the literature references used in the new record. To add new references, go to the [references list](Reference_main_table.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp). Add all new references using the following formats,</sup>
   
-<sup>for single author: `Author year, Author I. (year). Title. Journal. Volume pages. doi:`</sup>
+  <sup>for single author: `Author year, Author I. (year). Title. Journal. Volume pages. doi:`</sup>
 
-<sup>for two authors: `Author Author year, Author I. Author I. (year). Title. Journal. Volume pages. doi:`</sup>
+  <sup>for two authors: `Author Author year, Author I. Author I. (year). Title. Journal. Volume pages. doi:`</sup>
 
-<sup>for multiple authors: `Author et al year, Author I. Author I. Author I. (year). Title. Journal. Volume pages. doi:`</sup>
+  <sup>for multiple authors: `Author et al year, Author I. Author I. Author I. (year). Title. Journal. Volume pages. doi:`</sup>
 
-Paste the new references in the list, press the "commit changes..." button and follow the steps.
+  Paste the new references in the list, press the "commit changes..." button and follow the steps.
+
+If it is the **first time** you contribute with data, you also need to
+  
+- [ ] update the list of contributors
+  
+  <sup>You have to include your personal information. Go to the [list of contributors](contributors.csv) and press the [edit button](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp) and then add all your information using the following format,</sup>
+  
+  <sup>`Full Name, enterer ID*, ORCID ID, Affilation, email, github username`</sup>
+
+  <sup>*enterer ID is the name you used in the enterer field of the specimen's metadata</sup>
+
+  Paste the new references in the list, press the "commit changes..." button and follow the steps.
   
 ### Wait for file revison and acceptance
 - [X] select the specimen
@@ -175,6 +190,7 @@ Paste the new references in the list, press the "commit changes..." button and f
 - [X] upload picture file
 - [x] upload the landmark file
 - [x] update references list
+- [x] update list of contributors (if necessary)
 
 After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The TriloMorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. After accepting the new data you will recieve an email informing that the data was merged to TriloMorph. If you need your data to be reviewed and accepted faster please contact us[^6].
     
