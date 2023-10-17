@@ -3,7 +3,11 @@
 ## About the database
 TriloMorph is an openly accessible database for the morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records raw landmark and semilandmark information on trilobite cephala and pygidia following the protocol proposed by Serra et al[^1]. 
 
-The purpose of this repository is to allow the constant input of new data into the database. If you are willing to use the database for an analysis, we strongly suggest to download the stable release that is accesible in the Digital repository of the Universidad Nacional de Córdoba and Zenodo[^2]. Further explanation about the R functions and how to download and analyze data hosted in this repository can be found [here](/analyze_data.md)
+The purpose of this repository is to allow the constant input of new data into the database. If you are willing to use the database for analysis, we strongly suggest downloading the stable release that is accessible in the Digital repository of the Universidad Nacional de Córdoba and Zenodo[^2]. In case you use Trilomorph for a publication, we ask you to acknowledge the main contributors to the analyzed dataset. You can check the contributors in the accompanying metadata and their full names and additional information in the [list of Trilomorph contributors](/contributors.csv)
+
+Further explanation about the R functions and how to download and analyze data hosted in this repository can be found [here](/analyze_data.md)
+
+If you would like to help with the maintenance of the dataset and file revision, do not hesitate to contact us[^6]
 
 Latest stable release [![DOI](https://zenodo.org/badge/637921273.svg)](https://zenodo.org/badge/latestdoi/637921273)
 
