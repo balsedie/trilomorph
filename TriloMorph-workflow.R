@@ -347,9 +347,11 @@ d_prcomp <- dist(pcer$x[,1:10])
 test_error_mult <- betadisper(d_prcomp, g_mult, type="centroid")
 
 # Test statistical significance
-anova(test_error_mult)
+print(anova(test_error_mult))
+
 # A posteriori test for between group comparisons
-TukeyHSD(test_error_mult)  
+tukey_error <- TukeyHSD(test_error_mult)
+print(tukey_error)
 
   
 # .: Boxplot of pairwise Procrustes distances.
@@ -364,7 +366,7 @@ legend("topright", ncol = 1, col = gcols, pch = 22,
   
 # Kruskal-Wallis test for significance in pairwise Procrustes distances
 kw_test <- kruskal.test(pdist$x, pdist$group)
-
+print(kw_test)
 
 # ----------------------------------------
 
