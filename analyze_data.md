@@ -94,7 +94,7 @@ In case you just want to replicate the exact analyses in Serra et al.[^6], you c
     setwd("type/the/path/to/the/folder")
 
     # Run the R script for the whole analysis
-    source(https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-workflow.R)
+    source("https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-workflow.R")
 
 As a generalized framework, the expected workflow for further analyses is described in the following figure
 
