@@ -3,7 +3,7 @@
 ## About the database
 TriloMorph is an openly accessible database for the morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records raw landmark and semilandmark information on trilobite cephala and pygidia following the protocol proposed by Serra et al[^1]. 
 
-The purpose of this repository is to allow the constant input of new data into the database. If you are willing to use the database for analysis, we strongly suggest downloading the stable release that is accessible in the Digital repository of the Universidad Nacional de Córdoba and Zenodo[^2]. In case you use Trilomorph for a publication, we ask you to acknowledge the main contributors to the analyzed dataset. You can check the contributors in the accompanying metadata and their full names and additional information in the [list of Trilomorph contributors](/contributors.csv)
+The purpose of this repository is to allow the constant input of new data into the database. If you are willing to use the database for analysis, we strongly suggest downloading the stable release that is accessible in the Digital repository of the Universidad Nacional de Córdoba and Zenodo[^2]. 
 
 Further explanation about the R functions and how to download and analyze data hosted in this repository can be found [here](/analyze_data.md)
 
@@ -197,7 +197,9 @@ After uploading all files of the new landmarked specimen(s), **the new informati
 ## Licence
 All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
   
-If you use the database please cite it using the doi or handle and the version of the stable release. A bibtex version of the citable stable release is available [here](citation.bib)
+If you use the database please cite it using the doi or handle and the version of the stable release. A bibtex version of the citable stable release is available [here](citation.bib).
+
+In case you use Trilomorph for a publication, we strongly suggest you to acknowledge the main contributors to the analyzed dataset. You can check the contributors in the accompanying metadata and their full names and additional information in the [list of Trilomorph contributors](/contributors.csv)
 
 ### References
 [^1]: Serra F., Balseiro D., Monnet C., et al. submitted. TriloMorph: a dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data.
