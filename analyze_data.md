@@ -16,7 +16,7 @@ you can download the whole repository (check [this](https://www.gitkraken.com/le
        * for replicated configurations used in the error test `https://github.com/balsedie/trilomorph/tree/main/Cephala/replicates`
    * download the zip file to your computer and unzip it in a new folder.
   
-  <sup> note that if you want to run the error test performed in Serra et al.[^6], you need to download both the cephala configuration and the replicates</sup>
+  <sup> note that if you want to run the error test performed in Serra et al.[^6], you need to download *both the cephala and the replicated* configurations</sup>
 
 ## Using TriloMorph functions
 
@@ -84,20 +84,19 @@ now you can use the geomorph[^N] R package to continue with the general procrust
 
 Further analysis are expected to be performed by joining TriloMorph morphometric data with occurrence data obtained from the Paleobiology Database[^4] of the Geobiology Database[^5].
 
-As an working example of how to analyse TriloMorph along with information retrieved from the PDBD, you can check the [R script](/TriloMorph-workflow.R) that performs all analyses performed in Serra et al[^6]. These analyses include the construction of the morphospace, a disparity curve and the test for errors in landmark digitization. 
+As an worked example of how to analyse TriloMorph along with information retrieved from the PDBD, you can check the [R script](/TriloMorph-workflow.R) that runs all analyses performed in Serra et al[^6]. These analyses include the construction of the morphospace, a disparity curve and the test for errors in landmark digitization. 
 
-In case you just want to run the analyses in Serra et al.[^6], you can simple run the following
+In case you just want to replicate the exact analyses in Serra et al.[^6], you can simply run the following
     
     # Define the working directory
     # IMPORTANT: Make sure that within this working directory you have the 'landmark' 
-    # and 'replicates' folder containing all shape files that you download.
+    # and 'replicates' folder containing all shape files that you downloaded.
     setwd("type/the/path/to/the/folder")
 
     # Run the R script for the whole analysis
     source(https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-workflow.R)
 
-
-The expected workflow for further analyses is described in the following figure
+As a generalized framework, the expected workflow for further analyses is described in the following figure
 
 ![workflow](https://figshare.com/ndownloader/files/40535714/preview/40535714/preview.jpg)
 
