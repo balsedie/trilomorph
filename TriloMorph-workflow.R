@@ -363,11 +363,18 @@ d_prcomp <- dist(pcer$x[,1:10])
 test_error_mult <- betadisper(d_prcomp, g_mult, type="centroid")
 
 # Test statistical significance
+print("======================================")
+print("Test for homogeneity of Multivariate dispersion")
 print(anova(test_error_mult))
+print("======================================")
 
 # A posteriori test for between group comparisons
 tukey_error <- TukeyHSD(test_error_mult)
+
+print("======================================")
+print("Tukey test for homogeneity of Multivariate dispersion")
 print(tukey_error)
+print("======================================")
 
   
 # .: Boxplot of pairwise Procrustes distances.
@@ -382,7 +389,11 @@ legend("topright", ncol = 1, col = gcols, pch = 22,
   
 # Kruskal-Wallis test for significance in pairwise Procrustes distances
 kw_test <- kruskal.test(pdist$x, pdist$group)
+
+print("======================================")
+print("Kruskal-Wallis test for differences in mean pairwise Procrustes distances")
 print(kw_test)
+print("======================================")
 
 # ----------------------------------------
 
