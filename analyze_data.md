@@ -89,7 +89,7 @@ As an worked example of how to analyse TriloMorph along with information retriev
 In case you just want to replicate the exact analyses in Serra et al.[^6], you can simply run the following
     
     # Define the working directory
-    # IMPORTANT: Make sure that within this working directory you have the 'landmark' 
+    # IMPORTANT: Make sure that within this working directory you have the cephala 'landmark' 
     # and 'replicates' folder containing all shape files that you downloaded.
     setwd("type/the/path/to/the/folder")
 
