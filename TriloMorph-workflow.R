@@ -33,7 +33,8 @@ graphics.off()
 # .:Define the working directory
 # IMPORTANT: Make sure that within this working directory you have the 'landmark' folder containing all shape files that you download.
 # Additionaly you can also download the 'replicates' folder within your working directory for the error tests.
-setwd("type/the/path/to/the/folder")
+
+# setwd("type/the/path/to/the/folder")
 
 # .: Load the required libraries (package citations at end of script).
 # These various packages must be installed prior to the following analyses.
