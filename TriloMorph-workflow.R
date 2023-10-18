@@ -37,16 +37,29 @@ graphics.off()
 # setwd("type/the/path/to/the/folder")
 
 
-# .: Load the required libraries (package citations at end of script).
+# .: Check and load the required libraries (package citations at end of script).
 # These various packages must be installed prior to the following analyses.
-# In general, you can use this template to install a package in R (internet connection required):
-#   > install.packages("package_name")
+# First, we check if they are installed
+# if not installed, we automatically set the installation (internet connection required):
+if (!any(installed.packages()[, 1] == "geomorph")) {
+  install.packages("geomorph") }
+
+if (!any(installed.packages()[, 1] == "StereoMorph")) {
+  install.packages("StereoMorph") }
+
+if (!any(installed.packages()[, 1] == "data.table")) {
+  install.packages("data.table") }
+
+if (!any(installed.packages()[, 1] == "vegan")) {
+  install.packages("vegan") }
+
+# Load all required packages
 library(geomorph)     # for landmark analyses (Adams & Otárola-Castillo 2013)
 library(StereoMorph)  # for landmark acquisition (Olsen & Westneat 2015)
 library(data.table)   # for data handling
 library(vegan)        # for analysis of multivariate dispersion
 
-# Source additional functions used in this study.
+# Source additional functions used in this study (internet connection required).
 source("https://raw.githubusercontent.com/balsedie/trilomorph/main/TriloMorph-funs.R")
 
 # .: Paths to Trilomorph metadata and PBDB occurrence dataset
@@ -89,14 +102,14 @@ nlms <- c(2, 16, 12, 20, 20, 20)
 # The database is, indeed, a collection of data files overseen by a main table designed to contain specimen-level traits for considered taxa.
 # The basic unit of entry in this main table is that of a specimen with a unique alphanumeric identifier (ID).
 # It is accompanied by contextual characteristics such as the publication reference,
-#   taxonomic information, relevant morphological information, geographic context, and stratigraphic information.
+#   taxonomic information, relevant morphological information, geographic context, and stratigraphic information (internet connection required).
 trilos <- yaml_read(file = fdat, flat = TRUE)
 trilos <- trilos[which(trilos$morphology.cephalon),]  # as indicated above, keep only cephala
 trilos$taxonomy.genus <- trimws(trilos$taxonomy.genus)
 str(trilos, max.level = 0)
 print(head(trilos))
 
-# .: Load an occurrence dataset of Devonian trilobites.
+# .: Load an occurrence dataset of Devonian trilobites (internet connection required).
 # Occurrence data are downloaded from https://paleobiodb.org/ (for details see file's header).
 occs <- fread(focs, na.strings="")
 
@@ -198,6 +211,7 @@ str(ldks)
 gpan <- geomorph::gpagen(ldks, Proj = TRUE, PrinAxes = FALSE)
 
 # .: Plot the aligned configurations and the mean shape (consensus).
+dev.new()
 geomorph::plotAllSpecimens(gpan$coords)
 title("aligned configurations and consensus")
 mtext(paste0("n = ", dim(gpan$coords)[3]), side = 3, adj = 1, font = 3)
@@ -208,6 +222,7 @@ mtext(paste0("n = ", dim(gpan$coords)[3]), side = 3, adj = 1, font = 3)
 # Then, construct the morphospace of selected configurations.
 # This morphological space is reconstructed by means of a principal components analysis (PCA).
 pcan <- geomorph::gm.prcomp(gpan$coords)
+dev.new()
 geomorph:::plot.gm.prcomp(pcan, main = "PCA-based morphospace", pch = 21, bg = "lightgray", cex = 1.5)
 mtext(paste0("n = ", nrow(pcan$x)), side = 3, adj = 1, font = 3)
 #text(pcan$x[,1:2], rownames(pcan$x), cex = 0.5, pos = 3)
@@ -222,6 +237,7 @@ mtext(paste0("n = ", nrow(pcan$x)), side = 3, adj = 1, font = 3)
 #   the sum of variances (SOV; Foote 1992).
 # Here, compute a value for each Devonian stage.
 ysov <- ylow <- yup <- yrng <- ylmk <- setNames(integer(length(stages)), stages)
+dev.new()
 par(mfrow = c(3,3))
 for(s in stages) {
   # Get list of genera occurring in the current stage.
@@ -378,10 +394,13 @@ print(kw_test)
 # Methods in Ecology and Evolution, 4, 393-399. https://doi.org/10.1111/2041-210X.12035
 #
 # Anderson, M.J. (2006) Distance-based tests for homogeneity of multivariate dispersions. 
-# Biometrics 62, 245-253.  https://doi.org/10.1111/j.1541-0420.2005.00440.x
+# Biometrics 62, 245-253. https://doi.org/10.1111/j.1541-0420.2005.00440.x
 #
 # Claude J, 2008. Morphometrics with R.
 # Springer. https://doi.org/10.1007/978-0-387-77789-4
+#
+# Dowle M and Srinivasan A (2019). data.table: Extension of `data.frame`. 
+# R package version 1.12.8. https://CRAN.R-project.org/package=data.table
 #
 # Foote M, 1992. Rarefaction analysis of morphological and taxonomic diversity.
 # Paleobiology, 18, 1-16. https://doi.org/10.1017/S0094837300012185
