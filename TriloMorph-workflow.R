@@ -245,6 +245,7 @@ for(s in stages) {
 par(mfrow = c(1,1))
 
 # .: Plot diversities through time (taxonomic richness and morphological disparity).
+dev.new()
 x <- xt[1:(length(xt)-1)] + diff(xt)
 par(mfrow = c(2,1))
 plot(x, yrng, type = "b", xlim = rev(range(xt)), ylim = c(0, extendrange(yrng)[2]),
@@ -321,6 +322,7 @@ print(pfmt)
 
 # Show the results.
 # .: On the 'error' morphospace.
+dev.new()
 geomorph:::plot.gm.prcomp(
   pcer, main = "morphospace for measurement error", cex = 1.5,
   pch = c(21, 3, 4, 4)[match(gfac, glvl)],
@@ -350,6 +352,7 @@ TukeyHSD(test_error_mult)
 
   
 # .: Boxplot of pairwise Procrustes distances.
+dev.new()
 par(mar = c(5.1, 8.1, 4.1, 2.1))
 boxplot(pdist$x ~ pdist$group, col = gcols, horizontal = TRUE, las = 1,
   xlab = "Procrustes distance", ylab = NA,
