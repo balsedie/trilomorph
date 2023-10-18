@@ -144,7 +144,7 @@ lads <- apply(ocms, 1, function(x) max(which(x > 0)))
 for(i in 1:nrow(ocms)) ocms[i,fads[i]:lads[i]] <- 1
 str(ocms)
 print(head(ocms))
-write.csv(ocms, file = "GlobalIncidenceMatrix-Devonian.csv")
+# write.csv(ocms, file = "GlobalIncidenceMatrix-Devonian.csv")
 # ----------------------------------------
 
 
@@ -160,7 +160,7 @@ write.csv(ocms, file = "GlobalIncidenceMatrix-Devonian.csv")
 # and recorded in this incidence matrix.
 trilos <- trilos[(trilos$taxonomy.genus %in% rownames(ocms)),]
 str(trilos, max.level = 0)
-write.csv(trilos, file = "TriloMorph-filtered.csv")
+# write.csv(trilos, file = "TriloMorph-filtered.csv")
 
 # .: Load geomorphometric data of these specimens.
 # Expect one landmark file for each specimen and named after its ID code
@@ -324,7 +324,7 @@ pcer <- geomorph::gm.prcomp(gper$coords)
 # This function quantifies morphological disparity as the Procrustes variance
 #  (overall or for groups) using residuals of a linear model fit (see Zelditch et al. 2012).
 
-# Here, compute partial disparities (Foote 1993) whose sum of group partial disparities is the total disparity.
+# Here, compute partial disparities (Foote 1993). The sum of group partial disparities is the total disparity.
 pvars <- geomorph::morphol.disparity(gper$coords ~ 1, groups = gfac, partial = TRUE, print.progress = FALSE)
 print(pvars$Procrustes.var)
 
@@ -351,7 +351,7 @@ legend("topleft", ncol = 1,
   title = "morphological variability (Procrustes variance)")
 mtext(paste0("n = ", nrow(pcer$x)), side = 3, adj = 1, font = 3)
 
-#.: Test for multivariate dispersion in the morphospace
+#.: Test for multivariate homogeneity of group dispersions in the morphospace
 # create a vector for groups
 g_mult <- c(rep("betw-genus", 142), rep("betw-obs", 8),
   rep("with-obs-1", 10), rep("with-obs-2", 10))
@@ -359,7 +359,7 @@ g_mult <- c(rep("betw-genus", 142), rep("betw-obs", 8),
 # obtain distance matrix from morphospace 
 d_prcomp <- dist(pcer$x[,1:10])
 
-# run Anderson (2006) Permutation test
+# run Anderson's (2006) Permutation test (aka PERMUDISP2
 test_error_mult <- betadisper(d_prcomp, g_mult, type="centroid")
 
 # Test statistical significance
