@@ -88,7 +88,7 @@ Further analysis are expected to be performed by joining TriloMorph morphometric
 
 As an worked example of how to analyse TriloMorph along with information retrieved from the PDBD, you can check the [R script](/TriloMorph-workflow.R) that runs all analyses performed in Serra et al[^6]. These analyses include the construction of the morphospace, a disparity curve and the test for errors in landmark digitization. 
 
-In case you just want to replicate the exact analyses in Serra et al.[^6], you can simply run the following
+In case you just want to replicate the exact analyses in Serra et al.[^6], you can simply run the following R script
     
     # Define the working directory
     # IMPORTANT: Make sure that within this working directory you have the cephala 'landmark' 
