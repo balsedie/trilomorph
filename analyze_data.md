@@ -107,6 +107,6 @@ As a generalized framework, the expected workflow for further analyses is descri
 [^3]: Because Trilomorph is intended to cover the whole trilobite phylogeny, missing landmarks are not necessarily related to incomplete specimens but to the absence of certain traits. For example, to analyze both sighted and blind trilobites, one needs to remove landmarks 8, 9 and 14 (see [figure](https://figshare.com/ndownloader/files/40535717/preview/40535717/preview.jpg)).
 [^4]: https://paleobiodb.org
 [^5]: http://www.geobiodiversity.com
-[^6]: Serra F., Balseiro D., Monnet C., et al. submitted. TriloMorph: a dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data.
+[^6]: Serra F., Balseiro D., Monnet C., et al. submitted. A dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data.
 
 
