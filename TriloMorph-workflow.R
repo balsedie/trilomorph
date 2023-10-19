@@ -4,7 +4,7 @@
 # ----------------------------------------
 # Here is an R script designed to perform the morphological disparity analyses computed in the manuscript :
 #   Serra F, Balseiro D, Monnet C, Randolfe E, Bault V, Rustán JJ, Vaccari E, Bignon A, Muñoz DF, Crônier C, & Waisfeld BG (2023).
-#   TriloMorph: A dynamic and collaborative database for morphogeometric information of trilobites.
+#   A dynamic and collaborative database for morphogeometric information of trilobites.
 #   Scientific Data, XXX, XXX-XXX. doi: xxxxxxxxxxx
 # ----------------------------------------
 # If you use this script and/or the TriloMorph database,
