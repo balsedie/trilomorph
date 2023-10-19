@@ -51,7 +51,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
     #define the desired landmark configuration: 2 dimensions, 16 landmarks, 4 curves (12, 20, 20 and 20 semilandmarks respectively)
     nlms <- c(2, 16, 12, 20, 20, 20)
 
-    #note to change this configuration of analysing pygidia: 2 dimensions, 7 landmarks, 3 curves (x, x and x semilandmarks respectively)
+    #note to change this configuration if analysing pygidia: 2 dimensions, 7 landmarks, 3 curves (x, x and x semilandmarks respectively)
     #nlms <- c(2, 7, x, x, x)
 
     #read the shape files. Note that sufix = "_C" is for cephala, change it to "_P" if analysing pygidia.
