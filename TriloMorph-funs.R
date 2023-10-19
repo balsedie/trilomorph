@@ -4,7 +4,7 @@
 # ----------------------------------------
 # Here is a series of R functions used to perform the morphological analyses computed in the manuscript :
 #   Serra F, Balseiro D, Monnet C, Randolfe E, Bignon A, Rustán JJ, Bault V,  Muñoz DF, Vaccari E, Martinetto M, Crönier C, & Waisfeld BG (2023).
-#   TriloMorph: A dynamic and collaborative database for morphogeometric information of trilobites.
+#   A dynamic and collaborative database for morphogeometric information of trilobites.
 #   Scientific Data, XXX, XXX-XXX. doi: xxxxxxxxxxx
 # ----------------------------------------
 # The author of these functions is Claude Monnet. 
