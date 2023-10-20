@@ -89,7 +89,7 @@ now you can use the geomorph[^N] R package to continue with the general procrust
 
 Further analysis are expected to be performed by joining TriloMorph morphometric data with occurrence data obtained from the Paleobiology Database[^4] of the Geobiology Database[^5].
 
-As an worked example of how to analyse TriloMorph along with information retrieved from the PDBD, you can check the [R script](/TriloMorph-workflow.R) that runs all analyses performed in Serra et al[^6]. These analyses include the construction of the morphospace, a disparity curve and the test for errors in landmark digitization. 
+As a worked example of how to analyse TriloMorph along with information retrieved from the PDBD, you can check the [R script](/TriloMorph-workflow.R) that runs all analyses performed in Serra et al[^6]. These analyses include the construction of the morphospace, a disparity curve and the test for errors in landmark digitization. 
 
 In case you just want to replicate the exact analyses in Serra et al.[^6], you can simply run the following R script
     
