@@ -199,7 +199,9 @@ All material is distributed under Creative Commons Attribution-Non Commercial-Sh
   
 If you use the database please cite it using the doi or handle and the version of the stable release. A bibtex version of the citable stable release is available [here](citation.bib).
 
-In case you use Trilomorph for a publication, we strongly suggest you to acknowledge the main contributors to the analyzed dataset. You can check the contributors in the accompanying metadata and their full names and additional information in the [list of Trilomorph contributors](/contributors.csv). Once your work gets published, we suggest you to send us the full reference to include it in the [list of publications](/publications.md) that use TriloMorph.
+In case you use Trilomorph for a publication, we strongly suggest you to acknowledge the main contributors to the analyzed dataset. You can check the contributors in the accompanying metadata and their full names and additional information in the [list of Trilomorph contributors](/contributors.csv). 
+
+Once your work gets published, we suggest you to send us the full reference to include it in the [list of publications](/publications.md) that use TriloMorph.
 
 ### References
 [^1]: Serra F., Balseiro D., Monnet C., et al. submitted. A dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data.
