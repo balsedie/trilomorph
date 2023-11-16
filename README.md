@@ -195,7 +195,7 @@ If it is the **first time** you contribute with data, you also need to
 After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The TriloMorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. After accepting the new data you will receive an email informing that the data was merged to TriloMorph. If you need your data to be reviewed and accepted faster please contact us[^6].
     
 ## Licence
-All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY-NC-SA 4.0] licence terms[^N]. 
+All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY 4.0] licence terms[^N]. 
   
 If you use the database please cite it using the doi or handle and the version of the stable release. A bibtex version of the citable stable release is available [here](citation.bib).
 
@@ -212,4 +212,4 @@ Once your work gets published, we suggest you to send us the full reference to i
 [^6]: The data base is currently maintained by [Diego Balseiro](mailto:dbalseiro@unc.edu.ar) and [Fernanda Serra](mailto:fserra@unc.edu.ar)
 [^7]: Schneider C.A., Rasband W.S. and Eliceiri K.W. 2012. NIH Image to ImageJ: 25 years of image analysis. Nature Methods 9:671–675. DOI: [10.1038/nmeth.2089](https://doi.org/10.1038/nmeth.2089)
   [Download ImageJ](https://imagej.net/ij/)
-[^N]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+[^N]: https://creativecommons.org/licenses/by/4.0/
