@@ -195,7 +195,7 @@ If it is the **first time** you contribute with data, you also need to
 After uploading all files of the new landmarked specimen(s), **the new information will not be immediately available in the database**. The TriloMorph maintainers[^6] will review all files, check that there is no conflict, and accept your new data within a week or two. After accepting the new data you will receive an email informing that the data was merged to TriloMorph. If you need your data to be reviewed and accepted faster please contact us[^6].
     
 ## Licence
-All material is distributed under Creative Commons Attribution-Non Commercial-Share Alike 4.0 International [CC BY 4.0] licence terms[^N]. 
+All material is distributed under Creative Commons Attribution 4.0 International [CC BY 4.0] licence terms[^N]. 
   
 If you use the database please cite it using the doi or handle and the version of the stable release. A bibtex version of the citable stable release is available [here](citation.bib).
 
