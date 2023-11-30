@@ -204,7 +204,7 @@ In case you use Trilomorph for a publication, we strongly suggest you to acknowl
 Once your work gets published, we suggest you to send us the full reference to include it in the [list of publications](/publications.md) that use TriloMorph.
 
 ### References
-[^1]: Serra F., Balseiro D., Monnet C., et al. 2023. A dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data 10: 841. DOI: [10.1038/s41597-023-02724-9](https://doi.org/10.1038/s41597-023-02724-9)
+[^1]: Serra F., Balseiro D., Monnet C., et al. 2023. A dynamic and collaborative database for morphogeometric information of trilobites. Scientific Data 10:841. DOI: [10.1038/s41597-023-02724-9](https://doi.org/10.1038/s41597-023-02724-9)
 [^2]: Latest and previous stable releases are available at https://rdu.unc.edu.ar/handle/11086/547753 and [DOI: 10.5281/zenodo.8033445](https://dx.doi.org/10.5281/zenodo.8033445)
 [^3]: Rohlf F.J. 2015. The tps series of software. Hystrix, the Italian Journal of Mammalogy 26:9-12. DOI: [10.4404/hystrix-26.1-11264](https://doi.org/10.4404/hystrix-26.1-11264)
 [^4]: Adams D.C, Collyer M.L. and Kaliontzopoulou A. 2020. Geomorph: Software for geometric morphometric analyses. R package version 3.2.1. https://cran.r-project.org/package=geomorph.
