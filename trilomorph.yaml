@@ -1,5 +1,42 @@
 ---
--
+ ID: AMF27749
+  taxonomy: 
+    genus: Weania 
+    gen_status: 
+    subgen: NA
+    sp: semicircularis
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Engel & Morris 1996
+    gen_author:  Campbell and Engel 1963
+    orig_sp: NA
+  ref_pic: Vanderlaan and Ebach 2015
+  morphology: 
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography: 
+    locality:Glen William Road
+    country: Australia
+    state: New South Wales
+    county:NA
+    lat: 33°25'06.8"S
+    long: 151°20'59.5"E
+  stratigraphy:  
+    formation:  Flagstaff
+    min_age: Middle Visean
+    max_age: Upper Visean
+    ref_age: NA
+    basin: NA
+    lithology: Cabonatic
+  enterer:
+    metadata: Aquino D
+    landmark: Aquino D
+    date: 08/04/2023
+    -
   ID: CPBA_704
   taxonomy: 
     genus: Peltocare
