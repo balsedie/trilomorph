@@ -1,4 +1,4 @@
-![TriloMorph](https://figshare.com/ndownloader/files/41122841/preview/41122841/preview.jpg)
+![TriloMorph](/TriloMorph.png)
 
 ## About the database
 TriloMorph is an openly accessible database for the morpho-geometric information of trilobites, the main Palaeozoic group of marine arthropods[^1]. The database records raw landmark and semilandmark information on trilobite cephala and pygidia following the protocol proposed by Serra et al[^1]. 
