@@ -1,5 +1,42 @@
 ---
--
+ID: KUMIP_307854
+  taxonomy: #this is the taxonomic information of the specimen. Don't fill anything else in this line
+    genus: Ameura
+    gen_status: NA
+    subgen: NA
+    sp: major
+    sp_status: NA 
+    subsp: NA
+    orig_genus: 
+    sp_author: Portlock, 1843
+    gen_author:  Weller, 1936 
+    orig_sp: NA
+  ref_pic: https://biodiversity.ku.edu/invertebrate-paleontology
+  morphology: #this is the morphological information of the specimen. Don't fill anything else in this line
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: NA
+  geography:  #this is the geographic information of the specimen. Don't fill anything else in this line
+    locality: Kansas
+    country: USA
+    state: NA
+    country: NA
+    lat: 39.0651813
+    long: -94.7012901
+  stratigraphy:  #this is the stratigraphic information of the specimen. Don't fill anything else in this line
+    formation: Topeka Limestone Formation
+    min_age: Carboniferous
+    max_age: Carboniferous
+    ref_age: NA
+    basin: NA
+    lithology: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/05/2024
+  -
   ID: CPBA_704
   taxonomy: 
     genus: Peltocare
