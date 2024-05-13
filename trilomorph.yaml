@@ -27,9 +27,9 @@ ID: KUMIP_307854
     long: -94.7012901
   stratigraphy:  #this is the stratigraphic information of the specimen. Don't fill anything else in this line
     formation: Topeka Limestone Formation
-    min_age: Carboniferous
-    max_age: Carboniferous
-    ref_age: NA
+    min_age: Gzhelian
+    max_age: NA
+    ref_age: Moore et.al., 1944
     basin: NA
     lithology: NA
   enterer:
