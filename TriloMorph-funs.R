@@ -27,7 +27,7 @@
 if (!any(installed.packages()[, 1] == "geomorph")) {
   install.packages("geomorph")
 }
-require("geomorph", warn.conflicts = F)
+require(geomorph, warn.conflicts = F)
 
 # Function to read/load landmark data (digitized shape) from text files
 #   in various formats and extract/compile additional information such as scaling.
