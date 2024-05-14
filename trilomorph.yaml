@@ -1,7 +1,7 @@
 ---
 -
   ID: KUMIP_307854
-  taxonomy: 
+  taxonomy: #this is the taxonomic information of the specimen. Don't fill anything else in this line
     genus: Ameura
     gen_status: NA
     subgen: NA
