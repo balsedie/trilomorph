@@ -27,6 +27,8 @@ You can enter more than one specimen at a time. The following explanation is for
   
   <sup>**IMPORTANT**: each picture has to include a graphical scale. If it is missing in the original publication, include one. You can easily include graphical scale bars with software such as ImageJ[^7]</sup>
   
+  <sup>We also ask to include the specimen's collection acronym and number in the figure. Make sure that the label does not cover any part of the specimen.</sup>
+  
   <sup>Accepted formats are PNG and JPG/JPEG. Please avoid using TIFF files</sup>
 
 - [ ] name the picture
