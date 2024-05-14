@@ -84,7 +84,7 @@ You can enter more than one specimen at a time. The following explanation is for
     locality: 
     country: 
     state: 
-    country:
+    county:
     lat: 
     long: 
   stratigraphy:  #this is the stratigraphic information of the specimen. Don't fill anything else in this line
