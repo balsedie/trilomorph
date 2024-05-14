@@ -60,7 +60,6 @@ You can enter more than one specimen at a time. The following explanation is for
   
   A specimen's metadata is entered in the following form, please **copy and paste it as it is (including hyphens)** in a text editor and fill in each field. **If there is missing information in a field, type NA**. Fill one form per landmarked **specimen**. If a single specimen has cephalon and pygidum, just fill in a single form indicating that it has a cephalon and a pygidum.
 ```
-  -
   ID: 
   taxonomy: #this is the taxonomic information of the specimen. Don't fill anything else in this line
     genus: 
@@ -72,7 +71,7 @@ You can enter more than one specimen at a time. The following explanation is for
     orig_genus: 
     sp_author: 
     gen_author: 
-    orig_sp:
+    orig_sp: 
   ref_pic: 
   morphology: #this is the morphological information of the specimen. Don't fill anything else in this line
     cephalon: 
@@ -83,8 +82,8 @@ You can enter more than one specimen at a time. The following explanation is for
   geography:  #this is the geographic information of the specimen. Don't fill anything else in this line
     locality: 
     country: 
-    state: 
-    county:
+    state:  
+    county: 
     lat: 
     long: 
   stratigraphy:  #this is the stratigraphic information of the specimen. Don't fill anything else in this line
@@ -94,10 +93,11 @@ You can enter more than one specimen at a time. The following explanation is for
     ref_age: 
     basin: 
     lithology: 
-  enterer:
+  enterer: 
     metadata: 
-    landmark:
+    landmark: 
     date:
+-
 ```
   The information needed and format for each field is described in Serra et al[^1] [table 2](https://figshare.com/ndownloader/files/40538360/preview/40538360/preview.pdf).
 
