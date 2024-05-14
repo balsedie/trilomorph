@@ -23,6 +23,11 @@
 # + Wills M, 2001. Morphological disparity: A primer. In: Adrain JM, Edgecombe GD, Lieberman BS (Eds.), Fossils, phylogeny, and form: Ananalytical approach. Springer.
 # ----------------------------------------
 
+#First check dependencies and install them if necesary
+if (!any(installed.packages()[, 1] == "geomorph")) {
+  install.packages("geomorph")
+}
+require("geomorph", warn.conflicts = F)
 
 # Function to read/load landmark data (digitized shape) from text files
 #   in various formats and extract/compile additional information such as scaling.
