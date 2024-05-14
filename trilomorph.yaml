@@ -1,6 +1,6 @@
 ---
 ID: KUMIP_307854
-  taxonomy: #this is the taxonomic information of the specimen. Don't fill anything else in this line
+  taxonomy:
     genus: Ameura
     gen_status: NA
     subgen: NA
@@ -12,20 +12,20 @@ ID: KUMIP_307854
     gen_author:  Weller, 1936 
     orig_sp: NA
   ref_pic: https://biodiversity.ku.edu/invertebrate-paleontology
-  morphology: #this is the morphological information of the specimen. Don't fill anything else in this line
+  morphology:
     cephalon: TRUE
     cranidium: TRUE
     pygidium: NA
     eyes: TRUE
     ontogeny: NA
-  geography:  #this is the geographic information of the specimen. Don't fill anything else in this line
+  geography
     locality: Kansas
     country: USA
     state: NA
     country: NA
     lat: 39.0651813
     long: -94.7012901
-  stratigraphy:  #this is the stratigraphic information of the specimen. Don't fill anything else in this line
+  stratigraphy:
     formation: Topeka Limestone Formation
     min_age: Gzhelian
     max_age: NA
