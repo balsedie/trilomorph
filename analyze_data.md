@@ -103,7 +103,7 @@ In case you just want to replicate the exact analyses in Serra et al.[^6], you c
 
 As a generalized framework, the expected workflow for further analyses is described in the following figure
 
-![workflow](https://figshare.com/ndownloader/files/40535714/preview/40535714/preview.jpg)
+![workflow](/Serra_workflow.jpg)
 
 ### References
 [^N]: Adams D.C, Collyer M.L. and Kaliontzopoulou A. 2020. Geomorph: Software for geometric morphometric analyses. R package version 3.2.1. https://cran.r-project.org/package=geomorph.
