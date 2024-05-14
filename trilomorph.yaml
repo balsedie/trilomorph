@@ -1,42 +1,42 @@
 ---
 -
-  ID: CPBA_704
+  ID: KUMIP_307854
   taxonomy: 
-    genus: Peltocare
-    sp: Peltocare norvegicum
+    genus: Ameura
+    sp: Ameura major
     subsp: NA
     orig_genus: NA
-    sp_author: van Viersen and Holland 2016
-    gen_author: Henningsmoen 1957
+    sp_author: Portlock 1843
+    gen_author: Weller 1936
     orig_sp: NA
     subgen: NA
     gen_status: NA
     sp_status: NA
-  ref.pic: Harrington Leanza 1957
+  ref.pic: KU Collection
   morphology: 
     cephalon: TRUE
-    cranidium: NA
+    cranidium: TRUE
     pygidium: NA
     eyes: TRUE
-    ontogeny: holaspis
+    ontogeny: NA
   geography: 
-    locality: Quebrada Rupasca
-    country: Argentina
-    lat: -24.49
-    long: -66.46
-    state: Jujuy
+    locality: Kansas
+    country: USA
+    lat: 39.06
+    long: -94.70
+    state: Kansas
     county: NA
   stratigraphy: 
-    formation: Rupasca Formation
-    min_age: Tremadocian
+    formation: Topeka Limestone Formation
+    min_age: Gzhelian
     max_age: NA
-    ref_age: Waisfeld Vaccari 2003
-    basin: Cordillera Oriental
+    ref_age: Moore et.al. 1944
+    basin: NA
     environment: NA
   enterer: 
-    metadata: Serra F
-    landmark: Serra F
-    date: 01/10/2022
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/05/2024
 -
   ID: CPBA_704
   taxonomy: 
