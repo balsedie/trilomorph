@@ -5,14 +5,14 @@
     genus: Ameura
     gen_status: NA
     subgen: NA
-    sp: major
+    sp: Ameura major
     sp_status: NA 
     subsp: NA
     orig_genus: NA
     orig_sp: NA
     sp_author: Portlock 1843
-    gen_author:  Weller 1936 
-  ref_pic: https://biodiversity.ku.edu/invertebrate-paleontology
+    gen_author: Weller 1936 
+  ref_pic: KU Collection
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
