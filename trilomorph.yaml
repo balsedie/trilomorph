@@ -1,5 +1,1368 @@
 ---
 -
+  ID: CM_45749
+  taxonomy:
+    genus: Ameropiltonia
+    gen_status: NA
+    subgen: NA
+    sp: Ameropiltonia perplexa
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Brezinski 2000b
+    gen_author: Brezinski 2000b
+  orig_sp: NA
+    ref.pic: Brezinski 2000b
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Indian Wells Canyon
+    country: USA
+    state: Nuevo México
+    county: NA
+    lat: 32,9
+    long: -105,8
+  stratigraphy:
+    formation: Caballero
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: Laudon and Bowsher 1949
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date:24/05/2024
+  comments:
+-
+  ID: NUF4898
+  taxonomy:
+    genus: Carbonocoryphe
+    gen_status: NA
+    subgen: NA
+    sp: Carbonocoryphe rockhamptonensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Mitchell 1918
+    gen_author: Hahn & Brauckmann 1975
+    orig_sp: NA
+    ref.pic: engel y Morris 1989
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Great Star River
+    country: Australia
+    state: north Queensland
+    county: NA
+    lat: -37.86 
+    long: 146.83
+  stratigraphy:
+    formation: NA
+    min_age: Visean
+    max_age: NA
+  ref_age: NA
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: MB.T_5501
+  taxonomy:
+    genus: Archegonus 
+    gen_status: NA
+    subgen: Phillibole
+    sp:Archegonus (Phillibole) nehdenensis africanus
+    sp_status: NA
+    subsp: africanus
+    orig.genus: NA
+    sp_author: Hahm et.al. 2012
+    gen_author: Burmeister 1843
+    orig_sp: NA
+  ref.pic: Hahm et.al. 2012
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Dar Kaoua
+    country: Morocco
+    state: Errachidía
+    county: NA
+    lat: 31.3
+    long: -4.10
+  stratigraphy:
+    formation: NA
+    min_age: Visean
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: NA 
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: BM_ln_53675
+  taxonomy:
+    genus: Australosutura
+    gen_status: NA
+    subgen: NA
+    sp: Australosutura gardneri
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Mitchell 1922
+    gen_author: Campbell and Goldring 1960 
+    orig_sp: NA
+  ref.pic: Amos et.al. 1960
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Cerro Mina
+    country: Argentina
+    state: Chubut
+    county: NA
+    lat: -43.31
+    long: -70.59
+  stratigraphy:
+    formation:  
+    min_age: lower Mississippian
+    max_age: NA 
+    ref_age: NA
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: NMW_95.7G.66
+  taxonomy:
+    genus: Baliothyreus
+    gen_status: NA
+    subgen: NA
+    sp: Baliothyreus becki
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Tilsley and Owens 2003
+    gen_author: Tilsley and Owens 2003 
+    orig_sp: NA
+  ref.pic: Tilsley and Owens 2003
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Derbyshire
+    country: Great Britain
+    state: NA
+    county: NA
+    lat: 53.22 
+    long: -1.66
+  stratigraphy:
+    formation: Topeka Limestone Formation
+    min_age: Lower Carboniferous
+    max_age: NA
+    ref_age: NA
+    basin: NA
+   environment: Carbonatics
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: SMF_55937
+  taxonomy:
+    genus: Belgibole
+    gen_status: NA
+    subgen: NA
+    sp: Belgibole milieuensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA 
+    sp_author: Muller 2000
+    gen_author: Hahn 1963
+    orig_sp: NA
+  ref.pic: Muller 2000
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA 
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Steinbrunch von Milieu
+    country: Belgium
+    state: NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+   environment: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: NMW_86.256.40
+  taxonomy:
+    genus: Bollandia
+    gen_status: NA
+    subgen: NA
+    sp: Bollandia columba
+    sp_status:NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Tilsley 1988
+    gen_author: Reed 1943
+    orig_sp: NA
+  ref.pic: Tisley 1988
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Peak District
+    country: Great Britain
+    state: NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: 
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+   environment: carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: SMF_100871
+  taxonomy:
+    genus: Carbonoproetus 
+    gen_status: NA
+    subgen: NA
+    sp: Carbonoproetus volturnus
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Muller and Hahn 2019
+    gen_author: Gandl 1987
+    orig_sp: NA
+  ref.pic: Muller and Hahn 2019
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Rösenbeck
+    country: Germany
+    state: Westfalen
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: MB.T_5550
+  taxonomy:
+    genus: Chlupacula
+    gen_status: NA
+    subgen: Chlupacula
+    sp: Chlupacula (Chlupacula) erfoudensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn et.al 2012
+    gen_author: Hahn and Wunn-Petry 1983
+    orig_sp: NA
+  ref.pic: Hahn et.al 2012
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Jebel Erfoud
+    country: Morocco
+    state: Erraquidia
+    county: Tafilalt
+    lat: 31.29
+    long: -4.32
+  stratigraphy:
+    formation: NA
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: CM_45764
+  taxonomy:
+    genus: Comptonaspis 
+    gen_status: NA
+    subgen: NA
+    sp: Comptonaspis swallowi
+    sp_status: NA
+    subsp: NA
+    orig_genus: Proetus
+    sp_author: Shumard 1855
+    gen_author: Brezinski 1988a
+    orig_sp: Proetus swallowi
+  ref.pic: Brezinski 2000b
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Indian Wells Canyon
+    country: USA
+    state: Nuevo Mexico
+    county: Otero
+    lat: 32,70
+    long: -106,11
+  stratigraphy:
+    formation:  
+    min_age: lower Mississippian
+    max_age: NA 
+    ref_age: NA
+    basin: Caballero
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: Z._Pal._Tr_II._139
+  taxonomy:
+    genus: Cummingella  
+    gen_status: NA
+    subgen: NA
+    sp: Cummingella carringtonensis
+    sp_status: NA 
+    subsp: tuberculigenata
+    orig_genus: NA
+    sp_author: Burmeister 1846
+    gen_author: Hahn y Hahn 1967
+    orig_sp: NA
+  ref.pic: Osmolska 1970
+  morphology
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Todowa Grzaba
+    country: Poland
+    state: NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: 
+    min_age: Visean
+    max_age: NA
+    ref_age: NA
+    basin: Moscow Basin
+    environment: Silicoclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: MB.T_5505
+  taxonomy:
+    genus: Cyrtoproetus
+    gen_status: NA
+    subgen: Crassibole
+    sp: Cyrtoproetus (Crassibole) acrops
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA 
+    sp_author: Hahm et.al. 2012
+    gen_author: reed 1943
+    orig_sp: NA
+  ref.pic: Hahm et.al. 2012
+  morphology
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Tizi Ibaouane
+    country: Morocco
+    state: Errachidia
+    county: Tafilalt
+    lat: 31.30
+    long: -4.32
+  stratigraphy:
+    formation: NA 
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: MB.T_5574
+  taxonomy:
+    genus: Dechenelloides 
+    gen_status: NA
+    subgen: NA
+    sp: Dechenelloides tazoultensis
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn et.al 2012
+    gen_author: Gandl 1968 
+    orig_sp: NA
+  ref.pic: Hahn et.al 2012
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: TRUE
+    eyes: TRUE
+    ontogeny: holaspis
+    locality: NA
+    country: Morocco
+    state: NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA 
+    min_age: Tournasian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: M_1327
+  taxonomy:
+    genus: Drevermannia
+    gen_status: NA
+    subgen: NA
+    sp: Drevermannia calamicensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn et.al 1997
+    gen_author: Schmidt 1909
+    orig_sp: NA
+  ref.pic: Hahn et.al 1997
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Menorca
+    country: Spain
+    state:  NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA
+    min_age: Tournasian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: silicoclastic 
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: M_1326
+  taxonomy:
+    genus: Menorcaspis
+    gen_status: NA
+    subgen: NA
+    sp: Menorcaspis tiedti
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn et.al. 1994
+    gen_author: Hahn et al. 1994
+    orig_sp: NA
+  ref.pic: Hahn et.al 1997
+  morphology:
+    cephalon: NA
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Menorca
+    country: Spain
+    state:  NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA
+    min_age: Tournasian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: silicoclastic 
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: SMF_76569a
+  taxonomy:
+    genus: Cystispina
+    gen_status: NA
+    subgen: NA
+    sp: Cystispina diversa 
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn and Hahn 1971 
+    gen_author: Richter 1939
+    orig_sp: NA
+  ref.pic: Muller 2008
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Erbach
+    country: Germany
+    state:  Hessen
+    county: NA
+    lat: 49.65
+    long: 9.03
+  stratigraphy:
+    formation: Bromberg Formation
+    min_age: upper visean
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: NA
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: SMF_76575
+  taxonomy:
+    genus: Spatulata
+    gen_status: NA
+    subgen: NA
+    sp: Spatulata spatulata
+    sp_status: NA
+    subsp: NA
+    orig_genus: Spatulina
+    sp_author: Woodward 1902
+    gen_author:  Özdikmen 2009
+    orig_sp: NA
+  ref.pic: Muller 2008
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Erbach
+    country: Germany
+    state:  Hessen
+    county: NA
+    lat: 49.65
+    long: 9.03
+  stratigraphy:
+    formation: Bromberg Formation
+    min_age: upper visean
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: NA
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: AMF27749
+  taxonomy:
+    genus: Weania 
+    gen_status: NA
+    subgen: NA
+    sp: Weania semicircularis
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Engel & Morris 1996
+    gen_author:  Campbell and Engel 1963
+    orig_sp: NA
+  ref.pic: Vanderlaan y Ebach 2015
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Glen William Road
+    country: Australia
+    state: New South Wales
+    county: NA
+    lat: -33.49
+    long: 151.35
+  stratigraphy:
+    formation: Flagstaff
+    min_age: Middle Visean
+    max_age: Upper Visean
+    ref_age: NA
+    basin: NA
+    environment: Cabonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: NGSFI5451
+  taxonomy:
+    genus: Winterbergia  
+    gen_status: confer
+    subgen: NA
+    sp: Winterbergia waterhousei
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Mitchell, 1918
+    gen_author: Hahn & Brauckmann 1975
+    orig_sp:
+  ref.pic: Engel y Morris 1989
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: TRUE
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Lake Keepit
+    country: Australia
+    state: New South Wales
+    county: NA
+    lat: -30.83
+    long: 150.46
+  stratigraphy:
+    formation: 
+    min_age: late Tournasian
+    max_age: Visean
+    ref_age: NA
+    basin: NA
+    environment: silicoclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: TML_985/349
+  taxonomy: 
+    genus: Palaeophillipsia 
+    gen_status: NA
+    subgen: NA
+    sp: Palaeophillipsia kirgisica
+    sp_status: NA 
+    subsp: NA
+    orig_genus: Weberiphillipsia
+    sp_author: Weber 1932
+    gen_author: Sugiyama y Okano 1944
+    orig_sp: NA
+  ref.pic: Osmolska 1970
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Karatau
+    country: Kazakhstan
+    state: NA
+    county: NA
+    lat: 43.15
+    long: 70.46
+  stratigraphy:
+    formation: 
+    min_age: Upper Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: Kuznetsk
+    environment: carbonatic
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: CM_45989
+  taxonomy:
+    genus: Thigriffides
+    gen_status: NA
+    subgen: NA
+    sp: Thigriffides triangulatus
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Brezinski 2000b
+    gen_author:Hessler 1965
+    orig_sp:
+  ref.pic: Brezinski 2000b
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Indian Wells Canyon
+    country: USA
+    state: Nuevo México
+    county: NA
+    lat: 32,9 
+    long: -105,8
+  stratigraphy:
+    formation: Lake Valley
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: USNM_143026
+  taxonomy:
+    genus: Nunnaspis
+    gen_status: NA
+    subgen: NA
+    sp: Nunnaspis stitti
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Brezinski 2000b
+    gen_author: Brezinski 2000b
+    orig_sp: NA
+  ref.pic: Brezinski 2000b
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Indian Wells Canyon
+    country: USA
+    state: Nuevo México
+    county: NA
+    lat: 32,9
+    long: -105,8
+  stratigraphy:
+    formation: Lake Valley
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+D: SMF_57485
+  taxonomy:
+    genus: Struveproetus
+    gen_status: NA
+    subgen: NA
+    sp: Struveproetus ocellatus
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Feist et al. 2000 
+    gen_author: Feist et al. 2000 
+    orig_sp: NA
+  ref.pic: Feist et.al. 2000
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis 
+  geography:
+    locality: Wocklum
+    country: Germany
+    state: Balve
+    county: NA
+    lat: 51.35
+    long: 7.91
+  stratigraphy:
+    formation: NA
+    min_age: Famennian
+    max_age: NA
+    ref_age: Feist et.al. 2000
+    basin: NA
+    environment: carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: SMF_57476
+  taxonomy:
+    genus: Typhloproetus
+    gen_status: NA
+    subgen: Silesiops
+    sp: Typhloproetus (Silesiops) schindewolfi 
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Richter y Richter 1919
+    gen_author: Richter 1913
+    orig_sp: NA
+  ref.pic: Feist, 2000
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Sauerland
+    country: Germany
+    state:  NA
+    county: NA
+    lat: 51.27
+    long: 8.16
+  stratigraphy:
+    formation: NA
+    min_age: Famennian
+    max_age: NA
+    ref_age: Feist 2000
+    basin: NA
+    environment: carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: SMF_57464
+  taxonomy:
+    genus: Haasproetus
+    gen_status: NA
+    subgen: NA
+    sp: Haasproetus aprickensis 
+    sp_status: NA 
+    subsp: NA
+    orig_genus: Haasia
+    sp_author: Feist et al. 2000
+    gen_author: Baase 2007
+    orig_sp: NA
+  ref.pic: Feist et.al. 2000
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis 
+  geography:
+    locality: Wocklum
+    country: Germany
+    state: Balve
+    county: NA
+    lat: 51.35
+    long: 7.91
+  stratigraphy:
+    formation: NA
+    min_age: Famennian
+    max_age: NA
+    ref_age: Feist et.al 2000
+    basin: NA
+    environment: carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: SMF_57451
+  taxonomy:
+    genus: Helioproetus
+    gen_status: NA
+    subgen: NA
+    sp: Helioproetus corintiacus
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Drevermann 1901
+    gen_author: Richter 1919
+    orig_sp: NA
+  ref.pic: Feist et.al 2000
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis 
+  geography:
+    locality: Wocklum
+    country: Germany
+    state: Balve
+    county: NA
+    lat: 51.35 
+    long: 7.91
+  stratigraphy:
+    formation: NA
+    min_age: Famennian
+    max_age: NA
+    ref_age: Feist et.al 2000
+    basin: NA
+    environment: carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: SMF_55919b
+  taxonomy:
+    genus: Phillibolina
+    gen_status: 
+    subgen: NA
+    sp: Phillibolina modavensis
+    sp_status: 
+    subsp: Aprathia
+    orig_genus: Phillipsia
+    sp_author: Meek and Worthen 1865
+    gen_author: Osmolska 1968
+    orig_sp: NA
+  ref.pic: Muller 2000
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Namur
+    country: Belgium
+    state: NA
+    county:NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: TML_288/3139
+  taxonomy:
+    genus: Cyphinioides
+    gen_status: confer
+    subgen: NA
+    sp: Cyphinioides limbatus
+    sp_status: NA 
+    subsp: NA
+    orig_genus: Griffithides
+    sp_author: Osmolka 1970
+    gen_author: Reed 1942
+    orig_sp: NA
+  ref.pic: Osmolska 1970
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Dombas
+    country: Ukraine
+    state: NA
+    county: NA
+    lat: 48,40
+    long: 39.35
+  stratigraphy:
+    formation: NA
+    min_age: Upper Carboniferous
+    max_age: NA
+    ref_age: NA
+    basin: Donets Basin
+    environment: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: CM_45118
+  taxonomy:
+    genus: Elliptophillipsia
+    gen_status: 
+    subgen: NA
+    sp: Elliptophillipsia rotundus
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Brezinski 2000a
+    gen_author: Hessler 1963
+    orig_sp: NA
+  ref.pic: Brezinski 2000a
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography: NA
+    locality: Boone County
+    country: USA
+    state: Missouri
+    county: Boone County
+    lat: 38.8
+    long: -92.4
+  stratigraphy
+    formation: Compton Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Cabonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: NUF4898
+  taxonomy:
+    genus: Carbonocoryphe
+    gen_status: NA
+    subgen: NA
+    sp: Carbonocoryphe rockhamptonensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Mitchell 1918 
+    gen_author: Hahn & Brauckmann 1975 
+    orig_sp: NA
+  ref.pic: engel y Morris 1989
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Great Star River
+    country: Auatralia
+    state: north Queensland
+    county: NA
+    lat: -17.39
+    long: 142.53
+  stratigraphy:  
+    formation: NA
+    min_age: Visean
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: siliciclastic
+  enterer:
+   metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: BM_I_5809
+  taxonomy:
+    genus: Reediella
+    gen_status: NA
+    subgen: NA
+    sp: Reediella reedi
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA 
+    sp_author: Osmolska 1970
+    gen_author: Osmolska 1970
+    orig_sp:NA
+  ref.pic: Osmolska 1970
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: NA
+    country: Great Britain
+    state: NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy: 
+    formation: NA
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: TML_58/3139
+  taxonomy:
+    genus: Particeps
+    gen_status: NA
+    subgen: NA
+    sp: Particeps kargini
+    sp_status: NA
+    subsp: NA
+    orig_genus: Phillipsia
+    sp_author: Weber 1933
+    gen_author: Reed 1943
+    orig_sp: NA
+  ref.pic: Osmoslska 1970
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality:  Invertiel
+    country: Great Britain
+    state: NA
+    county: NA
+    lat: 56.08
+    long: -3.25
+  stratigraphy
+    formation: 
+    min_age: Serpukhovian
+    max_age: NA
+    ref_age: NA
+    basin: Donets Basin
+    environment: Carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: CM_45766
+  taxonomy:
+    genus: Kollarcephalus
+    gen_status: NA
+    subgen: NA
+    sp: Kollarcephalus granatai
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Brezinski 2000b
+    gen_author: Brezinski 2000b
+    orig_sp: NA
+  ref.pic: Brezinski 2000b
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Sacramento Mountains
+    country: USA
+    state: Nuevo México
+    county: NA
+    lat: 33.13
+    long: -105.74
+  stratigraphy:
+    formation: Caballero
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: E3653
+  taxonomy:
+    genus: Phillipsia 
+    gen_status: 
+    subgen: NA
+    sp: Phillipsia ornata
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Portlock 1843
+    gen_author: Portlock 1843
+    orig_sp: NA
+  ref.pic: Owens 1990
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Wexford
+    country: Ireland
+    state: NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: 
+    min_age: Tournaisian.
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
+  ID: CM_45124
+  taxonomy:
+    genus: Richterella 
+    gen_status: 
+    subgen: NA
+    sp: Richterella hessleri
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Brezinski 2000a
+    gen_author: Avram 1974
+    orig_sp: NA
+  ref.pic: Brezinski 2000a
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Marion County
+    country: USA
+    state: Missouri
+    county: NA
+    lat: 39,8°
+    long: -91,8°
+  stratigraphy:
+    formation: Compton Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Cabonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
   ID: KUMIP_307854
   taxonomy: #this is the taxonomic information of the specimen. Don't fill anything else in this line
     genus: Ameura
