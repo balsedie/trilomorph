@@ -24,8 +24,8 @@
     country: USA
     state: Nuevo México
     county: NA
-    lat: 32,9
-    long: -105,8
+    lat: 32.9
+    long: -105.8
   stratigraphy:
     formation: Caballero
     min_age: Tournaisian
@@ -375,8 +375,8 @@
     country: USA
     state: Nuevo Mexico
     county: Otero
-    lat: 32,70
-    long: -106,11
+    lat: 32.70
+    long: -106.11
   stratigraphy:
     formation:  
     min_age: lower Mississippian
@@ -710,7 +710,7 @@
     sp_status: NA
     subsp: NA
     orig_genus: NA
-    sp_author: Mitchell, 1918
+    sp_author: Mitchell 1918
     gen_author: Hahn & Brauckmann 1975
     orig_sp:
   ref.pic: Engel y Morris 1989
@@ -803,8 +803,8 @@
     country: USA
     state: Nuevo México
     county: NA
-    lat: 32,9 
-    long: -105,8
+    lat: 32.9 
+    long: -105.8
   stratigraphy:
     formation: Lake Valley
     min_age: Tournaisian
@@ -842,8 +842,8 @@
     country: USA
     state: Nuevo México
     county: NA
-    lat: 32,9
-    long: -105,8
+    lat: 32.9
+    long: -105.8
   stratigraphy:
     formation: Lake Valley
     min_age: Tournaisian
@@ -908,7 +908,7 @@ ID: SMF_57485
     sp_author: Richter y Richter 1919
     gen_author: Richter 1913
     orig_sp: NA
-  ref.pic: Feist, 2000
+  ref.pic: Feist 2000
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -1076,7 +1076,7 @@ ID: SMF_57485
     country: Ukraine
     state: NA
     county: NA
-    lat: 48,40
+    lat: 48.40
     long: 39.35
   stratigraphy:
     formation: NA
@@ -1350,8 +1350,8 @@ ID: SMF_57485
     country: USA
     state: Missouri
     county: NA
-    lat: 39,8°
-    long: -91,8°
+    lat: 39.8°
+    long: -91.8°
   stratigraphy:
     formation: Compton Limestone
     min_age: Tournaisian
