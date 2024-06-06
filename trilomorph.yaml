@@ -694,7 +694,7 @@
     max_age: Upper Visean
     ref_age: NA
     basin: NA
-    environment: Cabonatic
+    environment: Carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1110,7 +1110,7 @@
     pygidium: NA
     eyes: TRUE
     ontogeny: holaspis
-  geography: NA
+  geography:
     locality: Boone County
     country: USA
     state: Missouri
@@ -1123,7 +1123,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: Cabonatic
+    environment: Carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1358,7 +1358,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: Cabonatic
+    environment: Carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
