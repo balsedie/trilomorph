@@ -261,7 +261,7 @@
     lat: NA
     long: NA
   stratigraphy:
-    formation: 
+    formation: NA
     min_age: Tournaisian
     max_age: NA
     ref_age: NA
@@ -417,7 +417,7 @@
     lat: NA
     long: NA
   stratigraphy:
-    formation: 
+    formation: NA
     min_age: Visean
     max_age: NA
     ref_age: NA
@@ -1016,10 +1016,10 @@
   ID: SMF_55919b
   taxonomy:
     genus: Phillibolina
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Phillibolina modavensis
-    sp_status: 
+    sp_status: NA
     subsp: Aprathia
     orig_genus: Phillipsia
     sp_author: Meek and Worthen 1865
@@ -1094,7 +1094,7 @@
   ID: CM_45118
   taxonomy:
     genus: Elliptophillipsia
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Elliptophillipsia rotundus
     sp_status: NA 
@@ -1235,7 +1235,7 @@
     lat: 56.08
     long: -3.25
   stratigraphy:
-    formation: 
+    formation: NA
     min_age: Serpukhovian
     max_age: NA
     ref_age: NA
@@ -1289,7 +1289,7 @@
   ID: E3653
   taxonomy:
     genus: Phillipsia 
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Phillipsia ornata
     sp_status: NA
@@ -1328,7 +1328,7 @@
   ID: CM_45124
   taxonomy:
     genus: Richterella 
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Richterella hessleri
     sp_status: NA 
