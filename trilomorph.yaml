@@ -11,8 +11,8 @@
     orig_genus: NA
     sp_author: Brezinski 2000b
     gen_author: Brezinski 2000b
-  orig_sp: NA
-    ref.pic: Brezinski 2000b
+    orig_sp: NA
+  ref.pic: Brezinski 2000b
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -36,7 +36,7 @@
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
-    date:24/05/2024
+    date: 24/05/2024
   comments:
 -
   ID: NUF4898
@@ -51,7 +51,7 @@
     sp_author: Mitchell 1918
     gen_author: Hahn & Brauckmann 1975
     orig_sp: NA
-    ref.pic: engel y Morris 1989
+  ref.pic: engel y Morris 1989
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -69,7 +69,7 @@
     formation: NA
     min_age: Visean
     max_age: NA
-  ref_age: NA
+    ref_age: NA
     basin: NA
     environment: siliciclastic
   enterer:
@@ -83,7 +83,7 @@
     genus: Archegonus 
     gen_status: NA
     subgen: Phillibole
-    sp:Archegonus (Phillibole) nehdenensis africanus
+    sp: Archegonus (Phillibole) nehdenensis africanus
     sp_status: NA
     subsp: africanus
     orig.genus: NA
@@ -188,7 +188,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-   environment: Carbonatics
+    environment: Carbonates
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -227,7 +227,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-   environment: NA
+    environment: NA
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -240,7 +240,7 @@
     gen_status: NA
     subgen: NA
     sp: Bollandia columba
-    sp_status:NA 
+    sp_status: NA 
     subsp: NA
     orig_genus: NA
     sp_author: Tilsley 1988
@@ -266,7 +266,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-   environment: carbonatic
+    environment: Carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -403,7 +403,7 @@
     gen_author: Hahn y Hahn 1967
     orig_sp: NA
   ref.pic: Osmolska 1970
-  morphology
+  morphology:
     cephalon: TRUE
     cranidium: TRUE
     pygidium: NA
@@ -442,7 +442,7 @@
     gen_author: reed 1943
     orig_sp: NA
   ref.pic: Hahm et.al. 2012
-  morphology
+  morphology:
     cephalon: TRUE
     cranidium: TRUE
     pygidium: NA
@@ -499,7 +499,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: Carbonatic
+    environment: Carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -772,7 +772,8 @@
     max_age: NA
     ref_age: NA
     basin: Kuznetsk
-    environment: carbonatic
+    environment: Carbonate
+  enterer:
     metadata: D_Aquino
     landmark: D_Aquino
     date: 24/05/2024
@@ -788,7 +789,7 @@
     subsp: NA
     orig_genus: NA
     sp_author: Brezinski 2000b
-    gen_author:Hessler 1965
+    gen_author: Hessler 1965
     orig_sp:
   ref.pic: Brezinski 2000b
   morphology:
@@ -856,7 +857,7 @@
     date: 24/05/2024
   comments: NA
 -
-D: SMF_57485
+ID: SMF_57485
   taxonomy:
     genus: Struveproetus
     gen_status: NA
@@ -888,7 +889,7 @@ D: SMF_57485
     max_age: NA
     ref_age: Feist et.al. 2000
     basin: NA
-    environment: carbonatic
+    environment: Carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -927,7 +928,7 @@ D: SMF_57485
     max_age: NA
     ref_age: Feist 2000
     basin: NA
-    environment: carbonatic
+    environment: Carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -966,7 +967,7 @@ D: SMF_57485
     max_age: NA
     ref_age: Feist et.al 2000
     basin: NA
-    environment: carbonatic
+    environment: Carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1005,7 +1006,7 @@ D: SMF_57485
     max_age: NA
     ref_age: Feist et.al 2000
     basin: NA
-    environment: carbonatic
+    environment: Carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1044,7 +1045,7 @@ D: SMF_57485
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: Carbonatic
+    environment: Carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1116,7 +1117,7 @@ D: SMF_57485
     county: Boone County
     lat: 38.8
     long: -92.4
-  stratigraphy
+  stratigraphy:
     formation: Compton Limestone
     min_age: Tournaisian
     max_age: NA
@@ -1163,7 +1164,7 @@ D: SMF_57485
     basin: NA
     environment: siliciclastic
   enterer:
-   metadata: D_Aquino
+    metadata: D_Aquino
     landmark: D_Aquino
     date: 24/05/2024
   comments: NA
@@ -1179,7 +1180,7 @@ D: SMF_57485
     orig_genus: NA 
     sp_author: Osmolska 1970
     gen_author: Osmolska 1970
-    orig_sp:NA
+    orig_sp: NA
   ref.pic: Osmolska 1970
   morphology:
     cephalon: TRUE
@@ -1200,7 +1201,7 @@ D: SMF_57485
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: Carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1233,13 +1234,13 @@ D: SMF_57485
     county: NA
     lat: 56.08
     long: -3.25
-  stratigraphy
+  stratigraphy:
     formation: 
     min_age: Serpukhovian
     max_age: NA
     ref_age: NA
     basin: Donets Basin
-    environment: Carbonatic
+    environment: Carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1278,7 +1279,7 @@ D: SMF_57485
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: Carbonatic
+    environment: Carbonate
   enterer:
     metadata: 
     metadata: D_Aquino
@@ -1313,8 +1314,8 @@ D: SMF_57485
     lat: NA
     long: NA
   stratigraphy:
-    formation: 
-    min_age: Tournaisian.
+    formation: NA
+    min_age: Tournaisian
     max_age: NA
     ref_age: NA
     basin: NA
