@@ -729,7 +729,7 @@
     lat: -30.83
     long: 150.46
   stratigraphy:
-    formation: 
+    formation: NA
     min_age: late Tournasian
     max_age: Visean
     ref_age: NA
@@ -768,7 +768,7 @@
     lat: 43.15
     long: 70.46
   stratigraphy:
-    formation: 
+    formation: NA
     min_age: Upper Tournaisian
     max_age: NA
     ref_age: NA
