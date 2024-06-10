@@ -1350,8 +1350,8 @@
     country: USA
     state: Missouri
     county: NA
-    lat: 39.8°
-    long: -91.8°
+    lat: 39.8
+    long: -91.8
   stratigraphy:
     formation: Compton Limestone
     min_age: Tournaisian
