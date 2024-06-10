@@ -487,6 +487,7 @@
     pygidium: TRUE
     eyes: TRUE
     ontogeny: holaspis
+  geography:
     locality: NA
     country: Morocco
     state: NA
