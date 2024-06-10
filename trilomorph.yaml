@@ -144,7 +144,7 @@
     lat: -43.31
     long: -70.59
   stratigraphy:
-    formation:  
+    formation: NA
     min_age: lower Mississippian
     max_age: NA 
     ref_age: NA
@@ -378,7 +378,7 @@
     lat: 32.70
     long: -106.11
   stratigraphy:
-    formation:  
+    formation: NA
     min_age: lower Mississippian
     max_age: NA 
     ref_age: NA
