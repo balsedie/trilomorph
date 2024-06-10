@@ -713,7 +713,7 @@
     orig_genus: NA
     sp_author: Mitchell 1918
     gen_author: Hahn & Brauckmann 1975
-    orig_sp:
+    orig_sp: NA
   ref.pic: Engel y Morris 1989
   morphology:
     cephalon: TRUE
@@ -791,7 +791,7 @@
     orig_genus: NA
     sp_author: Brezinski 2000b
     gen_author: Hessler 1965
-    orig_sp:
+    orig_sp: NA
   ref.pic: Brezinski 2000b
   morphology:
     cephalon: TRUE
