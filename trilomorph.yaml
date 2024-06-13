@@ -1,4 +1,315 @@
 ---
+ID: TP_5
+  taxonomy: 
+    genus: Piltonia
+    gen_status: NA
+    subgen: NA
+    sp: Piltonia kuehnei pauli
+    sp_status: NA
+    subsp: kuehnei
+    orig_genus:
+    sp_author: Müller 2003
+    gen_author: Goldring 1955
+  orig_sp: NA
+    ref.pic: Müller 2003
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: NA
+    country: Belgium
+    state: Luttich
+    county: NA
+    lat: NA 
+    long: NA
+  stratigraphy:
+  formation: NA
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+ID: M_1450
+  taxonomy: 
+    genus: Paraglobusia
+    gen_status: NA
+    subgen: NA
+    sp: Paraglobusia gorgu
+    sp_status: NA
+    subsp: NA
+    orig_genus: Globusia
+    sp_author: Hahn et.al 1999
+    gen_author: Hahn et al. 1999
+  orig_sp: NA
+    ref.pic: Hahn et.al 1999
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Steeden
+    country: Germany
+    state: Runkel
+    county: NA
+    lat: 50.43 
+    long: 8.14
+  stratigraphy:
+  formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: The image corresponds to a reconstruction of the original material
+-
+ID: SMF_57759
+  taxonomy: 
+    genus: semiproetus
+    gen_status: NA
+    subgen: Brevivole
+    sp: semiproetus (Brevivole) brevispina klytia
+    sp_status: NA
+    subsp: brevispina
+    orig_genus: Proetus
+    sp_author: Hahn et.al 1996
+    gen_author: Reed 1943
+  orig_sp: Spinibole ruethenensis
+    ref.pic: Hahn et.al 1998
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality:Liebenstein
+    country: Germany
+    state: Turingia
+    county: Ilm
+    lat: 50.77
+    long: 10.85
+  stratigraphy:
+  formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: The image corresponds to a reconstruction of the original material
+ -  
+ID: SMF_97255
+  taxonomy:
+    genus: Coombewoodia 
+    gen_status: NA
+    subgen: NA
+    sp: Coombewoodia ruethenensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: Proetus
+    sp_author: Hahn and Hahn 1969
+    gen_author: Archinal and Brauckmann 1989
+  orig_sp: Spinibole ruethenensis
+    ref.pic: Müller y Hahn 2023
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Rhenish Massif
+    country: Germany
+    state: NA
+    county: NA
+    lat: 51.00
+    long: 7.83
+  stratigraphy:
+    formation: Hillershausen formation
+    min_age: visean
+    max_age: NA
+    ref_age: Korn 2010
+    basin: Rhenohercynian Basin
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: NA 
+-
+ID: SMF_76447
+  taxonomy:
+    genus: Liobole 
+    gen_status: NA
+    subgen: Liobole
+    sp: Liobole (Liobole) trimeroides
+    sp_status: NA
+    subsp: NA
+    orig_genus: Phillipsia
+    sp_author: Holzapfel 1889
+    gen_author: Richter and Richter 1949
+  orig_sp: Phillipsia trimeroides
+    ref.pic: Müller 2004
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality:Liebenstein
+    country: Germany
+    state: Turingia
+    county: Ilm
+    lat: 50.77
+    long: 10.85
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: NA
+-
+  ID: SMF_36691
+  taxonomy:
+    genus: Tawstockia 
+    gen_status: NA
+    subgen: Beleckella
+    sp: Tawstockia (Beleckella) nasifrons
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Ritcher and Ritcher 1949
+    gen_author: Brauckmann 1974
+  orig_sp: NA
+    ref.pic: Hahn et al. 1994
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality:Liebenstein
+    country: Germany
+    state: Turingia
+    county: Ilm
+    lat: 50.77
+    long: 10.85
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: The image corresponds to a reconstruction of the original material 
+-
+  ID: SMF_76479
+  taxonomy:
+    genus: Latiglobusia 
+    gen_status: NA
+    subgen: NA
+    sp: Latiglobusia ziegleri
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn et al. 1994
+    gen_author: Hahn et al. 1994
+  orig_sp: NA
+    ref.pic: Müller 2004
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality:Erbach 
+    country: Germany
+    state: Hesse
+    county: Odenwald
+    lat: 49.65
+    long: 8.97
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: The image corresponds to a reconstruction of the original material
+ -
+  ID: SMF_76470
+  taxonomy:
+    genus: Priobole
+    gen_status: NA
+    subgen: NA
+    sp: Proliobole nitida
+    sp_status: NA
+    subsp: Proliabole nitida holzapfeli
+    orig_genus: Phillipsia
+    sp_author: Holzapfel 1889
+    gen_author: Archinal 1991
+  orig_sp: Phillipsia nitida
+    ref.pic: Müller 2004
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality:Liebenstein
+    country: Germany
+    state: Turingia
+    county: Ilm
+    lat: 50.77
+    long: 10.85
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments: The image corresponds to a reconstruction of the original material
 -
   ID: CM_45749
   taxonomy:
@@ -819,45 +1130,6 @@
     date: 24/05/2024
   comments: NA
 -
-  ID: USNM_143026
-  taxonomy:
-    genus: Nunnaspis
-    gen_status: NA
-    subgen: NA
-    sp: Nunnaspis stitti
-    sp_status: NA
-    subsp: NA
-    orig_genus: NA
-    sp_author: Brezinski 2000b
-    gen_author: Brezinski 2000b
-    orig_sp: NA
-  ref.pic: Brezinski 2000b
-  morphology:
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: NA
-    eyes: TRUE
-    ontogeny: holaspis
-  geography:
-    locality: Indian Wells Canyon
-    country: USA
-    state: Nuevo México
-    county: NA
-    lat: 32.9
-    long: -105.8
-  stratigraphy:
-    formation: Lake Valley
-    min_age: Tournaisian
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: siliciclastic
-  enterer:
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 24/05/2024
-  comments: NA
--
   ID: SMF_57485
   taxonomy:
     genus: Struveproetus
@@ -1053,45 +1325,6 @@
     date: 24/05/2024
   comments: The image corresponds to a reconstruction of the original material
 -
-  ID: TML_288/3139
-  taxonomy:
-    genus: Cyphinioides
-    gen_status: confer
-    subgen: NA
-    sp: Cyphinioides limbatus
-    sp_status: NA 
-    subsp: NA
-    orig_genus: Griffithides
-    sp_author: Osmolka 1970
-    gen_author: Reed 1942
-    orig_sp: NA
-  ref.pic: Osmolska 1970
-  morphology:
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: NA
-    eyes: TRUE
-    ontogeny: holaspis
-  geography:
-    locality: Dombas
-    country: Ukraine
-    state: NA
-    county: NA
-    lat: 48.40
-    long: 39.35
-  stratigraphy:
-    formation: NA
-    min_age: Upper Carboniferous
-    max_age: NA
-    ref_age: NA
-    basin: Donets Basin
-    environment: NA
-  enterer:
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 24/05/2024
-  comments: NA
--
   ID: CM_45118
   taxonomy:
     genus: Elliptophillipsia
@@ -1164,45 +1397,6 @@
     ref_age: NA
     basin: NA
     environment: siliciclastic
-  enterer:
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 24/05/2024
-  comments: NA
--
-  ID: BM_I_5809
-  taxonomy:
-    genus: Reediella
-    gen_status: NA
-    subgen: NA
-    sp: Reediella reedi
-    sp_status: NA
-    subsp: NA
-    orig_genus: NA 
-    sp_author: Osmolska 1970
-    gen_author: Osmolska 1970
-    orig_sp: NA
-  ref.pic: Osmolska 1970
-  morphology:
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: NA
-    eyes: TRUE
-    ontogeny: holaspis
-  geography:
-    locality: NA
-    country: Great Britain
-    state: NA
-    county: NA
-    lat: NA
-    long: NA
-  stratigraphy: 
-    formation: NA
-    min_age: Tournaisian
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: Carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
