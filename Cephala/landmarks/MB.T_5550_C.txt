@@ -1,6 +1,6 @@
 <shapes type=list>
 	<scaling type=logical names=FALSE length=1 as.numeric=FALSE >NA</scaling>
-	<landmarks.pixel type=matrix rownames=TRUE colnames=FALSE nrow=12 ncol=2 as.numeric=TRUE >
+	<landmarks.pixel type=matrix rownames=TRUE colnames=FALSE nrow=13 ncol=2 as.numeric=TRUE >
 		LM1	245	4
 		LM2	245	54
 		LM3	245	250
@@ -9,6 +9,7 @@
 		LM6	325	275
 		LM7	322	289
 		LM10	245	4
+		LM11	376	261
 		LM12	427	296
 		LM13	245	4
 		LM15	472	295
