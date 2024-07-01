@@ -27,7 +27,7 @@
     lat: NA 
     long: NA
   stratigraphy:
-  formation: NA
+    formation: NA
     min_age: Tournaisian
     max_age: NA
     ref_age: NA
@@ -66,7 +66,7 @@
     lat: 50.43 
     long: 8.14
   stratigraphy:
-  formation: Erdbach Limestone
+    formation: Erdbach Limestone
     min_age: Tournaisian
     max_age: NA
     ref_age: NA
@@ -105,7 +105,7 @@
     lat: 50.77
     long: 10.85
   stratigraphy:
-  formation: Erdbach Limestone
+    formation: Erdbach Limestone
     min_age: Tournaisian
     max_age: NA
     ref_age: NA
@@ -176,7 +176,7 @@
     eyes: NA
     ontogeny: holaspis
   geography:
-    locality:Liebenstein
+    locality: Liebenstein
     country: Germany
     state: Turingia
     county: Ilm
@@ -215,7 +215,7 @@
     eyes: TRUE
     ontogeny: holaspis
   geography:
-    locality:Liebenstein
+    locality: Liebenstein
     country: Germany
     state: Turingia
     county: Ilm
@@ -254,7 +254,7 @@
     eyes: TRUE
     ontogeny: holaspis
   geography:
-    locality:Erbach 
+    locality: Erbach 
     country: Germany
     state: Hesse
     county: Odenwald
@@ -293,7 +293,7 @@
     eyes: TRUE
     ontogeny: holaspis
   geography:
-    locality:Liebenstein
+    locality: Liebenstein
     country: Germany
     state: Turingia
     county: Ilm
@@ -395,7 +395,7 @@
     genus: Archegonus 
     gen_status: NA
     subgen: Phillibole
-    sp: Archegonus (Phillibole) nehdenensis africanus
+    sp: Archegonus (Phillibole) nehdenensis
     sp_status: NA
     subsp: africanus
     orig_genus: NA
