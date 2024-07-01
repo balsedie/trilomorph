@@ -12,7 +12,7 @@
     sp_author: Muller 2003
     gen_author: Goldring 1955
     orig_sp: NA
-  ref.pic: Müller 2003
+  ref.pic: Muller 2003
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -129,7 +129,7 @@
     sp_author: Hahn and Hahn 1969
     gen_author: Archinal and Brauckmann 1989
     orig_sp: Spinibole ruethenensis
-  ref.pic: Müller y Hahn 2023
+  ref.pic: Muller y Hahn 2023
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -168,7 +168,7 @@
     sp_author: Holzapfel 1889
     gen_author: Richter and Richter 1949
     orig_sp: Phillipsia trimeroides
-  ref.pic: Müller 2004
+  ref.pic: Muller 2004
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -246,7 +246,7 @@
     sp_author: Hahn et al. 1994
     gen_author: Hahn et al. 1994
     orig_sp: NA
-  ref.pic: Müller 2004
+  ref.pic: Muller 2004
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -285,7 +285,7 @@
     sp_author: Holzapfel 1889
     gen_author: Archinal 1991
     orig_sp: Phillipsia nitida
-  ref.pic: Müller 2004
+  ref.pic: Muller 2004
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -605,7 +605,7 @@
     eyes: TRUE
     ontogeny: holaspis
   geography:
-    locality: Rösenbeck
+    locality: Rosenbeck
     country: Germany
     state: Westfalen
     county: NA
@@ -946,7 +946,7 @@
     subsp: NA
     orig_genus: Spatulina
     sp_author: Woodward 1902
-    gen_author:  Özdikmen 2009
+    gen_author:  ozdikmen 2009
     orig_sp: NA
   ref.pic: Muller 2008
   morphology:
@@ -5316,7 +5316,7 @@
     subgen: NA
     gen_status: NA
     sp_status: NA
-  ref.pic: Ramsköld 1984
+  ref.pic: Ramskold 1984
   morphology: 
     cephalon: TRUE
     cranidium: NA
@@ -5334,7 +5334,7 @@
     formation: Mulde Formation
     min_age: Wenlock
     max_age: NA
-    ref_age: Ramsköld 1984
+    ref_age: Ramskold 1984
     basin: NA
     environment: NA
   enterer: 
@@ -5349,13 +5349,13 @@
     sp: Dudleyaspis krausi
     subsp: NA
     orig_genus: Acidaspis
-    sp_author: Ramsköld 1984
+    sp_author: Ramskold 1984
     gen_author: Prantl and Pribyl 1949
     orig_sp: NA
     subgen: Snoderaspis
     gen_status: NA
     sp_status: NA
-  ref.pic: Ramsköld 1984
+  ref.pic: Ramskold 1984
   morphology: 
     cephalon: TRUE
     cranidium: NA
@@ -5373,7 +5373,7 @@
     formation: Marl beds
     min_age: Ludlow
     max_age: NA
-    ref_age: Ramsköld 1984
+    ref_age: Ramskold 1984
     basin: NA
     environment: NA
   enterer: 
@@ -5480,7 +5480,7 @@
     eyes: TRUE
     ontogeny: holaspis
   geography: 
-    locality: Erndtebrück
+    locality: Erndtebruck
     country: Germany
     lat: 50.98
     long: 8.25
@@ -5895,7 +5895,7 @@
     sp: Trimerocephalus caecus
     subsp: NA
     orig_genus: Phacops
-    sp_author: Gürich 1896
+    sp_author: Gurich 1896
     gen_author: McCoy 1849
     orig_sp: caecus
     subgen: NA
@@ -6246,13 +6246,13 @@
     sp: Dicranurus sp nov
     subsp: NA
     orig_genus: NA
-    sp_author: Ramsköld 1991
+    sp_author: Ramskold 1991
     gen_author: Conrad 1841
     orig_sp: NA
     subgen: NA
     gen_status: NA
     sp_status: NA
-  ref.pic: Ramsköld 1991
+  ref.pic: Ramskold 1991
   morphology: 
     cephalon: TRUE
     cranidium: NA
@@ -6270,7 +6270,7 @@
     formation: Boree Creek Formation
     min_age: Sheinwoodian
     max_age: NA
-    ref_age: Ramsköld 1991
+    ref_age: Ramskold 1991
     basin: NA
     environment: NA
   enterer: 
@@ -7377,13 +7377,13 @@
     sp: Kasachstania gerardoi
     subsp: NA
     orig_genus: Dalmanites
-    sp_author: Edgecombe and Ramsköld 1994
+    sp_author: Edgecombe and Ramskold 1994
     gen_author: Maksimova 1972
     orig_sp: cf. sudamericanus
     subgen: NA
     gen_status: NA
     sp_status: NA
-  ref.pic: Edgecombe and Ramsköld 1994
+  ref.pic: Edgecombe and Ramskold 1994
   morphology: 
     cephalon: TRUE
     cranidium: NA
@@ -7401,7 +7401,7 @@
     formation: Catavi Formation
     min_age: Lochkovian
     max_age: NA
-    ref_age: Edgecombe and Ramsköld 1994
+    ref_age: Edgecombe and Ramskold 1994
     basin: NA
     environment: NA
   enterer: 
@@ -10035,7 +10035,7 @@
     subgen: NA
     gen_status: NA
     sp_status: NA
-  ref.pic: Basse and Müller 2000
+  ref.pic: Basse and Muller 2000
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
@@ -10464,7 +10464,7 @@
     subgen: NA
     gen_status: NA
     sp_status: NA
-  ref.pic: Basse and Müller 2000
+  ref.pic: Basse and Muller 2000
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
@@ -10498,7 +10498,7 @@
     subsp: NA
     orig_genus: Paciphacops
     sp_author: Chatterton et al 1979
-    gen_author: Ramsköld and Werdelin 1991
+    gen_author: Ramskold and Werdelin 1991
     orig_sp: microps
     subgen: NA
     gen_status: NA
