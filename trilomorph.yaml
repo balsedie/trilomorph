@@ -1,5 +1,6 @@
 ---
-ID: TP_5
+-
+  ID: TP_5
   taxonomy: 
     genus: Piltonia
     gen_status: NA
@@ -38,7 +39,7 @@ ID: TP_5
     date: 13/06/2024
   comments: The image corresponds to a reconstruction of the original material
 -
-ID: M_1450
+  ID: M_1450
   taxonomy: 
     genus: Paraglobusia
     gen_status: NA
@@ -77,7 +78,7 @@ ID: M_1450
     date: 13/06/2024
   comments: The image corresponds to a reconstruction of the original material
 -
-ID: SMF_57759
+  ID: SMF_57759
   taxonomy: 
     genus: semiproetus
     gen_status: NA
@@ -115,8 +116,8 @@ ID: SMF_57759
     landmark: D_Aquino
     date: 13/06/2024
   comments: The image corresponds to a reconstruction of the original material
- -  
-ID: SMF_97255
+-
+  ID: SMF_97255
   taxonomy:
     genus: Coombewoodia 
     gen_status: NA
@@ -155,7 +156,7 @@ ID: SMF_97255
     date: 13/06/2024
   comments: NA 
 -
-ID: SMF_76447
+  ID: SMF_76447
   taxonomy:
     genus: Liobole 
     gen_status: NA
@@ -271,7 +272,7 @@ ID: SMF_76447
     landmark: D_Aquino
     date: 13/06/2024
   comments: The image corresponds to a reconstruction of the original material
- -
+-
   ID: SMF_76470
   taxonomy:
     genus: Priobole
