@@ -11,8 +11,8 @@
     orig_genus:
     sp_author: Müller 2003
     gen_author: Goldring 1955
-  orig_sp: NA
-    ref.pic: Müller 2003
+    orig_sp: NA
+  ref.pic: Müller 2003
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -50,8 +50,8 @@
     orig_genus: Globusia
     sp_author: Hahn et.al 1999
     gen_author: Hahn et al. 1999
-  orig_sp: NA
-    ref.pic: Hahn et.al 1999
+    orig_sp: NA
+  ref.pic: Hahn et.al 1999
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -89,8 +89,8 @@
     orig_genus: Proetus
     sp_author: Hahn et.al 1996
     gen_author: Reed 1943
-  orig_sp: Spinibole ruethenensis
-    ref.pic: Hahn et.al 1998
+    orig_sp: Spinibole ruethenensis
+  ref.pic: Hahn et.al 1998
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -128,8 +128,8 @@
     orig_genus: Proetus
     sp_author: Hahn and Hahn 1969
     gen_author: Archinal and Brauckmann 1989
-  orig_sp: Spinibole ruethenensis
-    ref.pic: Müller y Hahn 2023
+    orig_sp: Spinibole ruethenensis
+  ref.pic: Müller y Hahn 2023
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -167,8 +167,8 @@
     orig_genus: Phillipsia
     sp_author: Holzapfel 1889
     gen_author: Richter and Richter 1949
-  orig_sp: Phillipsia trimeroides
-    ref.pic: Müller 2004
+    orig_sp: Phillipsia trimeroides
+  ref.pic: Müller 2004
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -206,8 +206,8 @@
     orig_genus: NA
     sp_author: Ritcher and Ritcher 1949
     gen_author: Brauckmann 1974
-  orig_sp: NA
-    ref.pic: Hahn et al. 1994
+    orig_sp: NA
+  ref.pic: Hahn et al. 1994
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -245,8 +245,8 @@
     orig_genus: NA
     sp_author: Hahn et al. 1994
     gen_author: Hahn et al. 1994
-  orig_sp: NA
-    ref.pic: Müller 2004
+    orig_sp: NA
+  ref.pic: Müller 2004
   morphology:
     cephalon: TRUE
     cranidium: TRUE
@@ -284,8 +284,8 @@
     orig_genus: Phillipsia
     sp_author: Holzapfel 1889
     gen_author: Archinal 1991
-  orig_sp: Phillipsia nitida
-    ref.pic: Müller 2004
+    orig_sp: Phillipsia nitida
+  ref.pic: Müller 2004
   morphology:
     cephalon: TRUE
     cranidium: TRUE
