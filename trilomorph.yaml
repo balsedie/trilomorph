@@ -351,45 +351,6 @@
     date: 24/05/2024
   comments: NA
 -
-  ID: NUF4898
-  taxonomy:
-    genus: Carbonocoryphe
-    gen_status: NA
-    subgen: NA
-    sp: Carbonocoryphe rockhamptonensis
-    sp_status: NA
-    subsp: NA
-    orig_genus: NA
-    sp_author: Mitchell 1918
-    gen_author: Hahn & Brauckmann 1975
-    orig_sp: NA
-  ref.pic: engel y Morris 1989
-  morphology:
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: NA
-    eyes: TRUE
-    ontogeny: holaspis
-  geography:
-    locality: Great Star River
-    country: Australia
-    state: north Queensland
-    county: NA
-    lat: -37.86 
-    long: 146.83
-  stratigraphy:
-    formation: NA
-    min_age: Visean
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: siliciclastic
-  enterer:
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 24/05/2024
-  comments: NA
--
   ID: MB.T_5501
   taxonomy:
     genus: Archegonus 
@@ -1170,46 +1131,7 @@
     date: 24/05/2024
   comments: NA
 -
-  ID: SMF_57476
-  taxonomy:
-    genus: Typhloproetus
-    gen_status: NA
-    subgen: Silesiops
-    sp: Typhloproetus (Silesiops) schindewolfi 
-    sp_status: NA
-    subsp: NA
-    orig_genus: NA
-    sp_author: Richter y Richter 1919
-    gen_author: Richter 1913
-    orig_sp: NA
-  ref.pic: Feist 2000
-  morphology:
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: NA
-    eyes: NA
-    ontogeny: holaspis
-  geography:
-    locality: Sauerland
-    country: Germany
-    state:  NA
-    county: NA
-    lat: 51.27
-    long: 8.16
-  stratigraphy:
-    formation: NA
-    min_age: Famennian
-    max_age: NA
-    ref_age: Feist 2000
-    basin: NA
-    environment: Carbonate
-  enterer: 
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 24/05/2024
-  comments: NA
--
-  ID: SMF_57464
+ID: SMF_57464
   taxonomy:
     genus: Haasproetus
     gen_status: NA
@@ -1234,45 +1156,6 @@
     state: Balve
     county: NA
     lat: 51.35
-    long: 7.91
-  stratigraphy:
-    formation: NA
-    min_age: Famennian
-    max_age: NA
-    ref_age: Feist et.al 2000
-    basin: NA
-    environment: Carbonate
-  enterer: 
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 24/05/2024
-  comments: NA
--
-  ID: SMF_57451
-  taxonomy:
-    genus: Helioproetus
-    gen_status: NA
-    subgen: NA
-    sp: Helioproetus corintiacus
-    sp_status: NA 
-    subsp: NA
-    orig_genus: NA
-    sp_author: Drevermann 1901
-    gen_author: Richter 1919
-    orig_sp: NA
-  ref.pic: Feist et.al 2000
-  morphology:
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: NA
-    eyes: NA
-    ontogeny: holaspis 
-  geography:
-    locality: Wocklum
-    country: Germany
-    state: Balve
-    county: NA
-    lat: 51.35 
     long: 7.91
   stratigraphy:
     formation: NA
