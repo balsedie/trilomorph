@@ -663,7 +663,7 @@
     date: 24/05/2024
   comments: NA
 -
-  ID: Z._Pal._Tr_II._139
+  ID: Z.Pal.Tr11.139
   taxonomy:
     genus: Cummingella  
     gen_status: NA
@@ -2652,7 +2652,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: CEGH-UNC 22083
+  ID: CEGH-UNC_22083
   taxonomy: 
     genus: Ogygiocaris
     sp: Ogygiocaris araiorhachis
@@ -2691,7 +2691,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: CEGH-UNC 23413
+  ID: CEGH-UNC_23413
   taxonomy: 
     genus: Thysanopyge
     sp: Thysanopyge taurinus
@@ -2769,7 +2769,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: CEGH-UNC 26447
+  ID: CEGH-UNC_26447
   taxonomy: 
     genus: Megistaspis  
     sp: Megistaspis (Ekeraspis) aff pugiocauda
@@ -2925,7 +2925,7 @@
     date: 14/10/2022
   comments: NA
 -
-  ID: CORD-PZ 30510
+  ID: CORD-PZ_30510
   taxonomy: 
     genus: Parabolina
     sp: Parabolina (Neoparabolina) frequens
@@ -3003,7 +3003,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: CPBA 4167
+  ID: CPBA_4167
   taxonomy: 
     genus: Parabolinella
     sp: Parabolinella clarisae
@@ -3081,7 +3081,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: CPBA 4700
+  ID: CPBA_4700
   taxonomy: 
     genus: Hypermecaspis
     sp: Hypermecaspis armata
@@ -3120,7 +3120,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: CPBA 5057
+  ID: CPBA_5057
   taxonomy: 
     genus: Bienvillia
     sp: Bienvillia cf B shinetonensis
@@ -3471,7 +3471,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: MLP 34245
+  ID: MLP_34245
   taxonomy: 
     genus: Rossaspis
     sp: Rossaspis? sp
@@ -3549,7 +3549,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: MLP 35050a
+  ID: MLP_35050a
   taxonomy: 
     genus: Nileus
     sp: Nileus cingolanii
@@ -3783,7 +3783,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: NMW 2005.32G.135
+  ID: NMW_2005.32G.135
   taxonomy: 
     genus: Agerina
     sp: Agerina acutilimbata
@@ -3900,7 +3900,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: PIL 14390
+  ID: PIL_14390
   taxonomy: 
     genus: Psilocara
     sp: NA
@@ -3978,7 +3978,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: PMO 1302_5
+  ID: PMO_1302_5
   taxonomy: 
     genus: Parapilekia
     sp: Parapilekia speciosa
@@ -4407,7 +4407,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: Morzadec_2001_Plate_12_2a
+  ID: Morzadec_2001_plate_12_2a
   taxonomy: 
     genus: Comura
     sp: Comura bultyncki
@@ -4446,7 +4446,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: Morzadec_2001_Plate_15_3e
+  ID: Morzadec_2001_plate_15_3e
   taxonomy: 
     genus: Walliserops
     sp: Walliserops trifurcatus
@@ -4485,7 +4485,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: Morzadec_2001_Plate_9_8a
+  ID: Morzadec_2001_plate_9_8a
   taxonomy: 
     genus: Hollardops
     sp: Hollardops burtandmimiae
@@ -4758,7 +4758,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: Morzadec_2001_Plate_11_1a
+  ID: Morzadec_2001_plate_11_1a
   taxonomy: 
     genus: Coltraneia
     sp: Coltraneia oufatenensis
@@ -4797,7 +4797,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: Morzadec_2001_Plate_13_5a
+  ID: Morzadec_2001_plate_13_5a
   taxonomy: 
     genus: Psychopyge
     sp: Psychopyge praestans
@@ -4836,7 +4836,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: Morzadec_2001_Plate_3_4a
+  ID: Morzadec_2001_plate_3_4a
   taxonomy: 
     genus: Methacanthina
     sp: Methacanthina issoumourensis
@@ -4875,7 +4875,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: Morzadec_2001_Plate_4_5a
+  ID: Morzadec_2001_plate_4_5a
   taxonomy: 
     genus: Kayserops
     sp: Kayserops megaspina
@@ -7878,7 +7878,7 @@
     date: 01/10/2022
   comments: NA
 -
-  ID: NHM_IT_28323
+  ID: NHM_It_28323
   taxonomy: 
     genus: Paralejurus
     sp: Paralejurus brongniarti
