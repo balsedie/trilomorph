@@ -9711,45 +9711,6 @@
     date: 01/03/2023
   comments: NA
 -
-  ID: MU-G-Sr.Tr.A4Ph123
-  taxonomy: 
-    genus: Chotecops
-    sp: Chotecops hoseri
-    subsp: NA
-    orig_genus: NA
-    sp_author: NA
-    gen_author: NA
-    orig_sp: NA
-    subgen: NA
-    gen_status: NA
-    sp_status: NA
-  ref.pic: Crônier et al 2018
-  morphology: 
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: TRUE
-    eyes: TRUE
-    ontogeny: holaspis
-  geography: 
-    locality: Béni Abbès
-    country: Algeria
-    lat: 29.93
-    long: -2.58
-    state: NA
-    county: NA
-  stratigraphy: 
-    formation: NA
-    min_age: Eifelian
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: NA
-  enterer: 
-    metadata: Bault V & Monnet C
-    landmark: Bault V
-    date: 01/03/2023
-  comments: NA
--
   ID: UM-IP-862
   taxonomy: 
     genus: Cronierella
