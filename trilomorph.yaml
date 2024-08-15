@@ -5612,7 +5612,7 @@
     environment: carbonate
   enterer: 
     metadata: Munoz DF
-    landmark: Serra F
+    landmark: Bault V
     date: 01/10/2022
   comments: NA
 -
@@ -10715,45 +10715,6 @@
   stratigraphy: 
     formation: NA
     min_age: Famennian
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: NA
-  enterer: 
-    metadata: Bault V & Monnet C
-    landmark: Bault V
-    date: 01/03/2023
-  comments: NA
--
-  ID: IRSBNa12430
-  taxonomy: 
-    genus: Nyterops
-    sp: Nyterops hollandi
-    subsp: NA
-    orig_genus: NA
-    sp_author: NA
-    gen_author: NA
-    orig_sp: NA
-    subgen: NA
-    gen_status: NA
-    sp_status: NA
-  ref.pic: VanViersen 2007
-  morphology: 
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: TRUE
-    eyes: TRUE
-    ontogeny: holaspis
-  geography: 
-    locality: NA
-    country: NA
-    lat: 50.09
-    long: 5.18
-    state: NA
-    county: NA
-  stratigraphy: 
-    formation: NA
-    min_age: Eifelian
     max_age: NA
     ref_age: NA
     basin: NA
