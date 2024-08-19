@@ -81,7 +81,13 @@ if(!file.exists(dirlm)) stop("expected folder of landmark datafiles is missing")
 # Template = number of dimensions, number of landmarks, number of semilandmarks for the first curve, ...
 # As described in the paper, cephala have 16 landmarks and four curves of semilandmarks.
 # Expected order of the curves: glabella, facial suture, anterior margin, and posterior margin (for details see the published article).
-nlms <- c(2, 16, 12, 20, 20, 20)
+nlms <- list(dim = 2, #dimensions (2d)
+             lm = c(1:12), #vector of desired configuration
+             cv = c("glabella","suture"),#"anterior","posterior"), #names or numbers of desired curves
+             cvs.lm = c(12, 20),# 20, 20), #number of subsampled semilandmarks in each curve
+             curves.id = c("glabella","suture","anterior","posterior") #names of maximum number of curves in the dataset
+             )
+
 # ----------------------------------------
 
 
