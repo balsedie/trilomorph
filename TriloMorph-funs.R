@@ -7,7 +7,7 @@
 #   A dynamic and collaborative database for morphogeometric information of trilobites.
 #   Scientific Data, XXX, XXX-XXX. doi: xxxxxxxxxxx
 # ----------------------------------------
-# The author of these functions are Claude Monnet and Diego Balseiro. 
+# The authors of these functions are Claude Monnet and Diego Balseiro. 
 #   If you use one of these functions and/or the TriloMorph database, please cite the reference above. 
 #   If you want to include these functions in an R package, please contact C.M. (claude.monnet@univ-lille.fr) or D.B. (dbalseiro@unc.edu.ar)
 # ----------------------------------------
