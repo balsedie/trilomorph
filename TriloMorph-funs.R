@@ -251,59 +251,136 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   # lmks: A list of landmark data already loaded from TPS files and/or from XML-based StereoMorph files.
   #   The content of this list must follow the outcome of the 'shapRead' function (see above).
   # model: The landmark template to follow.
-  #   It is a vector of values indicating 1) the number of dimensions, 2) the number of fixed landmarks, and then 3) the number of semilandmarks for each curve.
+  #   It is a list of values indicating 1) the number of dimensions, 2) a vector of desired landmark configuration, 3) a vector with names or number of desired curve configuration, 4) the number of semilandmarks for each curve, and then 5) the names of the maximum number of curves that can be found in the dataset.
   # lm.scale: Whether or not to rescale the configurations.
   # cv.fixed: Whether or not to remove the first and last points of each semilandmark curve if these points are already present in the fixed landmarks.
+
   if(!is.list(lmks)) stop("landmark data must be structured as a specimen-based list")
   n <- length(lmks)
   fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)
-  ndims <- model[1]
-  nlms <- model[2]
-  ncurves <- length(model)-2
+  ndims <- model[[1]] #modified to follow new template
+  nlms <- length(model[[2]]) #modified to follow new template
+  ncurves <- length(model[[3]]) #modified to follow new template
+  lms <- model[[2]]
   # 1st: Spot and remove specimens not compatible with the template.
   id2rm <- character()
-  # .: Same fixed landmarks.
-  xlms <- vapply(lmks, function(qx) qx$plm, numeric(1))
-  blms <- !(xlms == nlms)
-  if(any(blms)) id2rm <- c(id2rm, fids[blms])
-  # .: Same number of curves.
-  ncvs <- vapply(lmks, function(qx) qx$ncvs, numeric(1))
-  bcvs <- !(ncvs == (length(model)-2))
-  if(any(bcvs)) id2rm <- c(id2rm, fids[bcvs])
+
+###### modified seccion------------------------------------------------------------------
+  
+  #loops to know which curves you want to use
+  curves.id <- model[[5]]
+  
+  if (!is.numeric(model[[3]])) { 
+    names.cvs <- model[[3]] 
+    nums.cvs <- which(curves.id %in% names.cvs)}
+  
+  if (is.numeric(model[[3]])) {
+    names.cvs <- curves.id[model[[3]]] 
+    nums.cvs <- model[[3]] }
+            
+  bcvs <- NULL  # .: Same number of curves.
+  blms <- NULL # .: Same fixed landmark configuration.
+
+  for (i in 1:length(lmks)) {
+    temp.lm <- as.numeric(gsub("^..","",rownames(lmks[[i]]$lm)))
+    fit.lm.conf <- length(which(model[[2]] %in% temp.lm))==length(model[[2]])
+    blms <- c(blms, fit.lm.conf)
+
+    temp.cvs <- unlist(attributes(lmks[[i]]$cv.lm))
+    fit.cvs.conf <- ifelse(is.null(attributes(lmks[[i]]$cv.lm)), 
+                           lmks[[i]]$ncvs >= length(names.cvs),  #if null (ie. if tps file)
+                           length(which(names.cvs %in% temp.cvs))==length(names.cvs) #if not (xml file)
+                           )
+    bcvs <- c(bcvs, fit.cvs.conf)
+    
+    if (!is.null(attributes(lmks[[i]]$cv.lm)) & fit.cvs.conf & fit.lm.conf) { #all curves are named and landmarks fit the desired configuration
+    
+      lmks[[i]]$ncvs <- length(names.cvs) #update curve values given the desired configuration
+      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[names.cvs]
+      lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
+      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[names.cvs]
+  
+      lmks[[i]]$plm <- length(model[[2]]) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% model[[2]]),]
+      lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
+      }
+        
+    if (is.null(attributes(lmks[[i]]$cv.lm)) & lmks[[i]]$ncvs == length(curves.id) & fit.lm.conf) { #curves don't have names (tps file) but all curves are present and landmarks fit the desired configuration
+    
+      lmks[[i]]$ncvs <- length(nums.cvs) #update curve values given the desired configuration
+      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[nums.cvs]
+      lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
+      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[nums.cvs]
+  
+      lmks[[i]]$plm <- length(model[[2]]) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% model[[2]]),]
+      lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
+      }     
+  }
+
+  names(blms) <- names(lmks)
+  blms <- !blms #record who differs from the desired fixed landmark configuration
+  names(bcvs) = names(lmks)
+  bcvs <- !bcvs #record who differs from the desired curved configuration
+ 
+  id2rm <- fids[(blms+bcvs)>0] # registrer those that need to be removed
+  id2rm.lm <- fids[blms]
+  id2rm.cv <- fids[bcvs]
+  
+  # .: Remove spotted configurations.
+  if(length(id2rm) > 0) {
+    lmks <- lmks[!(fids %in% id2rm)]
+    fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)
+    warning("total configurations removed : ", length(id2rm))
+    if(sum(blms)>0) warning(length(id2rm.lm), " specimens do not conform to the fixed landmarks template : ", toString(id2rm.lm))
+    if(sum(bcvs)>0) warning(length(id2rm.cv), " specimens do not conform to the semilandmark template : ", toString(id2rm.cv))
+  }
+
+###### end modified section ---------------------------------------------------------------------------------------
+
   # .: Enough semilandmarks.
+  ncvs <- vapply(lmks, function(qx) qx$ncvs, numeric(1)) #moved here from above---------------------------------
+  n <- length(lmks) #redefini n para seguir
   fs <- paste0("CV", 1:max(ncvs))
   mcvs <- matrix(0L, n, max(ncvs), dimnames = list(names(lmks), fs))
   for(i in 1:n) mcvs[i,1:length(lmks[[i]]$cv.pts)] <- lmks[[i]]$cv.pts
   bcvs <- matrix(FALSE, n, max(ncvs), dimnames = list(names(lmks), fs))
-  for(i in 1:max(ncvs)) bcvs[,i] <- (mcvs[,i] >= model[i+2])
+  for(i in 1:max(ncvs)) bcvs[,i] <- (mcvs[,i] >= model[[4]][i]) #modified model[i+2] by model[[4]][i] to follow new template
   k <- apply(bcvs, 1, all)
-  if(any(!k)) warning("curves undersampled compared to the template")
-  # .: Missing landmarks.
-  bnas <- vapply(lmks, function(qx) any(is.na(qx$lm)), logical(1))
-  if(any(bnas)) id2rm <- c(id2rm, fids[bnas])
+  id2rm.slm <- names(k[!k])
+  #if(any(!k)) warning("configurations removed : ", length(id2rm), " : ", toString(id2rm)," : curves undersampled compared to the template")
+  # .: Missing landmarks. #### This part is no longer needed
+#  bnas <- vapply(lmks, function(qx) any(is.na(qx$lm)), logical(1)) 
+#  if(any(bnas)) id2rm <- c(id2rm, fids[bnas])
   # .: Remove spotted configurations.
-  if(length(id2rm) > 0) {
-    id2rm <- unique(id2rm)
-    lmks <- lmks[!(fids %in% id2rm)]
+  if(length(id2rm.slm) > 0) {
+    id2rm.slm <- unique(id2rm.slm)
+    lmks <- lmks[!(fids %in% id2rm.slm)]
     fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)
-    warning("configurations removed : ", length(id2rm), " : ", toString(id2rm))
+    warning("configurations removed : ", length(id2rm.slm), " : ", toString(id2rm.slm)," : curves undersampled compared to the template")
   }
+  
+  #save full list of removed taxa
+  id2rm <- c(id2rm, id2rm.slm)
+  id2m <- as.vector(id2rm)
+  id2rm <- unique(id2rm)
+  
   # 2nd: Fit remaining specimens to the template.
-  model <- abs(model)
+  #model <- abs(model)
   xs <- ys <- character()
   if(nlms > 0) {
-    xs <- c(xs, paste0("LM-", 1:nlms))
+    xs <- c(xs, paste0("LM-", model[[2]])) #added model[[2]] to name landmakrs given the desired template
     ys <- c(ys, rep("LM", nlms))
   }
   if(ncurves > 0) for(i in 1:ncurves) {
-    xs <- c(xs, paste0("CV", i, "-", 1:model[i+2]))
-    ys <- c(ys, rep(paste0("CV", i), model[i+2]))
+    xs <- c(xs, paste0("CV", i, "-", 1:model[[4]][i])) # modified to follow new template
+    ys <- c(ys, rep(paste0("CV", i), model[[4]][i])) # modified to follow new template
   }
-  m <- array(NA_real_, dim = c(sum(model[-1]), ndims, length(lmks)),
+  m <- array(NA_real_, dim = c(sum(nlms, model[[4]]), ndims, length(lmks)), # modified to follow new template
     dimnames = list(xs, c("x","y","z")[1:ndims], fids))
   # .: Fixed landmarks.
   if(nlms > 0) {
-    for(i in 1:length(lmks)) m[1:nlms,,i] <- lmks[[i]]$lm
+    for(i in 1:length(lmks)) m[1:nlms,,i] <- lmks[[i]]$lm 
   }
   # .: Curves of semilandmarks.
   p <- 0
@@ -311,16 +388,16 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   for(j in 1:ncurves) {
     for(i in 1:length(lmks)) {
       mcvi <- lmks[[i]]$cv.lm[[j]]
-      x <- (q+p+1):(q+p+model[j+2])
+      x <- (q+p+1):(q+p+model[[4]][j]) # modified to follow new template
       if(cv.fixed) {
-        mcvi <- geomorph:::evenPts(mcvi, model[j+2]+2)
-        mcvi <- mcvi[-c(1,model[j+2]+2),]
+        mcvi <- geomorph:::evenPts(mcvi, model[[4]][j]+2) # modified to follow new template
+        mcvi <- mcvi[-c(1,model[[4]][j]+2),] # modified to follow new template
       } else {
-        mcvi <- geomorph:::evenPts(mcvi, model[j+2])
+        mcvi <- geomorph:::evenPts(mcvi, model[[4]][j]) # modified to follow new template
       }
       m[x,,i] <- mcvi
     }
-    p <- p + model[j+2]
+    p <- p + model[[4]][j] # modified to follow new template
   }
   # 3rd: Possibly rescale configurations.
   if(lm.scale) {
@@ -353,7 +430,6 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   attr(m, "removed") <- id2rm
   return(m)
 }
-
 
 # Function to compute morphological disparity as the sum of variances (see Wills 2001).
 shapSumVar <- function(m, ci = TRUE, nbot = 1000) {
