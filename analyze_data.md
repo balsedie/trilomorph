@@ -50,7 +50,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
     
     #define the desired landmark configuration. It is a list stating dimensions, curves, number of semilandmarks, and maximum curves in in the dataset: in this case 2 dimensions, landmarks 1 to 16, 4 curves (out of 4 possible), 12, 20, 20 and 20 semilandmarks for each curve respectively, and the curves in the trilomorph template by Serra et al.[^6]
     nlms <-  list(dim = 2, #dimensions (2d)
-             lm = c(1:16), #vector of desired configuration
+             lm = c(1:16), #vector of desired fixed landmark configuration
              cv = c("glabella","suture","anterior","posterior"), #names or numbers of desired curves
              cvs.lm = c(12, 20, 20, 20), #number of subsampled semilandmarks in each curve
              curves.id = c("glabella","suture","anterior","posterior") #names of maximum number of curves in the dataset
