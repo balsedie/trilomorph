@@ -110,9 +110,11 @@ shapReadXml <- function(fs, id = NA) {
   scl <- NA_real_
   if(!is.null(qx$scaling)) if(length(qx$scaling) > 0) if(!is.na(qx$scaling)) scl <- qx$scaling
   lmks <- qx$landmarks.pixel
-  dimnames(lmks) <- NULL
+  rownames(lmks) <- rownames(qx$landmarks.pixel) #new line added. Saves landmark names
+  #dimnames(lmks) <- NULL
   k <- is.nan(lmks)
   if(any(k)) lmks[k] <- NA
+  lmks <- lmks[!is.na(lmks[,1]),] #new line added. Removes NA landmarks
   ncvs <- length(qx$curves.pixel)
   cvs <- qx$curves.pixel
   cv.names <- names(cvs)
@@ -214,6 +216,8 @@ shapReadTps <- function(fs, neg.na = TRUE) {
       for(i in 1:nrow(lm)) if(any(lm[i,] < 0)) knas[i] <- TRUE
       if(any(knas)) lm[knas,] <- NA
     }
+    rownames(lm) <- paste0("LM", c(1:plm)) #new line added. Saves landmark names
+    lm <- lm[!is.na(lm[,1]),] #new line added. Removes NA landmarks
     # Return results in a structured list.
     out <- list(
       k = k, p = p, plm = plm, lm = lm,
