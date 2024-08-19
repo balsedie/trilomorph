@@ -72,9 +72,9 @@ you can then access the TriloMorph shape files that you've downloaded previously
 
 <sup>The function `shapFix` will warn the user and automatically remove specimens with landmark data not fitting the desired template. For example, we expect 4 curves of semilandmarks; but some species do not show these four structures and hence have not all of them landmarked. `shapFix` will remove these specimens.</sup>
 
-<sup>Additionally, `shapFix` lets you easily change the number of semilandmarks in each curve. You only need to change the line `nlms <- c(2, 16, 12, 20, 20, 20)` with the number of desired semilandmarks for each curve (last four numbers).
+<sup>Additionally, `shapFix` lets you easily change the number of semilandmarks in each curve. You only need to change the line `cvs.lm(12, 20, 20, 20)` with the number of desired semilandmarks for each curve (last four numbers).
 
-<sup>Note that the current version of `shapFix` does not let you choose a custom subset of *landmarks* or *curves*, it just removes specimes that do not fit the full configuration. We are planning to update the function in order to improve its versatility allowing to choose among any subset of landmarks and curves.</sup>
+<sup>Importante update: the current version of `shapFix` lete you choose any custom subset of *landmarks* or *curves*, removing all specimes that do not fit the desired configuration.
 
 
 now you can use the geomorph[^N] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis.
