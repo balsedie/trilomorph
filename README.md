@@ -46,6 +46,8 @@ You can enter more than one specimen at a time. The following explanation is for
   <sup>You can use various landmarking software, namely tpsDig2[^3], geomorph package for R[^4], and StereoMorph package for R[^5]. </sup>
   
   <sup>If you are using the `digitizeImages()` function from the StereoMorph package[^5], you can use our templates for landmarks and curves for [cephala](Cephala/curve.txt) and [pygidia](Pygidia/curve.txt).</sup>
+
+  <sup>**Important: we strongly suggest to use  `digitizeImages()` function from the StereoMorph package[^5]** because tps files do not record missing curves, and therefore it is not possible to recognize which curve is missing. In case you still want to use tpsDig2, we suggest the following solution: in the order that is supposed to be the missing curve create a two-point curve anywhere. Thereby our `ShapFix()` function will (1) remove this specimen if the desired template includes the missing curve because it is impossible to resample semilandmarks, or (2) will be able to recognize all curves and remove the missing curve if the desired template does not include it.</sup>
   
   <sup>Please check that the final shape file is a XML-type (.txt)[^5] or TPS-type (.tps)[^3] file with the same name as the image file and their extension in lower case.</sup>
 
