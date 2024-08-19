@@ -9080,10 +9080,10 @@
     max_age: NA
     ref_age: Feist and McNamara 2013
     basin: Canning basin
-    environment: NA
+    environment: carbonate
   enterer: 
-    metadata: NA
-    landmark: NA
+    metadata: Balseiro D
+    landmark: Serra F
     date: 01/10/2022
   comments: NA
 -
@@ -9119,10 +9119,10 @@
     max_age: NA
     ref_age: Feist and McNamara 2013
     basin: Canning basin
-    environment: NA
+    environment: carbonate
   enterer: 
-    metadata: NA
-    landmark: NA
+    metadata: Balseiro D
+    landmark: Serra F
     date: 01/10/2022
   comments: NA
 -
@@ -9160,8 +9160,8 @@
     basin: NA
     environment: NA
   enterer: 
-    metadata: NA
-    landmark: NA
+    metadata: Balseiro D
+    landmark: Male
     date: 01/10/2022
   comments: NA
 -
