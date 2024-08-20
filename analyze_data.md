@@ -76,7 +76,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
 
 <sup>Additionally, `shapFix` lets you easily change the number of semilandmarks in each curve. You only need to change the line `cvs.lm(12, 20, 20, 20)` with the number of desired semilandmarks for each curve (last four numbers).
 
-<sup>Importante update: the current version of `shapFix` lete you choose any custom subset of *landmarks* or *curves*, removing all specimes that do not fit the desired configuration.
+<sup>Importante update: the current version of `shapFix` lets you choose any custom subset of *landmarks* or *curves*, removing all specimes that do not fit the desired configuration.
 
 
 now you can use the geomorph[^N] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis.
