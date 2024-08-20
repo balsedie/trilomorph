@@ -48,7 +48,9 @@ you can then access the TriloMorph shape files that you've downloaded previously
     #set the path to the unzipped folder with the shape files
     dirlm <- "~path/to_the/downloaded/folder" 
     
-    #define the desired landmark configuration. It is a list stating dimensions, curves, number of semilandmarks, and maximum curves in in the dataset: in this case 2 dimensions, landmarks 1 to 16, 4 curves (out of 4 possible), 12, 20, 20 and 20 semilandmarks for each curve respectively, and the curves in the trilomorph template by Serra et al.[^6]
+    #define the desired landmark configuration. It is a list stating dimensions, curves, number of semilandmarks, 
+    #and maximum curves in in the dataset: in this case 2 dimensions, landmarks 1 to 16, 4 curves (out of 4 possible), 
+    #12, 20, 20 and 20 semilandmarks for each curve respectively, and the curves in the trilomorph template[^6]
     nlms <-  list(dim = 2, #dimensions (2d)
              lm = c(1:16), #vector of desired fixed landmark configuration
              cv = c("glabella","suture","anterior","posterior"), #names or numbers of desired curves
@@ -56,7 +58,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
              curves.id = c("glabella","suture","anterior","posterior") #names of maximum number of curves in the dataset
              )
 
-    #note to change this configuration if analysing pygidia: 2 dimensions, 7 landmarks, 3 curves (x, x and x semilandmarks respectively)
+    #note to change this configuration if analysing pygidia. Trilomorph template[^6] defines up to 3 pygidial curves.
     #nlms <- list(dim = 2, #dimensions (2d)
              lm = c(1:7), #vector of desired configuration
              cv = c("axis","border","margin"), #names or numbers of desired curves
