@@ -237,6 +237,8 @@ shapReadTps <- function(fs, neg.na = TRUE) {
 }
 
 
+
+
 # Function to process landmark data loaded with (or at least structured similarly to)
 #   the function 'shapRead' (see above)
 #   and containing both fixed landmarks and curves of semilandmarks.
@@ -331,9 +333,6 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   if(length(id2rm) > 0) {
     lmks <- lmks[!(fids %in% id2rm)]
     fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)
-    warning("total configurations removed : ", length(id2rm))
-    if(sum(blms)>0) warning(length(id2rm.lm), " specimens do not conform to the fixed landmarks template : ", toString(id2rm.lm))
-    if(sum(bcvs)>0) warning(length(id2rm.cv), " specimens do not conform to the semilandmark template : ", toString(id2rm.cv))
   }
 
 ###### end modified section ---------------------------------------------------------------------------------------
@@ -356,8 +355,7 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   if(length(id2rm.slm) > 0) {
     id2rm.slm <- unique(id2rm.slm)
     lmks <- lmks[!(fids %in% id2rm.slm)]
-    fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)
-    warning("configurations removed : ", length(id2rm.slm), " : ", toString(id2rm.slm)," : curves undersampled compared to the template")
+    fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)  
   }
   
   #save full list of removed taxa
@@ -365,6 +363,14 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   id2m <- as.vector(id2rm)
   id2rm <- unique(id2rm)
   
+  # .: Warning message of removed specimens.
+  if(length(id2rm) > 0) {
+    warning("total configurations removed : ", length(id2rm))
+    if(length(id2rm.lm>0)) warning(length(id2rm.lm), " specimens do not conform to the fixed landmarks template : ", toString(id2rm.lm))
+    if(length(id2rm.cv)>0) warning(length(id2rm.cv), " specimens do not conform to the semilandmark template : ", toString(id2rm.cv))
+    if(length(id2rm.slm)>0) warning(length(id2rm.slm), " specimens with curves undersampled compared to the template : ", toString(id2rm.slm))
+  }
+    
   # 2nd: Fit remaining specimens to the template.
   #model <- abs(model)
   xs <- ys <- character()
@@ -430,6 +436,7 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   attr(m, "removed") <- id2rm
   return(m)
 }
+
 
 # Function to compute morphological disparity as the sum of variances (see Wills 2001).
 shapSumVar <- function(m, ci = TRUE, nbot = 1000) {
