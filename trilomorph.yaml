@@ -1,5 +1,44 @@
 ---
 -
+ID: UMTG0582
+  taxonomy:
+    genus: Linguaphillipsia 
+    gen_status: NA
+    subgen: NA
+    sp: Linguaphillipsia buchuensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hung Yung Tang et al. 2024
+    gen_author: Stubblefield 1948
+    orig_sp: NA
+  ref.pic: Hung Yung Tang et al. 2024
+  morphology: 
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis 
+  geography:
+    locality: Kuala Terengganu
+    country: Malasia
+    state: Terengganu
+    country: NA
+    lat: 5.43
+    long: 103.05
+  stratigraphy: 
+    formation: Charu
+    min_age: Visean
+    max_age: NA
+    ref_age: Metcalfe et al. 1980
+    basin: NA
+    environment: silicoclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 13/06/2024
+  comments:
+-
   ID: TP_5
   taxonomy: 
     genus: Piltonia
