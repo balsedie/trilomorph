@@ -1,5 +1,44 @@
 ---
 -
+ID: NMW_95.7G.139
+  taxonomy:
+    genus: Paladin
+    gen_status: NA
+    subgen: NA
+    sp: Paladin eakringensis
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Osmolska, 1970b
+    gen_author:  Weller 1936 
+    orig_sp: NA
+  ref.pic: Tilsley and Owens 2003
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Derbyshire
+    country: Great Britain
+    state: NA
+    county: NA
+    lat: 53.22 
+    long: -1.66
+  stratigraphy:
+    formation: Topeka Limestone Formation
+    min_age: Serpukhovian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+   environment: Carbonatics
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
+  comments: NA
+-
 ID: UMTG0582
   taxonomy:
     genus: Linguaphillipsia 
@@ -496,7 +535,7 @@ ID: UMTG0582
     long: -1.66
   stratigraphy:
     formation: Topeka Limestone Formation
-    min_age: Lower Carboniferous
+    min_age: Serpukhovian
     max_age: NA
     ref_age: NA
     basin: NA
