@@ -23,7 +23,7 @@ ID: UMTG0582
     locality: Kuala Terengganu
     country: Malasia
     state: Terengganu
-    country: NA
+    county: NA
     lat: 5.43
     long: 103.05
   stratigraphy: 
@@ -46,7 +46,7 @@ ID: UMTG0582
     subgen: NA
     sp: Piltonia kuehnei pauli
     sp_status: NA
-    subsp: kuehnei
+    subsp: pauli
     orig_genus: NA
     sp_author: Muller 2003
     gen_author: Goldring 1955
