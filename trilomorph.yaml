@@ -1,6 +1,6 @@
 ---
 -
-ID: NMW_95.7G.139
+  ID: NMW_95.7G.139
   taxonomy:
     genus: Paladin
     gen_status: NA
@@ -39,7 +39,7 @@ ID: NMW_95.7G.139
     date: 24/05/2024
   comments: NA
 -
-ID: UMTG0582
+  ID: UMTG0582
   taxonomy:
     genus: Linguaphillipsia 
     gen_status: NA
@@ -62,7 +62,7 @@ ID: UMTG0582
     locality: Kuala Terengganu
     country: Malasia
     state: Terengganu
-    country: NA
+    county: NA
     lat: 5.43
     long: 103.05
   stratigraphy: 
@@ -75,8 +75,8 @@ ID: UMTG0582
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
-    date: 13/06/2024
-  comments:
+    date: 21/08/2024
+  comments: NA
 -
   ID: TP_5
   taxonomy: 
@@ -85,7 +85,7 @@ ID: UMTG0582
     subgen: NA
     sp: Piltonia kuehnei pauli
     sp_status: NA
-    subsp: kuehnei
+    subsp: pauli
     orig_genus: NA
     sp_author: Muller 2003
     gen_author: Goldring 1955
