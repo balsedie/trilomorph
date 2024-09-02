@@ -299,7 +299,7 @@
     lat: NA 
     long: NA
   stratigraphy:
-  formation: NA
+    formation: NA
     min_age: Tournaisian
     max_age: NA
     ref_age: NA
