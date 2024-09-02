@@ -1,5 +1,316 @@
 ---
 -
+  ID: BM_I_5805
+  taxonomy:
+    genus: Reediella
+    gen_status: NA
+    subgen: NA
+    sp: Reediella granifera
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA 
+    sp_author: Osmolska 1970
+    gen_author: Osmolska 1970
+    orig_sp: NA
+  ref_pic: Osmolska 1970
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: NA
+    country: Great Britain
+    state: NA
+    country: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA
+    min_age: Serpukhovian
+    max_age: NA
+    ref_age: Osmolska 1970
+    basin: NA
+    environment: carbonate
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+-
+  ID: AMF80473a
+  taxonomy:
+    genus: Monodechenella 
+    gen_status: NA
+    subgen: NA
+    sp:  Monodechenella breviceps
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA 
+    sp_author: Mitchell, 1918
+    gen_author: Stumm, 1953
+    orig_sp: NA
+  ref.pic: Vanderlaan y Ebach 2015
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Greenhills
+    country: Australia
+    state: South New Wales
+    county: NA
+    lat: -33.27
+    long: 151.21
+  stratigraphy:
+    formation: Flagstaff Formation
+    min_age: midle Visean
+    max_age: upper Visean
+    ref_age: Engel & Morris, 1997
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+-
+  ID: CM_45765
+  taxonomy:
+    genus: Comptonaspis 
+    gen_status: NA
+    subgen: NA
+    sp: Comptonaspis swallowi
+    sp_status: NA
+    subsp: NA
+    orig_genus: Proetus
+    sp_author: Shumard 1855
+    gen_author: Brezinski, 1988a
+    orig_sp: Proetus swallowi
+  ref.pic: Brezinski, 2000
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Indian Wells Canyon
+    country: USA
+    state: Nuevo Mexico
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: NA 
+    min_age: Tournaisian
+    max_age: NA 
+    ref_age: NA
+    basin: Caballero
+    environment: silicoclastic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+-
+  ID: TML_1641_5107
+  taxonomy:
+    genus: Bollandia
+    gen_status: NA
+    subgen: NA
+    sp: Bollandia c1aviceps
+    sp_status: NA 
+    subsp: NA
+    orig_genus: 
+    sp_author: Burmeister, 1846
+    gen_author: Reed, 1943
+    orig_sp: NA
+  ref.pic: Osmolska, 1970
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Moscow
+    country: Russia
+    state: NA
+    county: NA
+    lat: NA
+    long: NA
+  stratigraphy:
+    formation: 
+    min_age: Upper Tournaisiann
+    max_age: NA
+    ref_age: NA
+    environment: carbonate
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+  -
+  ID: SMF_57466
+  taxonomy:
+    genus: Haasproetus
+    gen_status: NA
+    subgen: NA
+    sp: Haasproetus aprickensis 
+    sp_status: NA 
+    subsp: NA
+    orig_genus: Haasia
+    sp_author: Haasproetus
+    gen_author: Baase 2007
+    orig_sp: NA
+  ref.pic: Feist et al. 2000
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis 
+  geography:
+    locality: Wocklum
+    country: Germany
+    state:  Balve
+    county: NA
+    lat: 51.35
+    long: 7.91
+  stratigraphy:
+    formation: NA
+    min_age: Famennian
+    max_age: NA
+    ref_age: Feist et al. 2000
+    basin: NA
+    environment: carbonate
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+-
+  ID: NMW_95.7G.63
+  taxonomy:
+    genus: Baliothyreus
+    gen_status: NA
+    subgen: NA
+    sp: Baliothyreus becki
+    sp_status: NA 
+    subsp: NA
+    orig_genus: 
+    sp_author: Tilsley Owens 2003
+    gen_author: Tilsley Owens 2003 
+    orig_sp: NA
+  ref.pic: Tilsley Owens, 2003
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holapis
+  geography:
+    locality: Derbyshire
+    country: Great Britain
+    state: NA
+    county: NA
+    lat: 53.21 
+    long: -1.57
+  stratigraphy:
+    formation: Topeka Limestone Formation
+    min_age: Lower Carboniferous
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+  -
+  ID: NUF5274
+  taxonomy:
+    genus: Winterbergia  
+    gen_status: NA
+    subgen: NA
+    sp: Winterbergia elegans
+    sp_status: NA
+    subsp: NA
+    orig_genus: 
+    sp_author: Engel y Morris 1989
+    gen_author: Hahn & Brauckmann, 1975
+    orig_sp: NA
+  ref.pic: Engel y Morris 1989
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Rockampton
+    country: Australia
+    state: New South Wales
+    county: NA
+    lat: -23.41 
+    long: 150.54
+  stratigraphy: 
+    formation: Malchi Formation
+    min_age: late Tournasian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: silicoclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+-
+  ID: M_1907
+  taxonomy: 
+    genus: Piltonia
+    gen_status: NA
+    subgen: NA
+    sp: Piltonia kuehnei pauli
+    sp_status: NA
+    subsp: pauli
+    orig_genus:
+    sp_author: Müller 2003
+    gen_author: Goldring 1955
+  orig_sp: NA
+    ref.pic: Müller 2003
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: NA
+    country: Belgium
+    state: Luttich
+    county: NA
+    lat: NA 
+    long: NA
+  stratigraphy:
+  formation: NA
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 27/08/2024
+  comments: NA
+-  
   ID: NMW_95.7G.139
   taxonomy:
     genus: Paladin
@@ -32,7 +343,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: Carbonatics
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -110,7 +421,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -149,7 +460,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -158,12 +469,12 @@
 -
   ID: SMF_57759
   taxonomy: 
-    genus: semiproetus
+    genus: Semiproetus
     gen_status: NA
     subgen: Brevivole
     sp: semiproetus (Brevivole) brevispina klytia
     sp_status: NA
-    subsp: brevispina
+    subsp: klytia
     orig_genus: Proetus
     sp_author: Hahn et.al 1996
     gen_author: Reed 1943
@@ -188,7 +499,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -227,7 +538,7 @@
     max_age: NA
     ref_age: Korn 2010
     basin: Rhenohercynian Basin
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -266,7 +577,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -305,7 +616,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -344,7 +655,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -383,7 +694,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
