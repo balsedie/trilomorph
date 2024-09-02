@@ -1,6 +1,6 @@
 ---
 -
-ID: BM_I_5805
+  ID: BM_I_5805
   taxonomy:
     genus: Reediella
     gen_status: NA
@@ -14,16 +14,16 @@ ID: BM_I_5805
     orig_sp: NA
   ref_pic: Osmolska 1970
   morphology:
-    cephalon: TRUE
-    cranidium: TRUE
-    pygidium: NA
-    eyes: TRUE
-    ontogeny:  
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
   geography:
     locality: NA
     country: Great Britain
     state: NA
-    country:NA
+    country: NA
     lat: NA
     long: NA
   stratigraphy:
@@ -32,7 +32,7 @@ ID: BM_I_5805
     max_age: NA
     ref_age: Osmolska 1970
     basin: NA
-     environment: carbonate
+    environment: carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -43,7 +43,7 @@ ID: BM_I_5805
   taxonomy:
     genus: Monodechenella 
     gen_status: NA
-    subgen: 
+    subgen: NA
     sp:  Monodechenella breviceps
     sp_status: NA
     subsp: NA
@@ -57,9 +57,9 @@ ID: BM_I_5805
     cranidium: NA
     pygidium: TRUE
     eyes: NA
-    ontogeny:  
+    ontogeny: holaspis
   geography:
-    locality:Greenhills
+    locality: Greenhills
     country: Australia
     state: South New Wales
     county: NA
@@ -67,22 +67,23 @@ ID: BM_I_5805
     long: 151.21
   stratigraphy:
     formation: Flagstaff Formation
-    min_age: midle Vicean
-    max_age: upper Vicean
+    min_age: midle Visean
+    max_age: upper Visean
     ref_age: Engel & Morris, 1997
     basin: NA
-     environment: NA
+    environment: NA
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
     date: 27/08/2024
+  comments: NA
 -
   ID: CM_45765
   taxonomy:
     genus: Comptonaspis 
     gen_status: NA
     subgen: NA
-    sp: Comptonaspis  swallowi
+    sp: Comptonaspis swallowi
     sp_status: NA
     subsp: NA
     orig_genus: Proetus
@@ -95,7 +96,7 @@ ID: BM_I_5805
     cranidium: NA
     pygidium: TRUE
     eyes: NA
-    ontogeny: NA
+    ontogeny: holaspis
   geography:
     locality: Indian Wells Canyon
     country: USA
@@ -116,7 +117,7 @@ ID: BM_I_5805
     date: 27/08/2024
   comments: NA
 -
-  ID: TML_1641/5107
+  ID: TML_1641_5107
   taxonomy:
     genus: Bollandia
     gen_status: NA
@@ -134,7 +135,7 @@ ID: BM_I_5805
     cranidium: NA
     pygidium: TRUE
     eyes: NA
-    ontogeny: NA
+    ontogeny: holaspis
   geography:
     locality: Moscow
     country: Russia
@@ -193,25 +194,25 @@ ID: BM_I_5805
     date: 27/08/2024
   comments: NA
 -
-ID: NMW_95.7G.63
+  ID: NMW_95.7G.63
   taxonomy:
     genus: Baliothyreus
     gen_status: NA
     subgen: NA
     sp: Baliothyreus becki
-    sp_status:NA 
+    sp_status: NA 
     subsp: NA
     orig_genus: 
-    sp_author: Tilsley Omens 2003
-    gen_author: Tilsley Omens 2003 
+    sp_author: Tilsley Owens 2003
+    gen_author: Tilsley Owens 2003 
     orig_sp: NA
-  ref.pic: Tilsley Omens, 2003
+  ref.pic: Tilsley Owens, 2003
   morphology:
     cephalon: NA
     cranidium: NA
     pygidium: TRUE
     eyes: NA
-    ontogeny: Holapis
+    ontogeny: holapis
   geography:
     locality: Derbyshire
     country: Great Britain
@@ -225,7 +226,7 @@ ID: NMW_95.7G.63
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: Carbonate
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -278,7 +279,7 @@ ID: NMW_95.7G.63
     subgen: NA
     sp: Piltonia kuehnei pauli
     sp_status: NA
-    subsp: kuehnei
+    subsp: pauli
     orig_genus:
     sp_author: Müller 2003
     gen_author: Goldring 1955
@@ -308,6 +309,45 @@ ID: NMW_95.7G.63
     metadata: D_Aquino
     landmark: D_Aquino
     date: 27/08/2024
+  comments: NA
+-  
+  ID: NMW_95.7G.139
+  taxonomy:
+    genus: Paladin
+    gen_status: NA
+    subgen: NA
+    sp: Paladin eakringensis
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Osmolska, 1970b
+    gen_author:  Weller 1936 
+    orig_sp: NA
+  ref.pic: Tilsley and Owens 2003
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Derbyshire
+    country: Great Britain
+    state: NA
+    county: NA
+    lat: 53.22 
+    long: -1.66
+  stratigraphy:
+    formation: Topeka Limestone Formation
+    min_age: Serpukhovian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 24/05/2024
   comments: NA
 -
   ID: UMTG0582
@@ -429,12 +469,12 @@ ID: NMW_95.7G.63
 -
   ID: SMF_57759
   taxonomy: 
-    genus: semiproetus
+    genus: Semiproetus
     gen_status: NA
     subgen: Brevivole
     sp: semiproetus (Brevivole) brevispina klytia
     sp_status: NA
-    subsp: brevispina
+    subsp: klytia
     orig_genus: Proetus
     sp_author: Hahn et.al 1996
     gen_author: Reed 1943
@@ -806,7 +846,7 @@ ID: NMW_95.7G.63
     long: -1.66
   stratigraphy:
     formation: Topeka Limestone Formation
-    min_age: Lower Carboniferous
+    min_age: Serpukhovian
     max_age: NA
     ref_age: NA
     basin: NA
