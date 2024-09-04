@@ -125,7 +125,7 @@
     sp: Bollandia c1aviceps
     sp_status: NA 
     subsp: NA
-    orig_genus: 
+    orig_genus: NA
     sp_author: Burmeister, 1846
     gen_author: Reed, 1943
     orig_sp: NA
@@ -144,10 +144,11 @@
     lat: NA
     long: NA
   stratigraphy:
-    formation: 
+    formation: NA
     min_age: Upper Tournaisiann
     max_age: NA
     ref_age: NA
+    basin: NA
     environment: carbonate
   enterer: 
     metadata: D_Aquino
