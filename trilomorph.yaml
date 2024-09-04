@@ -271,45 +271,6 @@
     landmark: D_Aquino
     date: 27/08/2024
   comments: NA
--
-  ID: M_1907
-  taxonomy: 
-    genus: Piltonia
-    gen_status: NA
-    subgen: NA
-    sp: Piltonia kuehnei pauli
-    sp_status: NA
-    subsp: pauli
-    orig_genus: NA
-    sp_author: Müller 2003
-    gen_author: Goldring 1955
-    orig_sp: NA
-  ref.pic: Müller 2003
-  morphology:
-    cephalon: NA
-    cranidium: NA
-    pygidium: TRUE
-    eyes: NA
-    ontogeny: holaspis
-  geography:
-    locality: NA
-    country: Belgium
-    state: Luttich
-    county: NA
-    lat: NA 
-    long: NA
-  stratigraphy:
-    formation: NA
-    min_age: Tournaisian
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: carbonate
-  enterer:
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 27/08/2024
-  comments: NA
 -  
   ID: NMW_95.7G.139
   taxonomy:
