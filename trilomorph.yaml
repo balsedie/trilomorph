@@ -1,5 +1,317 @@
 ---
 -
+ID: CMNH_34436
+  taxonomy:
+    genus: Spergenaspis
+    gen_status: NA
+    subgen: NA
+    sp: Spergenaspis salemi
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA 
+    sp_author: Brezinski, 1987
+    gen_author: Brezinski, 1987
+    orig_sp: NA
+  ref.pic: Brezinski, 1987
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Washington County
+    country: USA
+    state: Indiana
+    country: NA
+    lat: 38.18
+    long: -87.24
+  stratigraphy:
+    formation: Salem Limestone
+    min_age: Visean
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonate
+  enterer:
+     metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+-
+ID: KUMIP_146475
+  taxonomy:
+    genus: Ameura
+    gen_status: NA
+    subgen: NA
+    sp: Ameura missouriensis
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA 
+    sp_author: Portlock, 1843
+    gen_author: Weller, 1936 
+    orig_sp: NA
+  ref.pic: KU collection
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Kansas
+    country: USA
+    state: NA
+    country: NA
+    lat: 38.99
+    long: -95.41
+  stratigraphy:
+    formation: Deer Creek Limestone Formation
+    min_age: Upper Pennsylvanian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonbate
+  enterer:
+     metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+-
+ID: CM_45765
+  taxonomy:
+    genus: Comptonaspis 
+    gen_status: NA
+    subgen: NA
+    sp: Comptonaspis swallowi
+    sp_status: NA
+    subsp: NA
+    orig_genus: Proetus
+    sp_author: Shumard 1855
+    gen_author: Brezinski 1988a
+    orig_sp: Proetus swallowi
+  ref.pic: Brezinski 2000b
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: NA
+  geography:
+    locality: Sacramento Mountains
+    country: USA
+    state: Nuevo Mexico
+    country: NA
+    lat: 33.13
+    long: -105.73
+  stratigraphy: 
+    formation: Caballero
+    min_age: lower Mississippian
+    max_age: NA 
+    ref_age: Laudon and Bowsher 1949
+    basin: NA
+    environment: carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+-
+ID: CM_45119
+  taxonomy:
+    genus: Elliptophillipsia
+    gen_status: NA
+    subgen: NA
+    sp: Elliptophillipsia rotundus
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Brezinski, 2000
+    gen_author: Hessler, 1963
+    orig_sp: NA
+  ref.pic: Brezinski 2000a
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Boone County
+    country: USA
+    state: Missouri
+    country: NA
+    lat: 38.8
+    long: -92.4
+  stratigraphy:
+    formation: Compton Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: Thompson 1979
+    basin: NA
+    environment: Cabonate
+  enterer:
+   metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+  -
+ID: QMF17-1233
+  taxonomy:
+    genus: Carbonocoryphe
+    gen_status: NA
+    subgen: NA
+    sp: Carbonocoryphe rockhamptonensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Mitchell 1918 
+    gen_author: Hahn & Brauckmann 1975 
+    orig_sp: NA
+  ref.pic: engel y Morris 1989
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Great Star River
+    country: Auatralia
+    state: north Queensland
+    county: NA
+    lat: -17.39
+    long: 142.53
+  stratigraphy:  
+    formation: NA
+    min_age: Visean
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: siliciclastic
+  enterer:
+   metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+-
+ID: NUF5274
+  taxonomy:
+    genus: Winterbergia  
+    gen_status: NA
+    subgen: NA
+    sp: Winterbergia elegans
+    sp_status: 
+    subsp: NA
+    orig_genus: 
+    sp_author:Engel y Morris 1989
+    gen_author: Hahn & Brauckmann, 1975
+    orig_sp: 
+  ref.pic: Engel y Morris 1989
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Rockampton
+    country: Australia
+    state: New South Wales
+    county:
+    lat: -23.41 
+    long: 150.54
+  stratigraphy: 
+    formation: Malchi Formation
+    min_age: late Tournasian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: silicoclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+-
+  ID: SMF_57452
+  taxonomy:
+    genus: Helioproetus
+    gen_status: NA
+    subgen: NA
+    sp: Helioproetus corintiacus
+    sp_status: NA 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Drevermann 1901
+    gen_author: Richter 1919
+    orig_sp: NA
+  ref.pic: Feist et al. 2000
+  morphology:
+    cephalon: NA
+    cranidium: NA
+    pygidium: TRUE
+    eyes: NA
+    ontogeny: holaspis 
+  geography:
+    locality: Wocklum
+    country: Germany
+    state:  Balve
+    county: NA
+    lat: 51.35
+    long: 7.91
+  stratigraphy:
+    formation: NA
+    min_age: Famennian
+    max_age: NA
+    ref_age: Feist et al. 2000
+    basin: NA
+    environment: carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+-
+ ID: SMF_57466
+  taxonomy:
+    genus: Haasproetus
+    gen_status: NA
+    subgen: NA
+    sp: Haasproetus aprickensis 
+    sp_status: NA 
+    subsp: NA
+    orig_genus: Haasia
+    sp_author: Haasproetus
+    gen_author: Baase, 2007
+    orig_sp: NA
+  ref.pic: Feist et al. 2000
+  morphology:
+    cephalon: NA
+    crandiium: NA
+    pygidiium: TRUE
+    eyes: NA
+    ontogeny: holaspis 
+  geography:
+    locality: Wocklum
+    country: Germany
+    state:  Balve
+    county: NA
+    lat: 51.35
+    long: 7.91
+  stratigraphy:
+    formation: NA
+    min_age: Famennian
+    max_age: NA
+    ref_age: Feist et al. 2000
+    basin: NA
+    environment: carbonatic
+  enterer: 
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 12/09/2024
+  comments: NA
+-
   ID: BM_I_5805
   taxonomy:
     genus: Reediella
@@ -117,7 +429,7 @@
     date: 27/08/2024
   comments: NA
 -
-  ID: TML_1641_5107
+  ID: TML_1641/5107
   taxonomy:
     genus: Bollandia
     gen_status: NA
