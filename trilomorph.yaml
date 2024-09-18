@@ -1072,13 +1072,13 @@
     pygidium: NA
     eyes: TRUE
     ontogeny: holaspis
-  geography:
-    locality: Steinbrunch von Milieu
+  geography: 
+    locality: Tournai
     country: Belgium
-    state: NA
+    state: Hainaut
     county: NA
-    lat: NA
-    long: NA
+    lat: 50.61
+    long: 3.44
   stratigraphy:
     formation: NA
     min_age: Tournaisian
@@ -9198,45 +9198,6 @@
     ref_age: Snajdr 1980
     basin: Barrandian area
     environment: carbonate
-  enterer: 
-    metadata: NA
-    landmark: NA
-    date: 01/10/2022
-  comments: NA
--
-  ID: SMF_55937
-  taxonomy: 
-    genus: Belgibole
-    sp: Belgibole milieuensis
-    subsp: NA
-    orig_genus: NA
-    sp_author: Muller 2000
-    gen_author: Hahn 1963
-    orig_sp: NA
-    subgen: NA
-    gen_status: NA
-    sp_status: NA
-  ref.pic: Muller 2000
-  morphology: 
-    cephalon: NA
-    cranidium: TRUE
-    pygidium: NA
-    eyes: TRUE
-    ontogeny: holaspis
-  geography: 
-    locality: Tournai
-    country: Belgium
-    lat: 50.61
-    long: 3.44
-    state: Hainaut
-    county: NA
-  stratigraphy: 
-    formation: NA
-    min_age: Mississippian
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: NA
   enterer: 
     metadata: NA
     landmark: NA
