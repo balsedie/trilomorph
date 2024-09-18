@@ -78,45 +78,6 @@
     date: 12/09/2024
   comments: NA
 -
-  ID: CM_45765
-  taxonomy:
-    genus: Comptonaspis 
-    gen_status: NA
-    subgen: NA
-    sp: Comptonaspis swallowi
-    sp_status: NA
-    subsp: NA
-    orig_genus: Proetus
-    sp_author: Shumard 1855
-    gen_author: Brezinski 1988a
-    orig_sp: Proetus swallowi
-  ref.pic: Brezinski 2000b
-  morphology:
-    cephalon: NA
-    cranidium: NA
-    pygidium: TRUE
-    eyes: NA
-    ontogeny: NA
-  geography:
-    locality: Sacramento Mountains
-    country: USA
-    state: Nuevo Mexico
-    county: NA
-    lat: 33.13
-    long: -105.73
-  stratigraphy: 
-    formation: Caballero
-    min_age: lower Mississippian
-    max_age: NA
-    ref_age: Laudon and Bowsher 1949
-    basin: NA
-    environment: carbonate
-  enterer:
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 12/09/2024
-  comments: NA
--
   ID: CM_45119
   taxonomy:
     genus: Elliptophillipsia
