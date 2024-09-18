@@ -1,6 +1,6 @@
 ---
 -
-ID: CMNH_34436
+  ID: CMNH_34436
   taxonomy:
     genus: Spergenaspis
     gen_status: NA
@@ -9,8 +9,8 @@ ID: CMNH_34436
     sp_status: NA 
     subsp: NA
     orig_genus: NA 
-    sp_author: Brezinski, 1987
-    gen_author: Brezinski, 1987
+    sp_author: Brezinski 1987
+    gen_author: Brezinski 1987
     orig_sp: NA
   ref.pic: Brezinski, 1987
   morphology:
@@ -23,7 +23,7 @@ ID: CMNH_34436
     locality: Washington County
     country: USA
     state: Indiana
-    country: NA
+    county: NA
     lat: 38.18
     long: -87.24
   stratigraphy:
@@ -34,12 +34,12 @@ ID: CMNH_34436
     basin: NA
     environment: Carbonate
   enterer:
-     metadata: D_Aquino
+    metadata: D_Aquino
     landmark: D_Aquino
     date: 12/09/2024
   comments: NA
 -
-ID: KUMIP_146475
+  ID: KUMIP_146475
   taxonomy:
     genus: Ameura
     gen_status: NA
@@ -48,8 +48,8 @@ ID: KUMIP_146475
     sp_status: NA 
     subsp: NA
     orig_genus: NA 
-    sp_author: Portlock, 1843
-    gen_author: Weller, 1936 
+    sp_author: Portlock 1843
+    gen_author: Weller 1936 
     orig_sp: NA
   ref.pic: KU collection
   morphology:
@@ -60,7 +60,7 @@ ID: KUMIP_146475
     ontogeny: holaspis
   geography:
     locality: Kansas
-    country: USA
+    county: USA
     state: NA
     country: NA
     lat: 38.99
@@ -73,12 +73,12 @@ ID: KUMIP_146475
     basin: NA
     environment: Carbonbate
   enterer:
-     metadata: D_Aquino
+    metadata: D_Aquino
     landmark: D_Aquino
     date: 12/09/2024
   comments: NA
 -
-ID: CM_45765
+  ID: CM_45765
   taxonomy:
     genus: Comptonaspis 
     gen_status: NA
@@ -101,7 +101,7 @@ ID: CM_45765
     locality: Sacramento Mountains
     country: USA
     state: Nuevo Mexico
-    country: NA
+    county: NA
     lat: 33.13
     long: -105.73
   stratigraphy: 
@@ -110,14 +110,14 @@ ID: CM_45765
     max_age: NA 
     ref_age: Laudon and Bowsher 1949
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
     date: 12/09/2024
   comments: NA
 -
-ID: CM_45119
+  ID: CM_45119
   taxonomy:
     genus: Elliptophillipsia
     gen_status: NA
@@ -126,8 +126,8 @@ ID: CM_45119
     sp_status: NA 
     subsp: NA
     orig_genus: NA
-    sp_author: Brezinski, 2000
-    gen_author: Hessler, 1963
+    sp_author: Brezinski 2000
+    gen_author: Hessler 1963
     orig_sp: NA
   ref.pic: Brezinski 2000a
   morphology:
@@ -138,7 +138,7 @@ ID: CM_45119
     ontogeny: holaspis
   geography:
     locality: Boone County
-    country: USA
+    county: USA
     state: Missouri
     country: NA
     lat: 38.8
@@ -151,12 +151,12 @@ ID: CM_45119
     basin: NA
     environment: Cabonate
   enterer:
-   metadata: D_Aquino
+    metadata: D_Aquino
     landmark: D_Aquino
     date: 12/09/2024
   comments: NA
   -
-ID: QMF17-1233
+  ID: QMF17-1233
   taxonomy:
     genus: Carbonocoryphe
     gen_status: NA
@@ -190,12 +190,12 @@ ID: QMF17-1233
     basin: NA
     environment: siliciclastic
   enterer:
-   metadata: D_Aquino
+    metadata: D_Aquino
     landmark: D_Aquino
     date: 12/09/2024
   comments: NA
 -
-ID: NUF5274
+  ID: NUF5274
   taxonomy:
     genus: Winterbergia  
     gen_status: NA
@@ -205,7 +205,7 @@ ID: NUF5274
     subsp: NA
     orig_genus: 
     sp_author:Engel y Morris 1989
-    gen_author: Hahn & Brauckmann, 1975
+    gen_author: Hahn & Brauckmann 1975
     orig_sp: 
   ref.pic: Engel y Morris 1989
   morphology:
@@ -218,7 +218,7 @@ ID: NUF5274
     locality: Rockampton
     country: Australia
     state: New South Wales
-    county:
+    county: NA
     lat: -23.41 
     long: 150.54
   stratigraphy: 
@@ -266,14 +266,14 @@ ID: NUF5274
     max_age: NA
     ref_age: Feist et al. 2000
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
     date: 12/09/2024
   comments: NA
 -
- ID: SMF_57466
+  ID: SMF_57466
   taxonomy:
     genus: Haasproetus
     gen_status: NA
@@ -283,7 +283,7 @@ ID: NUF5274
     subsp: NA
     orig_genus: Haasia
     sp_author: Haasproetus
-    gen_author: Baase, 2007
+    gen_author: Baase 2007
     orig_sp: NA
   ref.pic: Feist et al. 2000
   morphology:
@@ -305,7 +305,7 @@ ID: NUF5274
     max_age: NA
     ref_age: Feist et al. 2000
     basin: NA
-    environment: carbonatic
+    environment: carbonate
   enterer: 
     metadata: D_Aquino
     landmark: D_Aquino
@@ -381,7 +381,7 @@ ID: NUF5274
     formation: Flagstaff Formation
     min_age: midle Visean
     max_age: upper Visean
-    ref_age: Engel & Morris, 1997
+    ref_age: Engel & Morris 1997
     basin: NA
     environment: NA
   enterer:
@@ -400,7 +400,7 @@ ID: NUF5274
     subsp: NA
     orig_genus: Proetus
     sp_author: Shumard 1855
-    gen_author: Brezinski, 1988a
+    gen_author: Brezinski 1988a
     orig_sp: Proetus swallowi
   ref.pic: Brezinski, 2000
   morphology:
@@ -438,7 +438,7 @@ ID: NUF5274
     sp_status: NA 
     subsp: NA
     orig_genus: NA
-    sp_author: Burmeister, 1846
+    sp_author: Burmeister 1846
     gen_author: Reed, 1943
     orig_sp: NA
   ref.pic: Osmolska, 1970
@@ -519,7 +519,7 @@ ID: NUF5274
     sp_author: Tilsley Owens 2003
     gen_author: Tilsley Owens 2003 
     orig_sp: NA
-  ref.pic: Tilsley Owens, 2003
+  ref.pic: Tilsley Owens 2003
   morphology:
     cephalon: NA
     cranidium: NA
@@ -556,7 +556,7 @@ ID: NUF5274
     subsp: NA
     orig_genus: NA
     sp_author: Engel y Morris 1989
-    gen_author: Hahn & Brauckmann, 1975
+    gen_author: Hahn & Brauckmann 1975
     orig_sp: NA
   ref.pic: Engel y Morris 1989
   morphology:
@@ -633,7 +633,7 @@ ID: NUF5274
     sp_status: NA 
     subsp: NA
     orig_genus: NA
-    sp_author: Osmolska, 1970b
+    sp_author: Osmolska 1970b
     gen_author:  Weller 1936 
     orig_sp: NA
   ref.pic: Tilsley and Owens 2003
