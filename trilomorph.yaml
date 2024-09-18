@@ -195,45 +195,6 @@
     date: 12/09/2024
   comments: NA
 -
-  ID: NUF5274
-  taxonomy:
-    genus: Winterbergia  
-    gen_status: NA
-    subgen: NA
-    sp: Winterbergia elegans
-    sp_status: NA
-    subsp: NA
-    orig_genus: NA
-    sp_author: Engel y Morris 1989
-    gen_author: Hahn & Brauckmann 1975
-    orig_sp: 
-  ref.pic: Engel y Morris 1989
-  morphology:
-    cephalon: NA
-    cranidium: NA
-    pygidium: TRUE
-    eyes: NA
-    ontogeny: holaspis
-  geography:
-    locality: Rockampton
-    country: Australia
-    state: New South Wales
-    county: NA
-    lat: -23.41 
-    long: 150.54
-  stratigraphy: 
-    formation: Malchi Formation
-    min_age: late Tournasian
-    max_age: NA
-    ref_age: NA
-    basin: NA
-    environment: silicoclastic
-  enterer:
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 12/09/2024
-  comments: NA
--
   ID: SMF_57452
   taxonomy:
     genus: Helioproetus
