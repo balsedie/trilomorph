@@ -6,9 +6,9 @@
     gen_status: NA
     subgen: NA
     sp: Spergenaspis salemi
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
-    orig_genus: NA 
+    orig_genus: NA
     sp_author: Brezinski 1987
     gen_author: Brezinski 1987
     orig_sp: NA
@@ -45,9 +45,9 @@
     gen_status: NA
     subgen: NA
     sp: Ameura missouriensis
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
-    orig_genus: NA 
+    orig_genus: NA
     sp_author: Portlock 1843
     gen_author: Weller 1936 
     orig_sp: NA
@@ -107,7 +107,7 @@
   stratigraphy: 
     formation: Caballero
     min_age: lower Mississippian
-    max_age: NA 
+    max_age: NA
     ref_age: Laudon and Bowsher 1949
     basin: NA
     environment: carbonate
@@ -123,7 +123,7 @@
     gen_status: NA
     subgen: NA
     sp: Elliptophillipsia rotundus
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Brezinski 2000
@@ -240,7 +240,7 @@
     gen_status: NA
     subgen: NA
     sp: Helioproetus corintiacus
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Drevermann 1901
@@ -279,7 +279,7 @@
     gen_status: NA
     subgen: NA
     sp: Haasproetus aprickensis 
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: Haasia
     sp_author: Haasproetus
@@ -320,7 +320,7 @@
     sp: Reediella granifera
     sp_status: NA
     subsp: NA
-    orig_genus: NA 
+    orig_genus: NA
     sp_author: Osmolska 1970
     gen_author: Osmolska 1970
     orig_sp: NA
@@ -359,7 +359,7 @@
     sp:  Monodechenella breviceps
     sp_status: NA
     subsp: NA
-    orig_genus: NA 
+    orig_genus: NA
     sp_author: Mitchell, 1918
     gen_author: Stumm, 1953
     orig_sp: NA
@@ -417,9 +417,9 @@
     lat: NA
     long: NA
   stratigraphy:
-    formation: NA 
+    formation: NA
     min_age: Tournaisian
-    max_age: NA 
+    max_age: NA
     ref_age: NA
     basin: Caballero
     environment: silicoclastic
@@ -435,7 +435,7 @@
     gen_status: NA
     subgen: NA
     sp: Bollandia c1aviceps
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Burmeister 1846
@@ -474,7 +474,7 @@
     gen_status: NA
     subgen: NA
     sp: Haasproetus aprickensis 
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: Haasia
     sp_author: Haasproetus
@@ -513,7 +513,7 @@
     gen_status: NA
     subgen: NA
     sp: Baliothyreus becki
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Tilsley Owens 2003
@@ -609,7 +609,7 @@
     country: Belgium
     state: Luttich
     county: NA
-    lat: NA 
+    lat: NA
     long: NA
   stratigraphy:
     formation: NA
@@ -630,7 +630,7 @@
     gen_status: NA
     subgen: NA
     sp: Paladin eakringensis
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Osmolska 1970b
@@ -726,7 +726,7 @@
     country: Belgium
     state: Luttich
     county: NA
-    lat: NA 
+    lat: NA
     long: NA
   stratigraphy:
     formation: NA
@@ -785,7 +785,7 @@
     genus: Semiproetus
     gen_status: NA
     subgen: Brevivole
-    sp: semiproetus (Brevivole) brevispina klytia
+    sp: semiproetus (Brevivole) brevispiNAklytia
     sp_status: NA
     subsp: klytia
     orig_genus: Proetus
@@ -856,7 +856,7 @@
     metadata: D_Aquino
     landmark: D_Aquino
     date: 13/06/2024
-  comments: NA 
+  comments: NA
 -
   ID: SMF_76447
   taxonomy:
@@ -1085,7 +1085,7 @@
     max_age: NA
     ref_age: NA
     basin: NA
-    environment: NA 
+    environment: NA
   enterer:
     metadata: D_Aquino
     landmark: D_Aquino
@@ -1121,7 +1121,7 @@
   stratigraphy:
     formation: NA
     min_age: lower Mississippian
-    max_age: NA 
+    max_age: NA
     ref_age: NA
     basin: NA
     environment: siliciclastic
@@ -1137,7 +1137,7 @@
     gen_status: NA
     subgen: NA
     sp: Baliothyreus becki
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Tilsley and Owens 2003
@@ -1178,7 +1178,7 @@
     sp: Belgibole milieuensis
     sp_status: NA
     subsp: NA
-    orig_genus: NA 
+    orig_genus: NA
     sp_author: Muller 2000
     gen_author: Hahn 1963
     orig_sp: NA
@@ -1186,7 +1186,7 @@
   morphology:
     cephalon: TRUE
     cranidium: TRUE
-    pygidium: NA 
+    pygidium: NA
     eyes: TRUE
     ontogeny: holaspis
   geography:
@@ -1215,7 +1215,7 @@
     gen_status: NA
     subgen: NA
     sp: Bollandia columba
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Tilsley 1988
@@ -1254,7 +1254,7 @@
     gen_status: NA
     subgen: NA
     sp: Carbonoproetus volturnus
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Muller and Hahn 2019
@@ -1355,7 +1355,7 @@
   stratigraphy:
     formation: NA
     min_age: lower Mississippian
-    max_age: NA 
+    max_age: NA
     ref_age: NA
     basin: Caballero
     environment: siliciclastic
@@ -1371,7 +1371,7 @@
     gen_status: NA
     subgen: NA
     sp: Cummingella carringtonensis
-    sp_status: NA 
+    sp_status: NA
     subsp: tuberculigenata
     orig_genus: NA
     sp_author: Burmeister 1846
@@ -1412,7 +1412,7 @@
     sp: Cyrtoproetus (Crassibole) acrops
     sp_status: NA
     subsp: NA
-    orig_genus: NA 
+    orig_genus: NA
     sp_author: Hahm et.al. 2012
     gen_author: reed 1943
     orig_sp: NA
@@ -1431,7 +1431,7 @@
     lat: 31.30
     long: -4.32
   stratigraphy:
-    formation: NA 
+    formation: NA
     min_age: Tournaisian
     max_age: NA
     ref_age: NA
@@ -1449,7 +1449,7 @@
     gen_status: NA
     subgen: NA
     sp: Dechenelloides tazoultensis
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Hahn et.al 2012
@@ -1470,7 +1470,7 @@
     lat: NA
     long: NA
   stratigraphy:
-    formation: NA 
+    formation: NA
     min_age: Tournasian
     max_age: NA
     ref_age: NA
@@ -1565,7 +1565,7 @@
     genus: Cystispina
     gen_status: NA
     subgen: NA
-    sp: Cystispina diversa 
+    sp: CystispiNAdiversa 
     sp_status: NA
     subsp: NA
     orig_genus: NA
@@ -1644,7 +1644,7 @@
     gen_status: NA
     subgen: NA
     sp: Weania semicircularis
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Engel & Morris 1996
@@ -1722,7 +1722,7 @@
     gen_status: NA
     subgen: NA
     sp: Palaeophillipsia kirgisica
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: Weberiphillipsia
     sp_author: Weber 1932
@@ -1800,7 +1800,7 @@
     gen_status: NA
     subgen: NA
     sp: Struveproetus ocellatus
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Feist et al. 2000 
@@ -1839,7 +1839,7 @@
     gen_status: NA
     subgen: NA
     sp: Haasproetus aprickensis 
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: Haasia
     sp_author: Feist et al. 2000
@@ -1877,7 +1877,7 @@
     genus: Phillibolina
     gen_status: NA
     subgen: NA
-    sp: Phillibolina modavensis
+    sp: PhilliboliNAmodavensis
     sp_status: NA
     subsp: Aprathia
     orig_genus: Phillipsia
@@ -1917,7 +1917,7 @@
     gen_status: NA
     subgen: NA
     sp: Elliptophillipsia rotundus
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Brezinski 2000a
@@ -2112,7 +2112,7 @@
     gen_status: NA
     subgen: NA
     sp: Richterella hessleri
-    sp_status: NA 
+    sp_status: NA
     subsp: NA
     orig_genus: NA
     sp_author: Brezinski 2000a
@@ -2343,7 +2343,7 @@
   ID: CPBA_1238
   taxonomy: 
     genus: Parabolina
-    sp: Parabolina argentina
+    sp: ParaboliNAargentina
     subsp: NA
     orig_genus: NA
     sp_author: Kayser 1876
@@ -2499,7 +2499,7 @@
   ID: CPBA_2560
   taxonomy: 
     genus: Plesioparabolina
-    sp: Plesioparabolina proparia
+    sp: PlesioparaboliNAproparia
     subsp: NA
     orig_genus: NA
     sp_author: Harrington Leanza 1942
@@ -2577,7 +2577,7 @@
   ID: CPBA_3239
   taxonomy: 
     genus: Pharostomina
-    sp: Pharostomina trapezoidalis
+    sp: PharostomiNAtrapezoidalis
     subsp: NA
     orig_genus: NA
     sp_author: Harrington 1938
@@ -2800,7 +2800,7 @@
     min_age: Dapingian
     max_age: NA
     ref_age: Waisfeld Vaccari 2003
-    basin: Famatina Basin
+    basin: FamatiNABasin
     environment: NA
   enterer: 
     metadata: Serra F
@@ -2928,7 +2928,7 @@
   ID: CPBA_4502
   taxonomy: 
     genus: Niobina
-    sp: Niobina taurina
+    sp: NiobiNAtaurina
     subsp: NA
     orig_genus: NA
     sp_author: Harrington Leanza 1957
@@ -3268,7 +3268,7 @@
     min_age: Tremadocian
     max_age: NA
     ref_age: Waisfeld et al 2001
-    basin: Puna basin NW Argentina
+    basin: PuNAbasin NW Argentina
     environment: NA
   enterer: 
     metadata: Serra F
@@ -3342,7 +3342,7 @@
     state: NA
     county: NA
   stratigraphy: 
-    formation: Coquena Formation
+    formation: CoqueNAFormation
     min_age: Tremadocian
     max_age: NA
     ref_age: Waisfeld Vaccari 2003
@@ -3630,8 +3630,8 @@
   ID: CORD-PZ_30510
   taxonomy: 
     genus: Parabolina
-    sp: Parabolina (Neoparabolina) frequens
-    subsp: Parabolina (Neoparabolina) frequens argentina
+    sp: ParaboliNA(Neoparabolina) frequens
+    subsp: ParaboliNA(Neoparabolina) frequens argentina
     orig_genus: Olenus
     sp_author: Kayser 1876
     gen_author:  Salter 1849
@@ -3849,7 +3849,7 @@
     state: Jujuy
     county: NA
   stratigraphy: 
-    formation: Coquena Formation
+    formation: CoqueNAFormation
     min_age: Tremadocian
     max_age: NA
     ref_age: Monti 2015 (PhD Thesis)
@@ -4488,7 +4488,7 @@
   ID: NMW_2005.32G.135
   taxonomy: 
     genus: Agerina
-    sp: Agerina acutilimbata
+    sp: AgeriNAacutilimbata
     subsp: NA
     orig_genus: NA
     sp_author: Ghobadi Pour et al 2011
@@ -4531,7 +4531,7 @@
     subsp: NA
     orig_genus: NA
     sp_author: Fortey Owens 1991
-    gen_author: Petrunina 1973
+    gen_author: PetruniNA1973
     orig_sp: NA
     subgen: NA
     gen_status: NA
@@ -4566,7 +4566,7 @@
   ID: PIL 13904
   taxonomy: 
     genus: Angelina
-    sp: Angelina hyeronimi
+    sp: AngeliNAhyeronimi
     subsp: NA
     orig_genus: Parabolinella
     sp_author: Kayser 1876
@@ -4644,7 +4644,7 @@
   ID: PIL 15647
   taxonomy: 
     genus: Plicatolina
-    sp: Plicatolina scalpta
+    sp: PlicatoliNAscalpta
     subsp: NA
     orig_genus: NA
     sp_author: Harrington Leanza 1957
@@ -4839,7 +4839,7 @@
   ID: UMSA-PI 01002
   taxonomy: 
     genus: Pseudotalbotina
-    sp: Pseudotalbotina ovalis
+    sp: PseudotalbotiNAovalis
     subsp: NA
     orig_genus: NA
     sp_author: Benedetto 1977
@@ -4995,7 +4995,7 @@
   ID: Bonner_CEPH_Tafel_2_fig31
   taxonomy: 
     genus: Acastellina
-    sp: Acastellina sp
+    sp: AcastelliNAsp
     subsp: NA
     orig_genus: NA
     sp_author: NA
@@ -5541,7 +5541,7 @@
   ID: Morzadec_2001_plate_3_4a
   taxonomy: 
     genus: Methacanthina
-    sp: Methacanthina issoumourensis
+    sp: MethacanthiNAissoumourensis
     subsp: NA
     orig_genus: NA
     sp_author: Morzadec 2001
@@ -6228,7 +6228,7 @@
     state: Prague
     county: NA
   stratigraphy: 
-    formation: Kopanina Formation
+    formation: KopaniNAFormation
     min_age: Ludlow
     max_age: NA
     ref_age: Clupac 1977
@@ -6416,7 +6416,7 @@
     eyes: TRUE
     ontogeny: early holaspis
   geography: 
-    locality: Kosor valley. Cerna rokle
+    locality: Kosor valley. CerNArokle
     country: Czech Republic
     lat: 49.99
     long: 14.33
@@ -6696,7 +6696,7 @@
     state: Liberec
     county: NA
   stratigraphy: 
-    formation: Kopanina Formation
+    formation: KopaniNAFormation
     min_age: Ludlow
     max_age: NA
     ref_age: Clupac 1977
@@ -10494,7 +10494,7 @@
   ID: Brauckmann_1986-6.5a
   taxonomy: 
     genus: Dienstina
-    sp: Dienstina diensti
+    sp: DienstiNAdiensti
     subsp: NA
     orig_genus: NA
     sp_author: NA
@@ -10572,7 +10572,7 @@
   ID: Basse-Muller_2000-3.19
   taxonomy: 
     genus: Ductina
-    sp: Ductina ductifrons
+    sp: DuctiNAductifrons
     subsp: NA
     orig_genus: NA
     sp_author: NA
@@ -10689,7 +10689,7 @@
   ID: AMNH_28896
   taxonomy: 
     genus: Eldredgeops
-    sp: Eldredgeops rana milleri
+    sp: Eldredgeops raNAmilleri
     subsp: NA
     orig_genus: NA
     sp_author: NA
@@ -10845,7 +10845,7 @@
   ID: UM-IP-948
   taxonomy: 
     genus: Girardina
-    sp: Girardina konradbartzschi
+    sp: GirardiNAkonradbartzschi
     subsp: NA
     orig_genus: NA
     sp_author: NA
