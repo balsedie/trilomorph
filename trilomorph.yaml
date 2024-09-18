@@ -234,45 +234,6 @@
     date: 12/09/2024
   comments: NA
 -
-  ID: SMF_57466
-  taxonomy:
-    genus: Haasproetus
-    gen_status: NA
-    subgen: NA
-    sp: Haasproetus aprickensis 
-    sp_status: NA
-    subsp: NA
-    orig_genus: Haasia
-    sp_author: Haasproetus
-    gen_author: Baase 2007
-    orig_sp: NA
-  ref.pic: Feist et al. 2000
-  morphology:
-    cephalon: NA
-    cranidium: NA
-    pygidium: TRUE
-    eyes: NA
-    ontogeny: holaspis 
-  geography:
-    locality: Wocklum
-    country: Germany
-    state:  Balve
-    county: NA
-    lat: 51.35
-    long: 7.91
-  stratigraphy:
-    formation: NA
-    min_age: Famennian
-    max_age: NA
-    ref_age: Feist et al. 2000
-    basin: NA
-    environment: carbonate
-  enterer: 
-    metadata: D_Aquino
-    landmark: D_Aquino
-    date: 12/09/2024
-  comments: NA
--
   ID: BM_I_5805
   taxonomy:
     genus: Reediella
