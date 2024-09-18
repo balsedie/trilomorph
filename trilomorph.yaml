@@ -288,8 +288,8 @@
   ref.pic: Feist et al. 2000
   morphology:
     cephalon: NA
-    crandiium: NA
-    pygidiium: TRUE
+    crandium: NA
+    pygidium: TRUE
     eyes: NA
     ontogeny: holaspis 
   geography:
