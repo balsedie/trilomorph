@@ -1356,7 +1356,7 @@
 			630	307
 			630	308
 		</anterior>
-		<podterior type=matrix rownames=FALSE colnames=FALSE nrow=347 ncol=2 as.numeric=TRUE >
+		<posterior type=matrix rownames=FALSE colnames=FALSE nrow=347 ncol=2 as.numeric=TRUE >
 			341	308
 			342	308
 			343	308
