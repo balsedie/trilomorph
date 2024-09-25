@@ -89,7 +89,7 @@
 			632	358
 			640	324
 			630	308
-		</spine>
+		</posterior>
 	</curves.control>
 	<curves.pixel type=list>
 		<glabella type=matrix rownames=FALSE colnames=FALSE nrow=318 ncol=2 as.numeric=TRUE >
@@ -1704,7 +1704,7 @@
 			631	310
 			631	309
 			630	308
-		</spine>
+		</posterior>
 	</curves.pixel>
 	<curves.scaled type=list>
 		<glabella type=matrix rownames=FALSE colnames=FALSE nrow=318 ncol=2 as.numeric=TRUE >
@@ -3319,7 +3319,7 @@
 			7.60240963855422	-3.73493975903614
 			7.60240963855422	-3.72289156626506
 			7.59036144578313	-3.71084337349398
-		</spine>
+		</posterior>
 	</curves.scaled>
 	<ruler.points type=matrix rownames=TRUE colnames=FALSE nrow=2 ncol=2 as.numeric=TRUE >
 		Ruler point 1	536	14
