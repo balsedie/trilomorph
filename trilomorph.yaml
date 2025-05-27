@@ -7894,7 +7894,7 @@
   morphology: 
     cephalon: TRUE
     cranidium: NA
-    pygidium: NA
+    pygidium: TRUE
     eyes: TRUE
     ontogeny: holaspis
   geography: 
@@ -8557,7 +8557,7 @@
   morphology: 
     cephalon: TRUE
     cranidium: NA
-    pygidium: NA
+    pygidium: TRUE
     eyes: TRUE
     ontogeny: holaspis
   geography: 
