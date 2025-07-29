@@ -9727,7 +9727,7 @@
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
-    pygidium: TRUE
+    pygidium: FALSE
     eyes: TRUE
     ontogeny: holaspis
   geography: 
@@ -10117,7 +10117,7 @@
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
-    pygidium: TRUE
+    pygidium: FALSE
     eyes: TRUE
     ontogeny: holaspis
   geography: 
@@ -10156,7 +10156,7 @@
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
-    pygidium: TRUE
+    pygidium: FALSE
     eyes: TRUE
     ontogeny: holaspis
   geography: 
@@ -10312,7 +10312,7 @@
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
-    pygidium: TRUE
+    pygidium: FALSE
     eyes: TRUE
     ontogeny: holaspis
   geography: 
@@ -11365,7 +11365,7 @@
   morphology: 
     cephalon: TRUE
     cranidium: TRUE
-    pygidium: TRUE
+    pygidium: FALSE
     eyes: TRUE
     ontogeny: holaspis
   geography: 
