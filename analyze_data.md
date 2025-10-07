@@ -74,9 +74,9 @@ you can then access the TriloMorph shape files that you've downloaded previously
 
 <sup>The function `shapFix` will warn the user and automatically remove specimens with landmark data not fitting the desired template. For example, we expect 4 curves of semilandmarks; but some species do not show these four structures and hence have not all of them landmarked. `shapFix` will remove these specimens.</sup>
 
-<sup>Additionally, `shapFix` lets you easily change the number of semilandmarks in each curve. You only need to change the line `cvs.lm(12, 20, 20, 20)` with the number of desired semilandmarks for each curve (last four numbers).
+<sup>Additionally, `shapFix` lets you easily change the number of semilandmarks in each curve. You only need to change the line `cvs.lm = c(12, 20, 20, 20)` with the number of desired semilandmarks for each curve.
 
-<sup>Importante update: the current version of `shapFix` lets you choose any custom subset of *landmarks* or *curves*, removing all specimes that do not fit the desired configuration.
+<sup>Important update: the current version of `shapFix` lets you choose any custom subset of *landmarks* or *curves*, removing all specimes that do not fit the desired configuration. Moreover, you can merge and divide curves. In particular, you can merge curve 3 and 4 in a single marginal curve by stating "margin" in the selected curves. You can also cut and merge curves to analyze cranidiums by setting "cran_posterior" (alternatively "cranidium") and "suture" in the selected curves.
 
 
 now you can use the geomorph[^N] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis.
