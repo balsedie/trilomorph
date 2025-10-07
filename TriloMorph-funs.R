@@ -239,6 +239,8 @@ shapReadTps <- function(fs, neg.na = TRUE) {
 
 
 
+
+
 # Function to process landmark data loaded with (or at least structured similarly to)
 #   the function 'shapRead' (see above)
 #   and containing both fixed landmarks and curves of semilandmarks.
@@ -257,68 +259,264 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   # lm.scale: Whether or not to rescale the configurations.
   # cv.fixed: Whether or not to remove the first and last points of each semilandmark curve if these points are already present in the fixed landmarks.
 
-  if(!is.list(lmks)) stop("landmark data must be structured as a specimen-based list")
+  if(!is.list(lmks)) stop("IMPORTANT: landmark data must be structured as a specimen-based list")
   n <- length(lmks)
   fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)
   ndims <- model[[1]] #modified to follow new template
-  nlms <- length(model[[2]]) #modified to follow new template
-  ncurves <- length(model[[3]]) #modified to follow new template
   lms <- model[[2]]
-  # 1st: Spot and remove specimens not compatible with the template.
-  id2rm <- character()
+  nlms <- length(lms) #modified to follow new template
+  ncurves <- length(model[[3]]) #modified to follow new template
 
-###### modified seccion------------------------------------------------------------------
+  id2rm <- character() #define vector to save ids that will be removed
+
+  #Avoid spelling errors
+  if (grepl("ceph", model[[5]]) | grepl("cef", model[[5]]) ) { #check if it says cephalon or any alternative
+    curves.id <- c("glabella","suture","anterior","posterior")
+    model[[5]] <- "cephalon"
+  } else if (grepl("pyg", model[[5]]) | grepl("pig", model[[5]])) { #check if it says pygidium or any alternative
+    curves.id <- c("axis","border","margin")
+    model[[5]] <- "pygidium"
+  } #else curves.id <- model[[5]]
   
-  #loops to know which curves you want to use
-  curves.id <- model[[5]]
+  #set the correct name of requested curves (avoid typos)
+  model[[3]][grepl("gla", model[[3]])] <- "glabella"
+  model[[3]][grepl("sut", model[[3]])] <- "suture"  
+  model[[3]][grepl("ant", model[[3]])] <- "anterior"  
+  model[[3]][!grepl("cra", model[[3]]) & grepl("pos", model[[3]])] <- "posterior"
+  model[[3]][grepl("cra", model[[3]])] <- "cran_posterior"
+  model[[3]][grepl("mar", model[[3]])] <- "margin"
+  model[[3]][grepl("ax", model[[3]])] <- "axis"
+  model[[3]][grepl("bor", model[[3]])] <- "border"
+  model[[3]][grepl("D", model[[3]])|grepl("H", model[[3]])] <- "D&P"
   
-  if (!is.numeric(model[[3]])) { 
-    names.cvs <- model[[3]] 
-    nums.cvs <- which(curves.id %in% names.cvs)}
   
-  if (is.numeric(model[[3]])) {
-    names.cvs <- curves.id[model[[3]]] 
-    nums.cvs <- model[[3]] }
-            
+  #Avoid further errors
+  #duplicate cephalic margin curves  
+  checkCurves =  sum ( c(model[[5]]=="cephalon", sum( c(sum(model[[3]]=="margin") > 0, sum(model[[3]]=="anterior", model[[3]]=="posterior") > 0) ) ) )
+  if (checkCurves > 2) stop("IMPORTANT: you are asking for cephalic margin AND anterior and/or posterior cephalic curves, thus duplicating those curves")
+
+  #asking for cranidium and cephalic margin curves  
+  checkCurves =  sum ( c(model[[5]]=="cephalon", sum( c(sum(model[[3]]=="cran_posterior") > 0, sum(model[[3]]=="margin", model[[3]]=="anterior", model[[3]]=="posterior") > 0) ) ) )
+  if (checkCurves > 2) stop("IMPORTANT: you are asking for posterior cranidium curve AND some cephalic marginal curve. You should choose between cephalic or cranidium templates")
+ 
+  #asking for cranidium margin curve but not for LM12
+  checkCurves =  sum ( sum(model[[3]]=="cran_posterior") & sum(model[[2]]!=12) )
+  if (checkCurves > 2) stop("IMPORTANT: you are asking for posterior cranidium curve BUT not for LM12 which is needed for the curve")
+  
+  #forgot to state number of semilandmars
+  if (length(model[[3]]) > length(model[[4]])) stop("IMPORTANT: you forgot to state the number of semilandmarks in one or more curves")
+
+
+# 1st: Adjust the specimen to the desired configuration, and spot and remove specimens not compatible with the template.
+
+#loops to know which curves you want to use
+###section for TRILOMORPH TEMPLATE----------------------------------------------------------------------
+  corre.trilomorph = NULL
+  corre.margen = NULL
+  corre.cranidio = NULL
+  if (sum(c(model[[5]] == "pygidum", sum(model[[3]] == "cran_posterior" | model[[3]] == "margin" & model[[5]] == "cephalon") == 0 )) !=0 ) { #if asking for cephalon, not asking for cranidium posterior curve
+      corre.trilomorph = TRUE
+    if (!is.numeric(model[[3]])) { 
+      requested.cvs <- model[[3]] 
+      nums.cvs <- which(curves.id %in% requested.cvs) }
+  
+    if (is.numeric(model[[3]])) {
+      requested.cvs <- curves.id[model[[3]]] 
+      nums.cvs <- model[[3]] }
+
+
+  # generate the template with all desired curves and landmarks            
   bcvs <- NULL  # .: Same number of curves.
   blms <- NULL # .: Same fixed landmark configuration.
 
-  for (i in 1:length(lmks)) {
-    temp.lm <- as.numeric(gsub("^..","",rownames(lmks[[i]]$lm)))
-    fit.lm.conf <- length(which(model[[2]] %in% temp.lm))==length(model[[2]])
-    blms <- c(blms, fit.lm.conf)
+  for (i in 1:length(lmks)) { #loop by specimens
+    temp.lm <- as.numeric(gsub("^..","",rownames(lmks[[i]]$lm))) #get landmark numbers in specimen
+    fit.lm.conf <- length(which(lms %in% temp.lm))==length(lms) #T/F to know if all desired landmarks are present in the specimen
+    blms <- c(blms, fit.lm.conf) #save result
 
-    temp.cvs <- unlist(attributes(lmks[[i]]$cv.lm))
-    fit.cvs.conf <- ifelse(is.null(attributes(lmks[[i]]$cv.lm)), 
-                           lmks[[i]]$ncvs >= length(names.cvs),  #if null (ie. if tps file)
-                           length(which(names.cvs %in% temp.cvs))==length(names.cvs) #if not (xml file)
+    specimen.cvs <- unlist(attributes(lmks[[i]]$cv.lm)) #get curves in specimen
+    fit.cvs.conf <- ifelse(is.null(attributes(lmks[[i]]$cv.lm)),  #T/F to know if all desired curves are present in the specimen
+                           lmks[[i]]$ncvs >= length(requested.cvs),  #if null (ie. if tps file)
+                           length(which(requested.cvs %in% specimen.cvs))==length(requested.cvs) #if not (xml file)
                            )
     bcvs <- c(bcvs, fit.cvs.conf)
     
     if (!is.null(attributes(lmks[[i]]$cv.lm)) & fit.cvs.conf & fit.lm.conf) { #all curves are named and landmarks fit the desired configuration
     
-      lmks[[i]]$ncvs <- length(names.cvs) #update curve values given the desired configuration
-      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[names.cvs]
+      lmks[[i]]$ncvs <- length(requested.cvs) #update curve values given the desired configuration
+      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[requested.cvs]
       lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
-      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[names.cvs]
+      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[requested.cvs]
   
-      lmks[[i]]$plm <- length(model[[2]]) #update landmark values given the desired configuration
-      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% model[[2]]),]
+      lmks[[i]]$plm <- length(lms) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% lms),]
       lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
-      }
-        
-    if (is.null(attributes(lmks[[i]]$cv.lm)) & lmks[[i]]$ncvs == length(curves.id) & fit.lm.conf) { #curves don't have names (tps file) but all curves are present and landmarks fit the desired configuration
+            
+    } else if (is.null(attributes(lmks[[i]]$cv.lm)) & lmks[[i]]$ncvs == length(curves.id) & fit.lm.conf) { #curves don't have names (tps file) but all curves are present and landmarks fit the desired configuration
     
       lmks[[i]]$ncvs <- length(nums.cvs) #update curve values given the desired configuration
       lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[nums.cvs]
       lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
       lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[nums.cvs]
   
-      lmks[[i]]$plm <- length(model[[2]]) #update landmark values given the desired configuration
-      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% model[[2]]),]
+      lmks[[i]]$plm <- length(lms) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% lms),]
       lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
       }     
-  }
+  } #END loop by specimens
+###End section for TRILOMORPH TEMPLATE
+
+###section for CEPHALIC MARGIN CURVE----------------------------------------------------------------------
+  } else if ( (sum(model[[3]] == "margin" & model[[5]] == "cephalon") > 0) ) { #if asking for cephalic margin curve
+  corre.margen = TRUE
+
+  requested.cvs <- model[[3]] #names of requested curves
+  nums.cvs <- which(curves.id %in% requested.cvs)
+  
+
+  # generate the template with all desired curves and landmarks            
+  bcvs <- NULL  # .: Same number of curves.
+  blms <- NULL # .: Same fixed landmark configuration.
+
+  for (i in 1:length(lmks)) { #loop by specimens
+    temp.lm <- as.numeric(gsub("^..","",rownames(lmks[[i]]$lm))) #get landmark numbers in specimen
+    fit.lm.conf <- length(which(lms %in% temp.lm))==length(lms) #T/F to know if all desired landmarks are present in the specimen
+    blms <- c(blms, fit.lm.conf) #save result
+
+    specimen.cvs <- unlist(attributes(lmks[[i]]$cv.lm)) #get curves in specimen
+
+    requested.cvs.temp <- c(requested.cvs[(requested.cvs%in%curves.id)], curves.id[c(3,4)]) #list all desired curves AND anterior+posterior margin curves
+    fit.cvs.conf <- sum(specimen.cvs%in%requested.cvs.temp) == length(requested.cvs.temp) # check that desired curves and anterior+posterior margin curves are present
+
+    #T/F to know if all desired curves are present in the specimen
+    if (!is.null(attributes(lmks[[i]]$cv.lm)) & fit.cvs.conf & fit.lm.conf) { #all curves are named and landmarks fit the desired configuration
+      if (fit.cvs.conf) {
+        temp.margin <- rbind(lmks[[i]]$cv.lm$posterior,  lmks[[i]]$cv.lm$anterior[(nrow(lmks[[i]]$cv.lm$anterior)-1):1,]) #join posterior+anterior curves
+        lmks[[i]]$cv.lm$margin <- temp.margin #save cephalic margin curve (LM4 to LM12)
+        lmks[[i]]$cv.pts <- unlist(lapply(lmks[[i]]$cv.lm, FUN=nrow)) #save number of points for all curves
+        }
+    
+    } else if (is.null(attributes(lmks[[i]]$cv.lm)) & lmks[[i]]$ncvs == length(curves.id)) { #if all curves are present but no names (TPS files)
+      fit.cvs.conf <- TRUE 
+      
+      temp.margin <- rbind(lmks[[i]]$cv.lm[[4]],  lmks[[i]]$cv.lm[[3]][(nrow(lmks[[i]]$cv.lm[[3]])-1):1,]) #join posterior+anterior curves
+      lmks[[i]]$cv.lm[[5]] <- temp.margin #save cranidium posterior curve (LM4 to LM12)
+      lmks[[i]]$cv.pts <- unlist(lapply(lmks[[i]]$cv.lm, FUN=nrow)) #save number of points for all curves
+      
+      nums.cvs = c(nums.cvs, 5) #add fifth curve (cephalic margin) to the requested ones.
+    }
+        
+    bcvs <- c(bcvs, fit.cvs.conf)
+     
+    if (!is.null(attributes(lmks[[i]]$cv.lm)) & fit.cvs.conf & fit.lm.conf) { #all curves are named and landmarks fit the desired configuration
+    
+      lmks[[i]]$ncvs <- length(requested.cvs) #update curve values given the desired configuration
+      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[requested.cvs]
+      lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
+      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[requested.cvs]
+  
+      lmks[[i]]$plm <- length(lms) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% lms),]
+      lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
+            
+    } else if (is.null(attributes(lmks[[i]]$cv.lm)) & lmks[[i]]$ncvs == length(curves.id) & fit.lm.conf) { #curves don't have names (tps file) but all curves are present and landmarks fit the desired configuration
+    
+      lmks[[i]]$ncvs <- length(nums.cvs) #update curve values given the desired configuration
+      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[nums.cvs]
+      lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
+      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[nums.cvs]
+  
+      lmks[[i]]$plm <- length(lms) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% lms),]
+      lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
+      }     
+
+  } #END loop by specimens    
+###End section for CEPHALIC MARGIN
+
+###section for CRANIDIUM----------------------------------------------------------------------------
+  } else if ( (sum(model[[3]] == "cran_posterior") > 0) ) { #if asking for cranidium posterior curve
+  corre.cranidio = TRUE
+
+  requested.cvs <- model[[3]] #names of requested curves
+  nums.cvs <- which(curves.id %in% requested.cvs)
+  
+  lms <- model[[2]][model[[2]] <= 12] # double check to avoid problems (if asking for cranidium lm13:lm16 can't be analyzed)
+  nlms <- length(lms)
+  
+  # generate the template with all desired curves and landmarks            
+  bcvs <- NULL  # .: Same number of curves.
+  blms <- NULL # .: Same fixed landmark configuration.
+
+  for (i in 1:length(lmks)) { #loop by specimens
+    temp.lm <- as.numeric(gsub("^..","",rownames(lmks[[i]]$lm))) #get landmark numbers in specimen
+    fit.lm.conf <- length(which(lms %in% temp.lm))==length(lms) #T/F to know if all desired landmarks are present in the specimen
+    blms <- c(blms, fit.lm.conf) #save result
+
+    specimen.cvs <- unlist(attributes(lmks[[i]]$cv.lm)) #get curves in specimen
+
+    #T/F to know if all desired curves are present in the specimen
+    if (sum(requested.cvs%in%specimen.cvs) != length(requested.cvs) & !is.null(specimen.cvs)) { #check if cranidium posterior curve is landmarked (and curves are named)
+      requested.cvs.temp <- c(requested.cvs[(requested.cvs%in%curves.id)], curves.id[c(3,4)]) #list all desired curves AND anterior+posterior margin curves
+      fit.cvs.conf <- sum(specimen.cvs%in%requested.cvs.temp) == length(requested.cvs.temp) # check that desired curves and anterior+posterior margin curves are present
+      if (fit.cvs.conf) {
+        temp.margin <- rbind(lmks[[i]]$cv.lm$posterior,  lmks[[i]]$cv.lm$anterior[(nrow(lmks[[i]]$cv.lm$anterior)-1):1,]) #join posterior+anterior curves
+        cut.point = apply(temp.margin, MARGIN=1, FUN=function(x1, lm12) sqrt(sum((lm12 - x1) ^ 2)), lm12=lmks[[i]]$lm["LM12",]) #calculate distances to LM12
+        cut.point = which(cut.point == min(cut.point)) #define cutting point (closest point to LM12)
+
+        lmks[[i]]$cv.lm$cran_posterior <- rbind(temp.margin[1:cut.point,], lmks[[i]]$lm["LM12",]) #save cranidium posterior curve (LM4 to LM12)
+        lmks[[i]]$cv.pts <- unlist(lapply(lmks[[i]]$cv.lm, FUN=nrow)) #save number of points for all curves
+        }
+    
+    } else if (is.null(attributes(lmks[[i]]$cv.lm)) & lmks[[i]]$ncvs == length(curves.id)) { #if all curves are present but no names (TPS files)
+      fit.cvs.conf <- TRUE 
+      
+      temp.margin <- rbind(lmks[[i]]$cv.lm[[4]],  lmks[[i]]$cv.lm[[3]][(nrow(lmks[[i]]$cv.lm[[3]])-1):1,]) #join posterior+anterior curves
+      cut.point = apply(temp.margin, MARGIN=1, FUN=function(x1, lm12) sqrt(sum((lm12 - x1) ^ 2)), lm12=lmks[[i]]$lm["LM12",]) #calculate distances to LM12
+      cut.point = which(cut.point == min(cut.point)) #define cutting point (closest point to LM12)
+
+      lmks[[i]]$cv.lm[[5]] <- rbind(temp.margin[1:cut.point,], lmks[[i]]$lm["LM12",]) #save cranidium posterior curve (LM4 to LM12)
+      lmks[[i]]$cv.pts <- unlist(lapply(lmks[[i]]$cv.lm, FUN=nrow)) #save number of points for all curves
+      
+      nums.cvs = c(nums.cvs, 5) #add fifth curve (i.e. canidium posterior curve) to the requested ones.
+          
+    } else if (sum(requested.cvs%in%specimen.cvs) == length(requested.cvs)) { #if specimen has cranidium posterior curve already landmarked
+      fit.cvs.conf <- TRUE } 
+    
+    bcvs <- c(bcvs, fit.cvs.conf)
+     
+    if (!is.null(attributes(lmks[[i]]$cv.lm)) & fit.cvs.conf & fit.lm.conf) { #all curves are named and landmarks fit the desired configuration
+    
+      lmks[[i]]$ncvs <- length(requested.cvs) #update curve values given the desired configuration
+      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[requested.cvs]
+      lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
+      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[requested.cvs]
+  
+      lmks[[i]]$plm <- length(lms) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% lms),]
+      lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
+            
+    } else if (is.null(attributes(lmks[[i]]$cv.lm)) & lmks[[i]]$ncvs == length(curves.id) & fit.lm.conf) { #curves don't have names (tps file) but all curves are present and landmarks fit the desired configuration
+    
+      lmks[[i]]$ncvs <- length(nums.cvs) #update curve values given the desired configuration
+      lmks[[i]]$cv.pts <- lmks[[i]]$cv.pts[nums.cvs]
+      lmks[[i]]$pcvs <- sum(lmks[[i]]$cv.pts)
+      lmks[[i]]$cv.lm <- lmks[[i]]$cv.lm[nums.cvs]
+  
+      lmks[[i]]$plm <- length(lms) #update landmark values given the desired configuration
+      lmks[[i]]$lm <- lmks[[i]]$lm [which(temp.lm %in% lms),]
+      lmks[[i]]$p <- sum(lmks[[i]]$cv.pts + lmks[[i]]$plm)
+      }     
+
+  } #END loop by specimens    
+
+  } #END else if loop of cran_posterior curve
+
+###End section for CRANIDIUM
+
+#------------------------------------------------------------------------------------------------------
+
+#RECORD SPECIMENS THAT CONFORM TO THE DESIRED CONFIGURATIONS
 
   names(blms) <- names(lmks)
   blms <- !blms #record who differs from the desired fixed landmark configuration
@@ -335,11 +533,11 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
     fids <- vapply(lmks, function(qx) qx$id, character(1), USE.NAMES = FALSE)
   }
 
-###### end modified section ---------------------------------------------------------------------------------------
-
   # .: Enough semilandmarks.
+  id2rm.slm = NULL #define vector of IDs to remove based on semilandmarks to avoid further errors
+  if (ncurves > 0) {
   ncvs <- vapply(lmks, function(qx) qx$ncvs, numeric(1)) #moved here from above---------------------------------
-  n <- length(lmks) #redefini n para seguir
+  n <- length(lmks) #redefine n para seguir
   fs <- paste0("CV", 1:max(ncvs))
   mcvs <- matrix(0L, n, max(ncvs), dimnames = list(names(lmks), fs))
   for(i in 1:n) mcvs[i,1:length(lmks[[i]]$cv.pts)] <- lmks[[i]]$cv.pts
@@ -347,10 +545,13 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
   for(i in 1:max(ncvs)) bcvs[,i] <- (mcvs[,i] >= model[[4]][i]) #modified model[i+2] by model[[4]][i] to follow new template
   k <- apply(bcvs, 1, all)
   id2rm.slm <- names(k[!k])
+  }
+  
   #if(any(!k)) warning("configurations removed : ", length(id2rm), " : ", toString(id2rm)," : curves undersampled compared to the template")
   # .: Missing landmarks. #### This part is no longer needed
 #  bnas <- vapply(lmks, function(qx) any(is.na(qx$lm)), logical(1)) 
 #  if(any(bnas)) id2rm <- c(id2rm, fids[bnas])
+  
   # .: Remove spotted configurations.
   if(length(id2rm.slm) > 0) {
     id2rm.slm <- unique(id2rm.slm)
@@ -370,15 +571,16 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
     if(length(id2rm.cv)>0) warning(length(id2rm.cv), " specimens do not conform to the semilandmark template : ", toString(id2rm.cv))
     if(length(id2rm.slm)>0) warning(length(id2rm.slm), " specimens with curves undersampled compared to the template : ", toString(id2rm.slm))
   }
-    
+
+#--------------------------------------------------------------------------------------------------------------    
   # 2nd: Fit remaining specimens to the template.
   #model <- abs(model)
   xs <- ys <- character()
   if(nlms > 0) {
-    xs <- c(xs, paste0("LM-", model[[2]])) #added model[[2]] to name landmakrs given the desired template
+    xs <- c(xs, paste0("LM-", lms)) #added lms to name landmarks given the desired template
     ys <- c(ys, rep("LM", nlms))
   }
-  if(ncurves > 0) for(i in 1:ncurves) {
+  if(ncurves > 0) for (i in 1:ncurves) {
     xs <- c(xs, paste0("CV", i, "-", 1:model[[4]][i])) # modified to follow new template
     ys <- c(ys, rep(paste0("CV", i), model[[4]][i])) # modified to follow new template
   }
@@ -389,21 +591,23 @@ shapFix <- function(lmks, model, lm.scale = TRUE, cv.fixed = TRUE) {
     for(i in 1:length(lmks)) m[1:nlms,,i] <- lmks[[i]]$lm 
   }
   # .: Curves of semilandmarks.
-  p <- 0
-  q <- nlms
-  for(j in 1:ncurves) {
-    for(i in 1:length(lmks)) {
-      mcvi <- lmks[[i]]$cv.lm[[j]]
-      x <- (q+p+1):(q+p+model[[4]][j]) # modified to follow new template
-      if(cv.fixed) {
-        mcvi <- geomorph:::evenPts(mcvi, model[[4]][j]+2) # modified to follow new template
-        mcvi <- mcvi[-c(1,model[[4]][j]+2),] # modified to follow new template
-      } else {
-        mcvi <- geomorph:::evenPts(mcvi, model[[4]][j]) # modified to follow new template
+  if (ncurves > 0) {
+    p <- 0
+    q <- nlms
+    for(j in 1:ncurves) {
+      for(i in 1:length(lmks)) {
+        mcvi <- lmks[[i]]$cv.lm[[j]]
+        x <- (q+p+1):(q+p+model[[4]][j]) # modified to follow new template
+        if(cv.fixed) {
+          mcvi <- geomorph:::evenPts(mcvi, model[[4]][j]+2) # modified to follow new template
+          mcvi <- mcvi[-c(1,model[[4]][j]+2),] # modified to follow new template
+        } else {
+          mcvi <- geomorph:::evenPts(mcvi, model[[4]][j]) # modified to follow new template
+        }
+        m[x,,i] <- mcvi
       }
-      m[x,,i] <- mcvi
+      p <- p + model[[4]][j] # modified to follow new template
     }
-    p <- p + model[[4]][j] # modified to follow new template
   }
   # 3rd: Possibly rescale configurations.
   if(lm.scale) {
@@ -492,3 +696,4 @@ yaml_read <- function (file, flat = TRUE) {
 	} 
 	return(out)
 }
+
