@@ -55,7 +55,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
              lm = c(1:16), #vector of desired fixed landmark configuration
              cv = c("glabella","suture","anterior","posterior"), #names or numbers of desired curves
              cvs.lm = c(12, 20, 20, 20), #number of subsampled semilandmarks in each curve
-             curves.id = c("glabella","suture","anterior","posterior") #names of maximum number of curves in the dataset
+             curves.id = c("cephalon") #name of tagma to analyze
              )
 
     #note to change this configuration if analysing pygidia. Trilomorph template[^6] defines up to 3 pygidial curves.
@@ -63,7 +63,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
              lm = c(1:7), #vector of desired configuration
              cv = c("axis","border","margin"), #names or numbers of desired curves
              cvs.lm = c(x,x,x), #number of subsampled semilandmarks in each curve
-             curves.id = c("axis","border","margin") #names of maximum number of curves in the dataset
+             curves.id = c("pygidium") #names of maximum number of curves in the dataset
              )
 
     #read the shape files. Note that sufix = "_C" is for cephala, change it to "_P" if analysing pygidia.
@@ -76,7 +76,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
 
 <sup>Additionally, `shapFix` lets you easily change the number of semilandmarks in each curve. You only need to change the line `cvs.lm = c(12, 20, 20, 20)` with the number of desired semilandmarks for each curve.
 
-<sup>Important update: the current version of `shapFix` lets you choose any custom subset of *landmarks* or *curves*, removing all specimes that do not fit the desired configuration. Moreover, you can merge and divide curves. In particular, you can merge curve 3 and 4 in a single marginal curve by stating "margin" in the selected curves. You can also cut and merge curves to analyze cranidiums by setting "cran_posterior" (alternatively "cranidium") and "suture" in the selected curves.
+<sup>Important update: the current version of `shapFix` lets you choose any custom subset of *landmarks* or *curves*, removing all specimes that do not fit the desired configuration. Moreover, you can merge and divide curves. In particular, you can merge cephalic curves 3 and 4 in a single cephalic marginal curve by stating "margin" in the selected curves and "cephalon" in the tagma. You can also cut and merge curves to analyze cranidiums by setting "cran_posterior" (alternatively "cranidium") and "suture" in the selected curves.
 
 
 now you can use the geomorph[^N] R package to continue with the general procrustes superimposition, construct the morphospace and further analysis.
