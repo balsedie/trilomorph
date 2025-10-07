@@ -1,5 +1,6022 @@
 ---
 -
+  ID: AM_F116995
+  taxonomy:
+    genus: Raphiophorus
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Raphiophorus sandfordi
+    sp_status: NA
+    subsp: NA
+    sp_author: Edgecombe Sherwin 2001
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Edgecomb Sherwin 2001
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: TRUE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Cottons Hill Quarry
+    lat: -33.314019
+    long: 147.933704
+    country: Australia
+    state: New South Wales
+    county: NA
+  stratigraphy:
+    formation: Cotton Formation
+    min_age: Telychian Llandovery
+    max_age: Telychian Llandovery
+    ref_age: Sherwin 1973
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: Handkamer NM
+    landmark: D_Aquino Serra F
+    date: 2/2/2025
+  comments: NA
+-
+  ID: AMNH_36647
+  taxonomy:
+    genus: Glyptambon
+    gen_status: NA
+    subgen: NA
+    gen_author: Holloway 1981
+    sp: Glyptambon verrucosus
+    sp_status: NA
+    subsp: NA
+    sp_author: Hall 1864
+    orig_genus: Dalmania
+    orig_sp: Dalmania verrucosa
+  ref.pic: Holloway 1981
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Waldron Shale
+    lat: 39
+    long: -85
+    country: United States
+    state: Indiana
+    county: Shelby
+  stratigraphy:
+    formation: Waldron Shale
+    min_age: Homerian
+    max_age: Sheinwoodian
+    ref_age: Holloway 1981
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 1/28/2025
+  comments: NA
+-
+  ID: AMNH_36654
+  taxonomy:
+    genus: Glyptambon
+    gen_status: NA
+    subgen: NA
+    gen_author: Holloway 1981
+    sp: Glyptambon verrucosus
+    sp_status: NA
+    subsp: NA
+    sp_author: Hall 1864
+    orig_genus: Dalmania
+    orig_sp: Dalmania verrucosa
+  ref.pic: Holloway 1981
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Waldron Shale
+    lat: 39
+    long: -85
+    country: United States
+    state: Indiana
+    county: Shelby
+  stratigraphy:
+    formation: Waldron Shale
+    min_age: Homerian
+    max_age: Sheinwoodian
+    ref_age: Holloway 1981
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 1/28/2025
+  comments: NA
+-
+  ID: ANU35219
+  taxonomy:
+    genus: Paciphacops
+    gen_status: NA
+    subgen: Paciphacops
+    gen_author: Maksimova 1972
+    sp: Paciphacos microps
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton et al 1979
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chetterton et al 1979
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Wellington Caves Area
+    lat: -32.620833
+    long: 148.938056
+    country: Australia
+    state: New South Wales
+    county: NA
+  stratigraphy:
+    formation: Garra
+    min_age: Pridoli
+    max_age: Lochkovian
+    ref_age: Chatterton el al 1979
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: Ar55100
+  taxonomy:
+    genus: Wallacia
+    gen_status: NA
+    subgen: NA
+    gen_author: Lamont 1978
+    sp: Wallacia jaanussoni
+    sp_status: NA
+    subsp: NA
+    sp_author: Ramsköld Edgecombe 1994
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus laevis
+  ref.pic: Ramsköld Edgecombe 1994
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Själsö
+    lat: 57.69
+    long: 18.36
+    country: Sweden
+    state: Gotland
+    county: Gotland
+  stratigraphy:
+    formation: Lower Visby Beds
+    min_age: Sheinwoodian
+    max_age: Telychian
+    ref_age: Larsson 1979
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: Type of environment unclear last interpretation as a siliciclastic ramp
+-
+  ID: AU_6551
+  taxonomy:
+    genus: Deiphon
+    gen_status: NA
+    subgen: NA
+    gen_author: Barrande 1846
+    sp: Deiphon braybrouki
+    sp_status: NA
+    subsp: Deiphon braybrouki bainsi
+    sp_author: Chatterton Perry 1979
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton Perry 1984
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Mackenzie Mts 
+    lat: 62.4
+    long: -127
+    country: Canada
+    state: Northwest Territories
+    county: NA
+  stratigraphy:
+    formation: Delorme
+    min_age: Wenlock
+    max_age: Wenlock
+    ref_age: Chatterto Perry 1984
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/25/2025
+  comments: Loc Avalanche Lake section AV4 126T
+-
+  ID: AU_7482
+  taxonomy:
+    genus: Hadromeros
+    gen_status: NA
+    subgen: NA
+    gen_author: Lane 1971
+    sp: Hadromeros edgecombei
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton & Ludvigsen 2004
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton & Ludvigsen 2004
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Anticosti Island
+    lat: 49.4
+    long: -63.5
+    country: Canada
+    state: Quebec
+    county: NA
+  stratigraphy:
+    formation: Jupiter
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Chatterton & Ludvigsen 2004
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: Loc AN12 Pavilion Member near the top of the Jupiter Formation
+-
+  ID: BM_It13731
+  taxonomy:
+    genus: Metacalymene
+    gen_status: NA
+    subgen: NA
+    gen_author: Kegel 1927
+    sp: Metacalymene baylei
+    sp_status: NA
+    subsp: NA
+    sp_author: Barrande 1846
+    orig_genus: Calymene
+    orig_sp: NA
+  ref.pic: Siveter 1979
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Jarov
+    lat: 49
+    long: 14.5
+    country: Czechia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Kopanina
+    min_age: Ludfordian
+    max_age: Sheinwoodian
+    ref_age: Siveter 1979
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/13/2025
+  comments: The specimen is a plaster cast of NMP IT879
+-
+  ID: BM_It13732
+  taxonomy:
+    genus: Metacalymene
+    gen_status: NA
+    subgen: NA
+    gen_author: Kegel 1927
+    sp: Metacalymene baylei
+    sp_status: NA
+    subsp: NA
+    sp_author: Barrande 1846
+    orig_genus: Calymene
+    orig_sp: NA
+  ref.pic: Siveter 1979
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Ohrada
+    lat: 50
+    long: 14
+    country: Czechia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Kopanina
+    min_age: Ludfordian
+    max_age: Sheinwoodian
+    ref_age: Siveter 1979
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/13/2025
+  comments: The specimen is a plaster cast of NMP IT880
+-
+  ID: BM_ln_53676
+  taxonomy:
+    genus: Australosutura
+    gen_status: NA
+    subgen: NA
+    gen_author: Campbell & Goldring 1960
+    sp: Australosutura gardneri
+    sp_status: NA
+    subsp: NA
+    sp_author: Mitchell 922
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic:  Amos et al 1960
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality:  Cerro Mina
+    lat: -43.22
+    long: -35.15
+    country: Argentina
+    state: Chubut
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: lower Mississippian
+    max_age: lower Mississippian
+    ref_age: NA
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 6/9/2025
+  comments: NA
+-
+  ID: CAP1A515
+  taxonomy:
+    genus: Calmonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Clarke 1913
+    sp: Calmonia signifer
+    sp_status: NA
+    subsp: NA
+    sp_author: Clarke 1913
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Kerber et al 2023
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chapada Group
+    lat: -18.5
+    long: -54.5
+    country: Brazil
+    state: Mato Grosso do Sul
+    county: NA
+  stratigraphy:
+    formation: Unit 2a Chapada Group
+    min_age: Emsian
+    max_age: Pragian
+    ref_age: Kerber et al 2023
+    basin: Paraná
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/4/2025
+  comments: NA
+-
+  ID: CCLP_874a
+  taxonomy:
+    genus: Metacryphaeus
+    gen_status: NA
+    subgen: NA
+    gen_author: Reed 1907
+    sp: Metacryphaeus tuberculatus
+    sp_status: NA
+    subsp: NA
+    sp_author: Kozlowski 1923
+    orig_genus: Cryphaeus
+    orig_sp: NA
+  ref.pic: Carbonaro et al 2016
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chapada Group
+    lat: -16
+    long: -52
+    country: Brazil
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Chapada Group Unit 4
+    min_age: Frasnian
+    max_age: Givetian
+    ref_age: Carbonaro et al 2016
+    basin: Paraná
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: NA
+-
+  ID: CEGH-UNC_23.950
+  taxonomy:
+    genus: Maurotarion
+    gen_status: NA
+    subgen: Malvinotarion
+    gen_author: Alberti 1969
+    sp: Maurotarion gaucho
+    sp_status: NA
+    subsp: NA
+    sp_author: Rustán & Vaccari 2010
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Rustán & Vaccari 2010
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Loma de Los Piojos
+    lat: -30
+    long: -68.7
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Talacasto Formation
+    min_age: Emsian
+    max_age: Emsian
+    ref_age: Rustán & Vaccari 2010
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: NA
+-
+  ID: CGP1A-2
+  taxonomy:
+    genus: Kozlowskiaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Braniša & Vaněk 1973
+    sp: Kozlowskiaspis subcesiva
+    sp_status: NA
+    subsp: NA
+    sp_author: Clarke 1913
+    orig_genus: Calmonia
+    orig_sp: NA
+  ref.pic: Kerber et al 2023
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chapada Group
+    lat: -18.5
+    long: -54.5
+    country: Brazil
+    state: Mato Grosso do Sul
+    county: NA
+  stratigraphy:
+    formation: Unit 2a Chapada Group
+    min_age: Emsian
+    max_age: Pragian
+    ref_age: Kerber et al 2023
+    basin: Paraná
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/4/2025
+  comments: NA
+-
+  ID: CGP1A-208
+  taxonomy:
+    genus: Kozlowskiaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Braniša & Vaněk 1973
+    sp: Kozlowskiaspis subcesiva
+    sp_status: NA
+    subsp: NA
+    sp_author: Clarke 1913
+    orig_genus: Calmonia
+    orig_sp: NA
+  ref.pic: Kerber et al 2023
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chapada Group
+    lat: -18.5
+    long: -54.5
+    country: Brazil
+    state: Mato Grosso do Sul
+    county: NA
+  stratigraphy:
+    formation: Unit 2a Chapada Group
+    min_age: Emsian
+    max_age: Pragian
+    ref_age: Kerber et al 2023
+    basin: Paraná
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: NA
+-
+  ID: CGP1A-218
+  taxonomy:
+    genus: Bainella
+    gen_status: NA
+    subgen: Belenops
+    gen_author: Rennie 1930
+    sp: Bainella sulmatogrossensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Kerber et al 2023
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Kerber et al 2023
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chapada Group
+    lat: -18.5
+    long: -54.5
+    country: Brazil
+    state: Mato Grosso do Sul
+    county: NA
+  stratigraphy:
+    formation: Unit 2a Chapada Group
+    min_age: Emsian
+    max_age: Pragian
+    ref_age: Kerber et al 2023
+    basin: Paraná
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/4/2025
+  comments: NA
+-
+  ID: CGP1A104
+  taxonomy:
+    genus: Pennaia
+    gen_status: NA
+    subgen: NA
+    gen_author: Clarke 1913
+    sp: Pennaia pauliana
+    sp_status: NA
+    subsp: NA
+    sp_author: Clarke 1913
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Kerber et al 2023
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chapada Group
+    lat: -18.5
+    long: -54.5
+    country: Brazil
+    state: Mato Grosso do Sul
+    county: NA
+  stratigraphy:
+    formation: Unit 2a Chapada Group
+    min_age: Emsian
+    max_age: Pragian
+    ref_age: Kerber et al 2023
+    basin: Paraná
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: NA
+-
+  ID: CGP1A213
+  taxonomy:
+    genus: Bainella
+    gen_status: NA
+    subgen: Belenops
+    gen_author: Rennie 1930
+    sp: Bainella sulmatogrossensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Kerber et al 2023
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Kerber et al 2023
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chapada Group
+    lat: -18.5
+    long: -54.5
+    country: Brazil
+    state: Mato Grosso do Sul
+    county: NA
+  stratigraphy:
+    formation: Unit 2a Chapada Group
+    min_age: Emsian
+    max_age: Pragian
+    ref_age: Kerber et al 2023
+    basin: Paraná
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: NA
+-
+  ID: CGS-PB_152
+  taxonomy:
+    genus: Odontochile
+    gen_status: NA
+    subgen: NA
+    gen_author: Hawle & Corda 1847
+    sp: Odontochile hausmanni
+    sp_status: NA
+    subsp: NA
+    sp_author: Brongniart 1822
+    orig_genus: Asaphus
+    orig_sp: NA
+  ref.pic: Budil et al 2007
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: early Holaspis
+  geography:
+    locality: Radotín
+    lat: 49.99
+    long: 14.3
+    country: Czechia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Praha Formation
+    min_age: Pragian
+    max_age: Pragian
+    ref_age: Budil et al 2007
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/27/2025
+  comments: NA
+-
+  ID: CM_45732
+  taxonomy:
+    genus: Brachymetopus
+    gen_status: NA
+    subgen: NA
+    gen_author: MCoy 1847
+    sp: Brachymetopus indianwellsensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Brezinski 2000b
+    orig_genus: NA
+    orig_sp: Brachymetopus maccoyi
+  ref.pic: Brezinski 2000b
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Sacramento Mountain
+    lat: 33.13
+    long: -105.75
+    country: United States
+    state: New Mexico
+    county: NA
+  stratigraphy:
+    formation: Caballero
+    min_age: Tournaisian
+    max_age: Tournaisian
+    ref_age: Collinson et al 1971
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 1/20/2025
+  comments: NA
+-
+  ID: DCP_SMF_102k
+  taxonomy:
+    genus: Kettneraspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Prantl & Přibyl 1949
+    sp: Kettneraspis elliptica
+    sp_status: NA
+    subsp: NA
+    sp_author: Burmeister 1843
+    orig_genus: Acidaspis
+    orig_sp: NA
+  ref.pic: Basse & Müller 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Hillesheim Syncline
+    lat: 50.2
+    long: 6.6
+    country: Germany
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Hillesheim Syncline
+    min_age: Eifelian
+    max_age: Eifelian
+    ref_age: Basse & Müller 2004
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/19/2025
+  comments: NA
+-
+  ID: DGM_DNPM_78-I
+  taxonomy:
+    genus: Paracalmonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Struve 1958
+    sp: Paracalmonia cuspidata
+    sp_status: NA
+    subsp: NA
+    sp_author: Clarke 1913
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: de Carvalho & Ponciano 2015
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Ponta Grossa
+    lat: -25.1
+    long: -50.13
+    country: Brazil
+    state: Paraná
+    county: NA
+  stratigraphy:
+    formation: Ponta Grossa Formation
+    min_age: Lochkovian
+    max_age: Lochkovian
+    ref_age: de Carvalho & Ponciano 2015
+    basin: Paraná
+    environment: siliciclastic
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: >-
+        GPS at Ponta Grossa city. Clarke 1913 did not state further details than
+        “Ponta Grossa locality”
+-
+  ID: FMNH_P11152A
+  taxonomy:
+    genus: Sphaerocoryphe
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Sphaerocoryphe maquoketensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Slocom 1913
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Congreve Lieberman 2010
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Clermont Elgin Bloomfield
+    lat: 40.76
+    long: 73.984
+    country: United States
+    state: Iowa
+    county: Fayette
+  stratigraphy:
+    formation: Maquoketa shale
+    min_age: Hirnantian
+    max_age: Hirnantian
+    ref_age: SLOCOM 1913
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 6/4/2025
+  comments: NA
+-
+  ID: FMNH-P16954
+  taxonomy:
+    genus: Sphaerocoryphe
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Sphaerocoryphe maquoketensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Slocom 1913
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Congreve Lieberman 2010
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Clermont Elgin Bloomfield
+    lat: 40.76
+    long: 73.984
+    country: United States
+    state: Iowa
+    county: Fayette
+  stratigraphy:
+    formation: Maquoketa shale
+    min_age: Hirnantian
+    max_age: Hirnantian
+    ref_age: Slocom 1913
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 6/4/2025
+  comments: NA
+-
+  ID: GSC_122523
+  taxonomy:
+    genus: Encrinurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Emmrich 1844
+    sp: Encrinurus deomenos
+    sp_status: NA
+    subsp: NA
+    sp_author: Tripp 1962
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus anticostiensis
+  ref.pic: Chatterton & Ludvigsen 2004
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: AN15
+    lat: 49.55
+    long: -63.28
+    country: Canada
+    state: Anticosti Island Quebec
+    county: Minganie Regional
+  stratigraphy:
+    formation: Jupiter
+    min_age: Telychian
+    max_age: Aeronian
+    ref_age: Barnes et al 1981
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: NA
+-
+  ID: GSC_122530
+  taxonomy:
+    genus: Encrinurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Emmrich 1844
+    sp: Encrinurus deomenos
+    sp_status: NA
+    subsp: NA
+    sp_author: Tripp 1962
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus anticostiensis
+  ref.pic: Chatterton & Ludvigsen 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: AN49
+    lat: 49.16
+    long: -62.18
+    country: Canada
+    state: Anticosti Island Quebec
+    county: Minganie Regional
+  stratigraphy:
+    formation: Jupiter
+    min_age: Telychian
+    max_age: Aeronian
+    ref_age: Barnes et al 1981
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: NA
+-
+  ID: GSC_122580
+  taxonomy:
+    genus: Nucleurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Ramsköld 1986
+    sp: Nucleurus anticostiensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Twenhofel 1928
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus punctatus
+  ref.pic: Chatterton & Ludvigsen 2004
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: AN77
+    lat: 49.27
+    long: -62.56
+    country: Canada
+    state: Anticosti Island Quebec
+    county: Minganie Regional
+  stratigraphy:
+    formation: Jupiter
+    min_age: Telychian
+    max_age: Aeronian
+    ref_age: Barnes et al 1981
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: NA
+-
+  ID: GSC_29716
+  taxonomy:
+    genus: Nucleurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Ramsköld 1986
+    sp: Nucleurus anticostiensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Twenhofel 1929
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus punctatus
+  ref.pic: Chatterton & Ludvigsen 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: See comments
+    lat: 49.17
+    long: -62.51
+    country: Canada
+    state: Anticosti Island Quebec
+    county: Minganie Regional
+  stratigraphy:
+    formation: Jupiter
+    min_age: Telychian
+    max_age: Aeronian
+    ref_age: Barnes et al 1981
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: Locality “west bank of Shallop River approximately 2.6 mile above mouth
+-
+  ID: GSC122461
+  taxonomy:
+    genus: Hadromeros
+    gen_status: NA
+    subgen: NA
+    gen_author: Lane 1971
+    sp: Hadromeros edgecombei
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton & Ludvigsen 2004
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton & Ludvigsen 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Anticosti Island
+    lat: 49.4
+    long: -63.5
+    country: Canada
+    state: Anticosti Island Quebec
+    county: NA
+  stratigraphy:
+    formation: Jupiter
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Chatterton & Ludvigsen 2004
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: Loc AN36. Fm Pavilion Member top of the Jupiter Formation
+-
+  ID: GSC29691
+  taxonomy:
+    genus: Acernaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Campbell 1967
+    sp: Acernaspis boltoni
+    sp_status: NA
+    subsp: NA
+    sp_author: Lesperance & Letendre 1982 
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton & Ludvigsen 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Anticosti Island
+    lat: 49.32
+    long: -62.7
+    country: Canada
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Jupiter
+    min_age: Llandovery
+    max_age: Llandovery
+    ref_age: Chatterton & Ludvigsen 2004
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: GSM_31742
+  taxonomy:
+    genus: Gravicalymene
+    gen_status: NA
+    subgen: NA
+    gen_author: Shirley 1936
+    sp: Gravicalymene quadrata
+    sp_status: NA
+    subsp: NA
+    sp_author: King 1923
+    orig_genus: Calymene
+    orig_sp: NA
+  ref.pic: Price 1982
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Blaen-y-cwm
+    lat: 52.7
+    long: -3.2
+    country: Wales
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Rawtheyan Zone 7
+    min_age: Hirnantian
+    max_age: Katian
+    ref_age: Price 1982
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/10/2025
+  comments: NA
+-
+  ID: HM_A1083
+  taxonomy:
+    genus: Panarchaegonus
+    gen_status: NA
+    subgen: NA
+    gen_author: Öpik 1937
+    sp: Panarchaegonus trigodus
+    sp_status: NA
+    subsp: NA
+    sp_author: Warburg 1925
+    orig_genus: Cyphaspis
+    orig_sp: NA
+  ref.pic: Owens 1978
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Ladyburn
+    lat: 55.2
+    long: -4.7
+    country: Scotland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Upper Drummuck Group
+    min_age: Katian
+    max_age: Katian
+    ref_age: Owens 1978
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/13/2025
+  comments: NA
+-
+  ID: Hughes_et_al_1999_fig2_2
+  taxonomy:
+    genus: Dicranopeltis
+    gen_status: NA
+    subgen: NA
+    gen_author: Hawle Corda 1847
+    sp: Dicranopeltis scabra
+    sp_status: NA
+    subsp: NA
+    sp_author: Beyrich 1845
+    orig_genus: Lichas
+    orig_sp: NA
+  ref.pic: Hughes et al 1999
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Loděnice
+    lat: 50
+    long: 14
+    country: Czechia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Unknown
+    min_age: Ludfordian
+    max_age: Ludfordian
+    ref_age: Hughes et al 1999
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/13/2025
+  comments: NA
+-
+  ID: IRSNB_a12997
+  taxonomy:
+    genus: Cyphaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Burmeister 1843
+    sp: Cyphaspis kippingi
+    sp_status: NA
+    subsp: NA
+    sp_author: Van Viersen & Holland 2016
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Van Viersen & Holland 2016
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Issoumour
+    lat: -6
+    long: 30
+    country: Morocco
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Tazoulait Formation
+    min_age: Emsian
+    max_age: Emsian
+    ref_age: Van Viersen & Holland 2016
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: NA
+-
+  ID: IRSNB_a13290
+  taxonomy:
+    genus: Tropidocoryphe
+    gen_status: NA
+    subgen: NA
+    gen_author: Novák 1890
+    sp: Tropidocoryphe insciens
+    sp_status: NA
+    subsp: NA
+    sp_author: Van Viersen et al 2019
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Van Viersen et al 2019
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Nismes
+    lat: 50.05
+    long: 4.58
+    country: Belgium
+    state: Viroinval
+    county: NA
+  stratigraphy:
+    formation: Jemelle
+    min_age: Frasnian
+    max_age: Eifelian  
+    ref_age: Béthune 1954
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 1/23/2025
+  comments: NA
+-
+  ID: IRSNB_a13292
+  taxonomy:
+    genus: Tropidocoryphe
+    gen_status: NA
+    subgen: NA
+    gen_author: Novák 1890
+    sp: Tropidocoryphe insciens
+    sp_status: NA
+    subsp: NA
+    sp_author: Van Viersen et al 2019
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Van Viersen et al 2019
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Nismes
+    lat: 50.05
+    long: 4.58
+    country: Belgium
+    state: Viroinval
+    county: NA
+  stratigraphy:
+    formation: Jemelle
+    min_age: Frasnian
+    max_age: Eifelian  
+    ref_age: Béthune 1954
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 1/23/2025
+  comments: NA
+-
+  ID: JV_508
+  taxonomy:
+    genus: Bohemoharpes
+    gen_status: NA
+    subgen: NA
+    gen_author: Vaněk 1963
+    sp: Bohemoharpes ungula
+    sp_status: NA
+    subsp: NA
+    sp_author: Sternberg 1833
+    orig_genus: Harpes
+    orig_sp: Harpes ungula
+  ref.pic: Johnson 2024
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Dlouha hora
+    lat: 49.9
+    long: 14.14
+    country: Chequia
+    state: NA
+    county: Beroun
+  stratigraphy:
+    formation: Kopanina
+    min_age: Ludfordian
+    max_age: Gorstian
+    ref_age: Johnson 2024
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 3/31/2025
+  comments: Drawing attached to specimen
+-
+  ID: LO_8909t
+  taxonomy:
+    genus: Rorringtonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Whittard 1966
+    sp: Rorringtonia scanica
+    sp_status: NA
+    subsp: NA
+    sp_author: Olin 1906
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Owens 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Skane
+    lat: 56
+    long: 13.29
+    country: Sweden
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Lindegard Mudstone
+    min_age: Katian
+    max_age: Katian
+    ref_age: Owens 2004
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 2/13/2025
+  comments: NA
+-
+  ID: LO_8924t
+  taxonomy:
+    genus: Rorringtonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Whittard 1966
+    sp: NA
+    sp_status: sp.
+    subsp: NA
+    sp_author: NA
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Owens 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kallholn
+    lat: 61.17
+    long: 14.71
+    country: Sweden
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Kallholn
+    min_age: Telychian
+    max_age: Rhuddanian
+    ref_age: Owens 2004
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 2/13/2025
+  comments: NA
+-
+  ID: MB.T.5713
+  taxonomy:
+    genus: Lonchodomas
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Lonchodomas postrostratus
+    sp_status: NA
+    subsp: NA
+    sp_author: Krueger 2018
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Krueger 2018
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Liessow
+    lat: 53.8
+    long: 12.3
+    country: Germany
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Khrevitsa
+    min_age: Sandbian
+    max_age: Sandbian
+    ref_age: Krueger 2018
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 5/21/2025
+  comments: NA
+-
+  ID: MB.T.5716.2
+  taxonomy:
+    genus: Lonchodomas
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Lonchodomas portlocki
+    sp_status: NA
+    subsp: NA
+    sp_author: Barrande 1846
+    orig_genus: Ampyx
+    orig_sp: NA
+  ref.pic: Krueger 2018
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Oderberg
+    lat: 52.8
+    long: 14
+    country: Germany
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Pljussa Group
+    min_age: Katian
+    max_age: Katian
+    ref_age: Krueger 2018
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 5/21/2025
+  comments: NA
+-
+  ID: MCZ_638
+  taxonomy:
+    genus: Flexicalymene
+    gen_status: NA
+    subgen: NA
+    gen_author: Shirley 1936
+    sp: Flexicalymene celebra
+    sp_status: NA
+    subsp: NA
+    sp_author: Raymond 1916
+    orig_genus: Calymene
+    orig_sp: NA
+  ref.pic: Whittington 1971
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Grafton
+    lat: 38.9
+    long: -90.4
+    country: United States
+    state: Illinois
+    county: NA
+  stratigraphy:
+    formation: Racine Dolomite
+    min_age: Gorstian
+    max_age: Homerian
+    ref_age: Whittington 1971
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/12/2025
+  comments: NA
+-
+  ID: MCZ_9034
+  taxonomy:
+    genus: Mackenziurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Edgecombe Chatterton 1990
+    sp: Mackenziurus lauriae
+    sp_status: NA
+    subsp: NA
+    sp_author: Gass et al 1992
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus laurige
+  ref.pic: Gass et al 1992
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Zimmermann Quarry
+    lat: 43.05
+    long: -88.02
+    country: United States
+    state: Wisconsin
+    county: Milwaukee
+  stratigraphy:
+    formation: Racine Dolomite
+    min_age: Ludlow
+    max_age: Wenlock
+    ref_age: Gass et al 1992
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/26/2025
+  comments: NA
+-
+  ID: MGSB79489
+  taxonomy:
+    genus: Belenopyge
+    gen_status: NA
+    subgen: NA
+    gen_author: Pek & Vanek 1991
+    sp: Belenopyge estevei
+    sp_status: NA
+    subsp: NA
+    sp_author: Corbacho & Kier 2013
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Corbacho & Kier 2013
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Mader
+    lat: 30.8
+    long: -4
+    country: Morocco
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Ihandar Formation
+    min_age: Pragian
+    max_age: Pragian
+    ref_age: Corbacho & Kier 2013
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 5/26/2025
+  comments: NA
+-
+  ID: MGUH_146
+  taxonomy:
+    genus: Stenopareia
+    gen_status: cf.
+    subgen: NA
+    gen_author: Holm 1886
+    sp: Stenopareia grandis
+    sp_status: NA
+    subsp: NA
+    sp_author: Billings 1859
+    orig_genus: Illaenus
+    orig_sp: grandis
+  ref.pic: Hughes 2010
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Wulffland
+    lat: 82.45
+    long: -47.18
+    country: Greenland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Djævlekløften 
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Hughes 2010
+    basin: Franklinian basin
+    environment: carbonate
+  enterer:
+    metadata: Parry S
+    landmark: Randolfe E A.
+    date: 3/5/2025
+  comments: NA
+-
+  ID: MGUH_229
+  taxonomy:
+    genus: Cheirurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Beyrich 1845
+    sp: Cheirurus falcatus
+    sp_status: NA
+    subsp: NA
+    sp_author: Hughes 2010
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Hughes 2010
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kronprins Christian Land 5
+    lat: 81
+    long: -10
+    country: Greenland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Samuelsen Høj
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Hughes 2010
+    basin: Franklinian basin
+    environment: carbonate
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 5/13/2025
+  comments: NA
+-
+  ID: MGUH236
+  taxonomy:
+    genus: Cheirurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Beyrich 1845
+    sp: Cheirurus falcatus
+    sp_status: NA
+    subsp: NA
+    sp_author: Hughes 2010
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Hughes 2010
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Central Peary Land 2
+    lat: 82.55
+    long: -29.38
+    country: Greenland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Samuelsen Høj
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Hughes 2010
+    basin: Franklinian basin
+    environment: carbonate
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: NA
+-
+  ID: MGUH243
+  taxonomy:
+    genus: Radiurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Ramskold 1983
+    sp: Radiurus pauli
+    sp_status: NA
+    subsp: NA
+    sp_author: "Hughes 2010\_"
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Hughes 2010
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Wulff Land
+    lat: 81.67
+    long: -47.63
+    country: Greenland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Djævlekløften
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Hughes 2010
+    basin: Franklinian basin
+    environment: carbonate
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: NA
+-
+  ID: MGUH251
+  taxonomy:
+    genus: Radiurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Ramskold 1983
+    sp: Radiurus pauli
+    sp_status: NA
+    subsp: NA
+    sp_author: Hughes 2010
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Hughes 2010
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Wulff Land
+    lat: 81.67
+    long: -47.63
+    country: Greenland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Djævlekløften
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Hughes 2010
+    basin: Franklinian basin
+    environment: carbonate
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: NA
+-
+  ID: MGUH260
+  taxonomy:
+    genus: Distyrax
+    gen_status: NA
+    subgen: NA
+    gen_author: Lane 1988
+    sp: Distyrax bibullus
+    sp_status: NA
+    subsp: NA
+    sp_author: Hughes 2010
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Hughes 2010
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: KCL1
+    lat: 81.17
+    long: -19.72
+    country: Greenland
+    state: NA
+    county: Avannaa
+  stratigraphy:
+    formation: Hauge Bjerge
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Hughes 2010
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/7/2025
+  comments: NA
+-
+  ID: MHNN.P.082750
+  taxonomy:
+    genus: Colombianaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Morzadec et al 2015
+    sp: Colombianaspis carvalhoae
+    sp_status: NA
+    subsp: NA
+    sp_author: Morzadec et al 2015
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Morzadec et al 2015
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada Monticelo
+    lat: 5.8
+    long: -72.95
+    country: Colombia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Floresta Formation
+    min_age: Emsian
+    max_age: Emsian
+    ref_age: Morzadec et al 2015
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/4/2025
+  comments: NA
+-
+  ID: MHNN.P.082761
+  taxonomy:
+    genus: Colombianaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Morzadec et al 2015
+    sp: Colombianaspis carvalhoae
+    sp_status: NA
+    subsp: NA
+    sp_author: Morzadec et al 2015
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Morzadec et al 2015
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada Monticelo
+    lat: 5.8
+    long: -72.95
+    country: Colombia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Floresta Formation
+    min_age: Emsian
+    max_age: Emsian
+    ref_age: Morzadec et al 2015
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 6/3/2025
+  comments: NA
+-
+  ID: MMB102
+  taxonomy:
+    genus: Basseiarges
+    gen_status: NA
+    subgen: NA
+    gen_author: Corbacho Lopez-Soriano 2013
+    sp: Basseiarges mellishae
+    sp_status: NA
+    subsp: NA
+    sp_author: Corbacho Lopez-Soriano 2013
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Corbacho Lopez-Soriano 2013
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Jorf
+    lat: 31.51
+    long: -4.46
+    country: Morocco
+    state: NA
+    county: Er-Rachidia
+  stratigraphy:
+    formation: Bou Tchrafine
+    min_age: Eifelian
+    max_age: Eifelian
+    ref_age: Corbacho Lopez-Soriano 2013
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/26/2025
+  comments: NA
+-
+  ID: MMB104
+  taxonomy:
+    genus: Basseiarges
+    gen_status: NA
+    subgen: NA
+    gen_author: Corbacho Lopez-Soriano 2013
+    sp: Basseiarges mellishae
+    sp_status: NA
+    subsp: NA
+    sp_author: Corbacho Lopez-Soriano 2013
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Corbacho Lopez-Soriano 2013
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Jorf
+    lat: 31.51
+    long: -4.46
+    country: Morocco
+    state: NA
+    county: Er-Rachidia
+  stratigraphy:
+    formation: Bou Tchrafine
+    min_age: Eifelian
+    max_age: Eifelian
+    ref_age: Corbacho Lopez-Soriano 2013
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/26/2025
+  comments: NA
+-
+  ID: MMH_11381
+  taxonomy:
+    genus: Chiozoon
+    gen_status: NA
+    subgen: NA
+    gen_author: Lane 1972
+    sp: Chiozoon cowiei
+    sp_status: NA
+    subsp: NA
+    sp_author: Lane 1972
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Lane 1972
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: NA
+    lat: 80.905
+    long: -77.016
+    country: Greenland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Profilfjeldet Shales
+    min_age: Wenlock
+    max_age: Wenlock
+    ref_age: Lane 1972
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/25/2025
+  comments: >-
+        Loc 2 km from the north shore of Centrumsø. Fm boulders at the base of
+        the Profilfjeldet Shales these boulders having the lithology of the
+        underlying Drommebjerg Limestone (Cowie 1961 p. 164). Nombre de autor es
+        de la especie no de la subespecie
+-
+  ID: MMH11371
+  taxonomy:
+    genus: Chiozoon
+    gen_status: NA
+    subgen: NA
+    gen_author: Lane 1972
+    sp: Chiozoon cowiei
+    sp_status: NA
+    subsp: NA
+    sp_author: Lane 1972
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Lane 1972
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: NA
+    lat: 80.905
+    long: -77.016
+    country: Greenland
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Profilfjeldet Shales
+    min_age: Wenlock
+    max_age: Wenlock
+    ref_age: Lane 1972
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Moni DS
+    landmark: Randolfe EA
+    date: 3/25/2025
+  comments: >-
+        Loc 2 km from the north shore of Centrumsø. Fm boulders at the base of
+        the Profilfjeldet Shales these boulders having the lithology of the
+        underlying Drommebjerg Limestone (Cowie 1961 p. 164)
+-
+  ID: MPM_28242
+  taxonomy:
+    genus: Mackenziurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Edgecombe Chatterton 1990
+    sp: Mackenziurus lauriae
+    sp_status: NA
+    subsp: NA
+    sp_author: Gass et al 1992
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus laurige
+  ref.pic: Gass et al 1992
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Zimmermann Quarry
+    lat: 43.05
+    long: -88.02
+    country: United States
+    state: Wisconsin
+    county: Milwaukee
+  stratigraphy:
+    formation: Racine Dolomite
+    min_age: Ludlow
+    max_age: Wenlock
+    ref_age: Gass et al 1992
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/26/2025
+  comments: NA
+-
+  ID: MPM26014
+  taxonomy:
+    genus: Balizoma
+    gen_status: NA
+    subgen: NA
+    gen_author: Holloway 1980
+    sp: Balizoma indianensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Kindle & Breger 1904
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus indianensis
+  ref.pic: Gass et al 1992
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Thornton Quarry
+    lat: 41.56
+    long: -87.61
+    country: United States
+    state: Illinois
+    county: Cook
+  stratigraphy:
+    formation: Racine Dolomite
+    min_age: Wenlock
+    max_age: Wenlock
+    ref_age: Mikulic 1999
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/27/2025
+  comments: NA
+-
+  ID: NHMUK_It_29232
+  taxonomy:
+    genus: Harpes
+    gen_status: NA
+    subgen: NA
+    gen_author: Goldfuss 1839
+    sp: Harpes lahceni
+    sp_status: NA
+    subsp: NA
+    sp_author: Johnson 2024
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Johnson 2024
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Jbel Issoumour Section 2
+    lat: 31.09
+    long: -4.89
+    country: Morocco
+    state: NA
+    county: Tinghir
+  stratigraphy:
+    formation: El Otfal
+    min_age: Eifelian
+    max_age: Eifelian
+    ref_age: Johnson 2024
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 4/9/2025
+  comments: Drawing attached to specimen
+-
+  ID: NHMUK_It_2925_6
+  taxonomy:
+    genus: Eskoharpes
+    gen_status: NA
+    subgen: NA
+    gen_author: McNamara et al 2009
+    sp: Eskoharpes sicarius
+    sp_status: NA
+    subsp: NA
+    sp_author: Johnson 2024
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Johnson 2024
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Bouia
+    lat: 31.45
+    long: -4.33
+    country: Morocco
+    state: NA
+    county: El Kelâat Es-Sraghna
+  stratigraphy:
+    formation: Achguig
+    min_age: Early Frasnian
+    max_age: Early Frasnian
+    ref_age: Johnson 2024
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 4/7/2025
+  comments: NA
+-
+  ID: NHMUK_It_29256_1
+  taxonomy:
+    genus: Eskoharpes
+    gen_status: NA
+    subgen: NA
+    gen_author: McNamara et al 2009
+    sp: Eskoharpes sicarius
+    sp_status: NA
+    subsp: NA
+    sp_author: Johnson 2024
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Johnson 2024
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Bouia
+    lat: 31.45
+    long: -4.33
+    country: Morocco
+    state: NA
+    county: El Kelâat Es-Sraghna
+  stratigraphy:
+    formation: Achguig
+    min_age: Early Frasnian
+    max_age: Early Frasnian
+    ref_age: Johnson 2024
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 4/7/2025
+  comments: Drawing attached to specimen
+-
+  ID: NHMUK_It_29278
+  taxonomy:
+    genus: Lioharpes
+    gen_status: NA
+    subgen: NA
+    gen_author: Whittington 1950
+    sp: Lioharpes saredra
+    sp_status: NA
+    subsp: NA
+    sp_author: Johnson 2024
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Johnson 2024
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Jbel Shebras
+    lat: 30.98
+    long: -4.04
+    country: Morocco
+    state: NA
+    county: Errachidia
+  stratigraphy:
+    formation: Tazoulait
+    min_age: Emsian
+    max_age: Emsian
+    ref_age: Johnson 2024
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 4/9/2025
+  comments: Drawing attached to specimen
+-
+  ID: NHMUK_It_29373
+  taxonomy:
+    genus: Stoloharpes
+    gen_status: NA
+    subgen: NA
+    gen_author: Johnson 2024
+    sp: Stoloharpes rissaniensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Johnson 2024
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Johnson 2024
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: South Rissani
+    lat: 31.21
+    long: -4.3
+    country: Morocco
+    state: NA
+    county: Errachidia
+  stratigraphy:
+    formation: El Otfal
+    min_age: Eifelian
+    max_age: Eifelian
+    ref_age: Johnson 2024
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 4/11/2025
+  comments: Drawing of the pygidium attached to the photo
+-
+  ID: NM_L_12719
+  taxonomy:
+    genus: Xiphogonium
+    gen_status: NA
+    subgen: NA
+    gen_author: Hawle & Corda 1847
+    sp: Xiphogonium loveni
+    sp_status: NA
+    subsp: NA
+    sp_author: Barrande 1846
+    orig_genus:  Proetus
+    orig_sp: NA
+  ref.pic: Snajdr et al 1990
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: ZLICHOV
+    lat: 50.05
+    long: 14.38
+    country: Czech Republic
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Zlichov limenstone
+    min_age: Eifelian
+    max_age: Emsian
+    ref_age: NA
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 1/30/2025
+  comments: NA
+-
+  ID: NMIT_131
+  taxonomy:
+    genus: Eophacops
+    gen_status: NA
+    subgen: NA
+    gen_author: Delo 1935
+    sp: Eophacops trapeziceps
+    sp_status: NA
+    subsp: NA
+    sp_author: Barrande 1846
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chlupac 1977
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Listice
+    lat: 50.181005
+    long: 15.408136
+    country: Czech Republic
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Liten
+    min_age: Homerian
+    max_age: Sheinwoodian
+    ref_age: Chlupac 1977
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/13/2025
+  comments: NA
+-
+  ID: NMIT_397
+  taxonomy:
+    genus: Denckmannites
+    gen_status: NA
+    subgen: NA
+    gen_author: Wedekind 1914
+    sp: Denckmannites volborthi
+    sp_status: NA
+    subsp: NA
+    sp_author: Barrande 1852
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chlupac 1977
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality:  Barrandian area
+    lat: 50
+    long: 14.05
+    country: Czech Republic
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Kopanina 
+    min_age: Ludfordian
+    max_age: Ludfordian
+    ref_age: Chlupac 1977
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/13/2025
+  comments: NA
+-
+  ID: NMV_P312919
+  taxonomy:
+    genus: Australoscutellum
+    gen_status: NA
+    subgen: NA
+    gen_author: Chatterton & Campbell 1980
+    sp: Australoscutellum pulex
+    sp_status: NA
+    subsp: NA
+    sp_author: Holloway & Lane 2012
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Holloway & Lane 2012
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Locality PL1995
+    lat: 33.18
+    long: 148
+    country: Australia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Mirrabooka Formation
+    min_age: Ludfordian
+    max_age: Sheinwoodian
+    ref_age: Holloway & Lane 2012
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/11/2025
+  comments: NA
+-
+  ID: NMV-P136802
+  taxonomy:
+    genus: Ananaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Campbell 1967
+    sp: Ananaspis kenleyi
+    sp_status: NA
+    subsp: NA
+    sp_author: Sandford Holloway 2006
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Sandford Holloway 2006
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Geological Survey locality Bb18
+    lat: -37.35
+    long: 145.02
+    country: Australia
+    state: Victoria
+    county: Wandong
+  stratigraphy:
+    formation: Yan Yean
+    min_age: Ludlow
+    max_age: Wenlock
+    ref_age: Sandford Holloway 2006
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: NMV-P312938
+  taxonomy:
+    genus: Australoscutellum
+    gen_status: NA
+    subgen: NA
+    gen_author: Chatterton & Campbell 1980
+    sp: Australoscutellum pulex
+    sp_status: NA
+    subsp: NA
+    sp_author: Holloway & Lane 2012
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Holloway & Lane 2012
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: locality PL448
+    lat: -33.2
+    long: 148
+    country: Australia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Mirrabooka Formation
+    min_age: Ludfordian
+    max_age: Sheinwoodian
+    ref_age: Holloway & Lane 2012
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/11/2025
+  comments: NA
+-
+  ID: NMV-P313314
+  taxonomy:
+    genus: Kosovopeltis
+    gen_status: NA
+    subgen: NA
+    gen_author: Sňajdr 1958
+    sp: Kosovopeltis trepida
+    sp_status: NA
+    subsp: NA
+    sp_author: Holloway & Lane 2012
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Holloway & Lane 2012
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: locality PL1989
+    lat: -33
+    long: 148
+    country: Australia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Mirrabooka Formation
+    min_age: Ludfordian
+    max_age: Sheinwoodian
+    ref_age: Holloway & Lane 2012
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/11/2025
+  comments: NA
+-
+  ID: NMV-P313576
+  taxonomy:
+    genus: Stenopareia
+    gen_status: aff.
+    subgen: NA
+    gen_author: Holm 1886
+    sp: Stenopareia thomsoni
+    sp_status: NA
+    subsp: NA
+    sp_author: Salter 1867
+    orig_genus: Illaenus
+    orig_sp: thomsoni
+  ref.pic: Holloway & Lane 2016
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Tomcat Creek
+    lat: -19.28
+    long: 146.84
+    country: Australia
+    state: Queensland
+    county: Broken River
+  stratigraphy:
+    formation: Tomcat Creek Limestone
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Holloway & Lane 2016
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Parry S
+    landmark: Randolfe E A
+    date: 3/5/2025
+  comments: NA
+-
+  ID: NMW_79.35G.1
+  taxonomy:
+    genus: Rorringtonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Whittard 1966
+    sp: Rorringtonia kennedyi
+    sp_status: NA
+    subsp: NA
+    sp_author: Owens 1981
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Owens 1981
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Powys
+    lat: 52.24
+    long: -3.37
+    country: Wales
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Darriwilian
+    max_age: Darriwilian
+    ref_age: Owens 1981
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 3/10/2025
+  comments: NA
+-
+  ID: NMW_87.75G.1009a
+  taxonomy:
+    genus: Diacalymene
+    gen_status: NA
+    subgen: NA
+    gen_author: Kegel 1927
+    sp: Diacalymene allportiana
+    sp_status: NA
+    subsp: NA
+    sp_author: Salter 1865
+    orig_genus: Calymene
+    orig_sp: NA
+  ref.pic: Siveter 1995
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Road cut between Buildwas & Telford
+    lat: 52.639797
+    long: -2.5208727
+    country: Britain
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Coalbrookdale
+    min_age: Homerian
+    max_age: Homerian
+    ref_age: Siveter 1995
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/14/2025
+  comments: NA
+-
+  ID: NMW_90_18G187
+  taxonomy:
+    genus: Madygenia 
+    gen_status: NA
+    subgen: NA
+    gen_author: Petrunina 1975
+    sp: Madygenia communis
+    sp_status: NA
+    subsp: NA
+    sp_author: Ju 1981
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Owens 2004
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Allberg
+    lat: 56.940865
+    long: 12.657025
+    country: Sweden
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Loka
+    min_age: Rhuddanian
+    max_age: Hirnantian
+    ref_age: PBDB
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/13/2025
+  comments: >-
+        PBDB Genus Pseudobirmanites Upper Ord. (Hirnantian) - lower Sil.
+        (Aeronian) 
+-
+  ID: NYSM_16792
+  taxonomy:
+    genus: Radnoria
+    gen_status: NA
+    subgen: NA
+    gen_author: Wasmann 1894
+    sp: Radnoria bretti
+    sp_status: NA
+    subsp: NA
+    sp_author: Adrain & Tetreault 2005
+    orig_genus: Proetus
+    orig_sp: NA
+  ref.pic: Adrain & Tetreault 2005
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Lockport
+    lat: 43.18
+    long: -78.72
+    country: USA
+    state: New York
+    county: Niagara
+  stratigraphy:
+    formation: Rochester
+    min_age: Sheinwoodian
+    max_age: Sheinwoodian
+    ref_age:  Brett 1983
+    basin: Appalachian
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 2/24/2025
+  comments: NA
+-
+  ID: PMO_19754
+  taxonomy:
+    genus: Bumastus
+    gen_status: NA
+    subgen: NA
+    gen_author: Murchison 1839
+    sp: Bumastus sulcatus
+    sp_status: NA
+    subsp: NA
+    sp_author: Lindstrom 1895
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Whittard 1935
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Langøy
+    lat: 59.43
+    long: 10.38
+    country: Norway
+    state: Holmestrand
+    county: Vestfold
+  stratigraphy:
+    formation: HUSBERGOSLASHYA
+    min_age: Ludlovian
+    max_age: Ludlovian
+    ref_age: Whittard 1935
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Parry Scott
+    landmark: Randolfe EA
+    date: 3/5/2025
+  comments: NA
+-
+  ID: PMO_20777a
+  taxonomy:
+    genus: Isbergia
+    gen_status: NA
+    subgen: NA
+    gen_author: Warburg 1925
+    sp: Isbergia planifrons
+    sp_status: NA
+    subsp: NA
+    sp_author: Warburg 1925
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Owens 1978
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Stavnestangen
+    lat: 66.13
+    long: 13.08
+    country: Norway
+    state: Ringerike
+    county: NA
+  stratigraphy:
+    formation: Boda Limestone
+    min_age: Katian
+    max_age: Katian
+    ref_age: Owens 1978
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 3/11/2025
+  comments: NA
+-
+  ID: PMO_60616
+  taxonomy:
+    genus: Bumastus
+    gen_status: NA
+    subgen: NA
+    gen_author: Murchison 1839
+    sp: Bumastus sulcatus
+    sp_status: NA
+    subsp: NA
+    sp_author: Lindstrom 1885
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Whittard 1935
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Langøy
+    lat: 59.43
+    long: 10.38
+    country: Norway
+    state: Holmestrand
+    county: Vestfold
+  stratigraphy:
+    formation: HUSBERGOSLASHYA
+    min_age: Ludlovian
+    max_age: Ludlovian
+    ref_age: Whittard 1939
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Parry S
+    landmark: Randolfe EA
+    date: 2/28/2025
+  comments: NA
+-
+  ID: PRI_44579
+  taxonomy:
+    genus: Radnoria
+    gen_status: NA
+    subgen: NA
+    gen_author: Wasmann 1894
+    sp: Radnoria bretti
+    sp_status: NA
+    subsp: NA
+    sp_author: Adrain & Tetreault 2005
+    orig_genus: Proetus
+    orig_sp: NA
+  ref.pic: Adrain & Tetreault 2005
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Lockport
+    lat: 43.18
+    long: -78.72
+    country: USA
+    state: New York
+    county: Niagara
+  stratigraphy:
+    formation: Rochester
+    min_age: Sheinwoodian
+    max_age: Sheinwoodian
+    ref_age:  Brett 1983
+    basin: Appalachian
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 2/24/2025
+  comments: NA
+-
+  ID: PYG_GPI_Bo_114
+  taxonomy:
+    genus: Radiaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Richter & Richter 1917
+    sp: Radiaspis radiata
+    sp_status: NA
+    subsp: NA
+    sp_author: Goldfuss 1843
+    orig_genus: Arges
+    orig_sp: Arges radiatus
+  ref.pic: Basse & Müller 2004
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Flesten Mb
+    lat: 50.2
+    long: 6.6
+    country: Germany
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Ahrdorf Formation
+    min_age: Givetian
+    max_age: Eifelian
+    ref_age: Basse & Müller 2004
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/19/2025
+  comments: NA
+-
+  ID: RM_Nr._Ar._10343
+  taxonomy:
+    genus: Illaenus
+    gen_status: NA
+    subgen: NA
+    gen_author: Dalman 1827
+    sp: Illaenus sarsi
+    sp_status: NA
+    subsp: NA
+    sp_author: Jaanusson 1954
+    orig_genus: Entomostracites
+    orig_sp: crassicauda
+  ref.pic: Jaanusson 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Stenberg
+    lat: 60.8
+    long: 14.8
+    country: Sweden
+    state: Siljan-Gebiet
+    county: Dalarna
+  stratigraphy:
+    formation: Expansus Limestone
+    min_age: Arenig
+    max_age: Llanvirn
+    ref_age: Jaanusson 1957
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Parry S
+    landmark: Randolfe EA
+    date: 2/28/2025
+  comments: NA
+-
+  ID: UA_4152
+  taxonomy:
+    genus: Leonaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Richter & Richter 1917
+    sp: Leonaspis jaanussoni
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton & Perry 1983
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton & Perry 1983
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Avalanche Lake One
+    lat: 62.25
+    long: -127
+    country: Canada
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Whittaker
+    min_age: Telychian
+    max_age: Rhuddanian
+    ref_age: Chatterton & Perry 1983
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: NA
+-
+  ID: UA_4448
+  taxonomy:
+    genus: Stelckaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Chatterton & Perry 1983
+    sp: Stelckaspis warreni
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton & Perry 1983
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton & Perry 1983
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Avalanche Lake Two
+    lat: 62.25
+    long: -127
+    country: Canada
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Whittaker
+    min_age: Telychian
+    max_age: Rhuddanian
+    ref_age: Chatterton & Perry 1983
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: NA
+-
+  ID: UA_4506
+  taxonomy:
+    genus: Stelckaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Chatterton & Perry 1983
+    sp: Stelckaspis gingiva
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton & Perry 1983
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton & Perry 1983
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Avalanche Lake One
+    lat: 62.25
+    long: -127
+    country: Canada
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Whittaker
+    min_age: Rhuddanian
+    max_age: Telychian
+    ref_age: Chatterton & Perry 1983
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 3/27/2025
+  comments: NA
+-
+  ID: UA_6630
+  taxonomy:
+    genus: Deiphon
+    gen_status: NA
+    subgen: NA
+    gen_author: Barrande 1846
+    sp: Deiphon grovesi
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton Perry 1984
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton Perry 1984
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Mackenzie Mts
+    lat: 62.4
+    long: -127
+    country: Canada
+    state: Northwest Territories
+    county: NA
+  stratigraphy:
+    formation: Delorme
+    min_age: Wenlock
+    max_age: Wenlock
+    ref_age: Chatterton Perry 1984
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Monti DS
+    landmark: Randolfe EA
+    date: 3/25/2025
+  comments: Loc Avalanche Lake section AV2 256
+-
+  ID: UA_8258
+  taxonomy:
+    genus: Perryus
+    gen_status: NA
+    subgen: NA
+    gen_author: Gass Mikulic 1992
+    sp: Perryus barletti
+    sp_status: NA
+    subsp: NA
+    sp_author: Edgecombe Chatterton 1992
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Edgecombe Chatterton 1992
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Avalanche Lake 2
+    lat: 62.25
+    long: -127.24
+    country: Canada
+    state: NA
+    county: Northwest Territories
+  stratigraphy:
+    formation: Whittaker
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Edgecombe Chatterton 1992
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/8/2025
+  comments: NA
+-
+  ID: UA_8259
+  taxonomy:
+    genus: Perryus
+    gen_status: NA
+    subgen: NA
+    gen_author: Gass Mikulic 1982
+    sp: Perryus barletti
+    sp_status: NA
+    subsp: NA
+    sp_author: Edgecombe Chatterton 1992
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Edgecombe Chatterton 1992
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Avalanche Lake 3
+    lat: 62.4
+    long: -127.24
+    country: Canada
+    state: NA
+    county: Northwest Territories
+  stratigraphy:
+    formation: Whittaker
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Edgecombe Chatterton 1992
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/8/2025
+  comments: Photo included with UA 8261 from the same publication for reference
+-
+  ID: UA_8639
+  taxonomy:
+    genus: Struszia
+    gen_status: NA
+    subgen: NA
+    gen_author: Edgecombe Chatterton 1993
+    sp: Struszia dimitrovi
+    sp_status: NA
+    subsp: NA
+    sp_author: Perry Chatterton 1979
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus dimitrovi
+  ref.pic: Edgecombe Chatterton 1993
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Delorme Range
+    lat: 62.58
+    long: -125.16
+    country: Canada
+    state: NA
+    county: Northwest Territories
+  stratigraphy:
+    formation: Delorme
+    min_age: Sheinwoodian
+    max_age: Sheinwoodian
+    ref_age: Edgecombe Chatterton 1993
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado
+    landmark: Randolfe EA
+    date: 5/8/2025
+  comments: NA
+-
+  ID: UA_8666
+  taxonomy:
+    genus: Struszia
+    gen_status: NA
+    subgen: NA
+    gen_author: Edgecombe Chatterton 1993
+    sp: Struszia dimitrovi
+    sp_status: NA
+    subsp: NA
+    sp_author: Perry Chatterton 1979
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus dimitrovi
+  ref.pic: Edgecombe Chatterton 1993
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Avalanche Lake 4
+    lat: 62.4
+    long: -127.24
+    country: Canada
+    state: NA
+    county: Northwest Territories
+  stratigraphy:
+    formation: Delorme
+    min_age: Sheinwoodian
+    max_age: Sheinwoodian
+    ref_age: Edgecombe Chatterton 1993
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/8/2025
+  comments: Photo presented with UA 8670 as reference each named & with scale
+-
+  ID: UA6863
+  taxonomy:
+    genus: Reedops
+    gen_status: NA
+    subgen: NA
+    gen_author: Richter Richter 1925
+    sp: Reedops pembertoni
+    sp_status: NA
+    subsp: NA
+    sp_author: McKellar & Chatterton 2009
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: McKellar & Chatterton 2009
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Alnif
+    lat: 31.116667
+    long: -5.166667
+    country: Morocco
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Ihandar
+    min_age: Eifelian
+    max_age: Pragian
+    ref_age: Mc Kellar Chatterton 2009
+    basin: Mader Basin
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: UA6877
+  taxonomy:
+    genus: Austerops
+    gen_status: NA
+    subgen: NA
+    gen_author: McKellar & Chatterton 2009
+    sp: Austerops speculator
+    sp_status: NA
+    subsp: Austerops speculator punctatus
+    sp_author: McKellar & Chatterton 2009
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: McKellar & Chatterton 2009
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Jbel Oufatene
+    lat: 30.84
+    long: -4.9
+    country: Morocco
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: El Otfal
+    min_age: Eifelian
+    max_age: Eifelian
+    ref_age: McKellar & Chatterton 2009
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: UA6898
+  taxonomy:
+    genus: Boeckops
+    gen_status: NA
+    subgen: NA
+    gen_author: Chlupac 1972
+    sp: Boeckops stelcki
+    sp_status: NA
+    subsp: NA
+    sp_author: McKellar & Chatterton 2009
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: McKellar & Chatterton 2009
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Taharajat d´Oufatene
+    lat: 31.12
+    long: -5.16
+    country: Morocco
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Tazouläit
+    min_age: Eifelian
+    max_age: Emsian
+    ref_age: McKellar & Chatterton 2009
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: UA6912
+  taxonomy:
+    genus: Barrandeops
+    gen_status: NA
+    subgen: NA
+    gen_author: McKellar & Chatterton 2009
+    sp: Barrandeops ovatus
+    sp_status: NA
+    subsp: NA
+    sp_author: McKellar & Chatterton 2009
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: McKellar & Chatterton 2009
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Taharajat d´Oufatene
+    lat: 31.12
+    long: -5.16
+    country: Morocco
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Tazouläit
+    min_age: Eifelian
+    max_age: Emsian
+    ref_age: McKellar & Chatterton 2009
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: UA6935
+  taxonomy:
+    genus: Pedinopariops
+    gen_status: NA
+    subgen: Hypsipariops
+    gen_author: Struve 1972
+    sp: Pedinopariops vagabundus
+    sp_status: NA
+    subsp: NA
+    sp_author: Struve 1990
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: McKellar & Chatterton 2009
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: Aferdou de Mrakib
+    lat: 30.75
+    long: -4.63
+    country: Morocco
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Bou Dib
+    min_age: Givetian
+    max_age: Givetian
+    ref_age: McKellar & Chatterton 2009
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 6/9/2025
+  comments: NA
+-
+  ID: ULg-2011-11-16
+  taxonomy:
+    genus: Ohleum
+    gen_status: NA
+    subgen: NA
+    gen_author: Basse 1998
+    sp: Ohleum magreani
+    sp_status: NA
+    subsp: NA
+    sp_author: Taghon Bonino & Mottequin 2012
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Taghon et al 2012
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Couvin area
+    lat: 50.05
+    long: 4.5
+    country: Belgium
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Jemelle Formation
+    min_age: Eifelian
+    max_age: Eifelian
+    ref_age: Taghon et al 2012
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 4/24/2025
+  comments: NA
+-
+  ID: UM_38627d
+  taxonomy:
+    genus: Pudoproetus
+    gen_status: NA
+    subgen: NA
+    gen_author: Hessler 1963
+    sp: Pudoproetus michiganensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Hessler 1963
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Owens 1994
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Points aux Barques
+    lat: 44
+    long: -82.9
+    country: United States
+    state: Michigan
+    county: Huron
+  stratigraphy:
+    formation: Coldwater Shale
+    min_age: Mississipian
+    max_age: Mississipian
+    ref_age: Owens 1994
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 5/26/2025
+  comments: NA
+-
+  ID: UM_D73
+  taxonomy:
+    genus: Isbergia
+    gen_status: NA
+    subgen: NA
+    gen_author: Warburg 1925
+    sp: Isbergia parvula
+    sp_status: NA
+    subsp: NA
+    sp_author: Warburg 1925
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Owens 1978
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kallholn
+    lat: 61.17
+    long: 14.71
+    country: Sweden
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Boda Limestone
+    min_age: Katian
+    max_age: Katian
+    ref_age: Owens 1978
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 3/11/2025
+  comments: NA
+-
+  ID: USNM_208989C
+  taxonomy:
+    genus: Huntoniatonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Jell & Adrain 2002
+    sp: Huntoniatonia huntonensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Ulrich & Delo 1940
+    orig_genus: Dalmanites
+    orig_sp: NA
+  ref.pic: Campbell 1977
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Old Hunton Townsite
+    lat: 34.4
+    long: -96.4
+    country: United States
+    state: Oklahoma
+    county: NA
+  stratigraphy:
+    formation: Haragan Formation
+    min_age: Emsian
+    max_age: Lochkovian
+    ref_age: Campbell 1977
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 2/27/2025
+  comments: NA
+-
+  ID: USNM_298959
+  taxonomy:
+    genus: Arctinurus
+    gen_status: NA
+    subgen: NA
+    gen_author: Castelnau 1843
+    sp: Arctinurus occidentalis
+    sp_status: NA
+    subsp: NA
+    sp_author: Hall 1963
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Thomas & Holloway 1988
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Waldron
+    lat: 34.9
+    long: -91
+    country: United States
+    state: Arkansas
+    county: NA
+  stratigraphy:
+    formation: Waldron Shale
+    min_age: Homerian
+    max_age: Sheinwoodian
+    ref_age: Thomas & Holloway 1988
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 4/28/2025
+  comments: NA
+-
+  ID: USNM_298961
+  taxonomy:
+    genus: Dicranopeltis
+    gen_status: NA
+    subgen: NA
+    gen_author: Hawle Corda 1847
+    sp: NA
+    sp_status: sp.
+    subsp: NA
+    sp_author: NA
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Thomas & Holloway 1988
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Batesville district
+    lat: 35.7
+    long: -91
+    country: United States
+    state: Arkansas
+    county: NA
+  stratigraphy:
+    formation: St Clair Limestone
+    min_age: Homerian
+    max_age: Sheinwoodian
+    ref_age: Thomas Holloway 1988
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 4/28/2025
+  comments: NA
+-
+  ID: USNM_451117
+  taxonomy:
+    genus: Distyrax
+    gen_status: NA
+    subgen: NA
+    gen_author: Lane 1988
+    sp: NA
+    sp_status: sp.
+    subsp: NA
+    sp_author: NA
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Gass et al 1992
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Romeo Quarry
+    lat: 41.64
+    long: -88.08
+    country: United States
+    state: Illinois
+    county: Will County
+  stratigraphy:
+    formation: Joliet Dolomite
+    min_age: Sheinwoodian
+    max_age: Telychian
+    ref_age: Gass et al 1992
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 5/8/2025
+  comments: NA
+-
+  ID: USNM_62366b
+  taxonomy:
+    genus: Balizoma
+    gen_status: NA
+    subgen: NA
+    gen_author: Holloway 1980
+    sp: Balizoma indianensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Kindle & Breger 1904
+    orig_genus: Encrinurus
+    orig_sp: Encrinurus indianensis
+  ref.pic: Gass et al 1992
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Connors Mill
+    lat: 41.53
+    long: -84.91
+    country: United States
+    state: Indiana
+    county: County
+  stratigraphy:
+    formation: Wabash
+    min_age: Pridoli
+    max_age: Ludlow
+    ref_age: LoDuca et al 2021
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: NA
+-
+  ID: USNM_84799b
+  taxonomy:
+    genus: Daytonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Holloway 1981
+    sp: Daytonia werthneri
+    sp_status: NA
+    subsp: NA
+    sp_author: Foerste 1885
+    orig_genus: Dalmanites
+    orig_sp: NA
+  ref.pic: Holloway 1981
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Soldiers Home Quarries
+    lat: 39.7
+    long: -84.1
+    country: United States
+    state: Ohio
+    county: NA
+  stratigraphy:
+    formation: Brassfield
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Holloway 1981
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 1/30/2025
+  comments: NA
+-
+  ID: USNM_84799f
+  taxonomy:
+    genus: Daytonia
+    gen_status: NA
+    subgen: NA
+    gen_author: Holloway 1981
+    sp: Daytonia werthneri
+    sp_status: NA
+    subsp: NA
+    sp_author: Foerste 1885
+    orig_genus: Dalmanites
+    orig_sp: NA
+  ref.pic: Holloway 1981
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Soldiers Home Quarries
+    lat: 39.7
+    long: -84.1
+    country: United States
+    state: Ohio
+    county: NA
+  stratigraphy:
+    formation: Brassfield
+    min_age: Telychian
+    max_age: Telychian
+    ref_age: Holloway 1981
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 1/30/2025
+  comments: NA
+-
+  ID: VSEGEI_8597_173
+  taxonomy:
+    genus: Kasachstania
+    gen_status: NA
+    subgen: NA
+    gen_author: Maksimova 1972
+    sp: Kasachstania kiikbaica
+    sp_status: NA
+    subsp: NA
+    sp_author: Maksimova 1968
+    orig_genus: Odontochile
+    orig_sp: NA
+  ref.pic: Randolfe et al 2020
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kiikbai Mountains
+    lat: 48
+    long: 76
+    country: Kazakhstan
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Pribalkhash horizon
+    min_age: Lochkovian
+    max_age: Lochkovian
+    ref_age: Maksimova 1968
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 12/20/2024
+  comments: NA
+-
+  ID: WAM_11.230
+  taxonomy:
+    genus: Chlupaciparia
+    gen_status: NA
+    subgen: Australoparia
+    gen_author: Feist 2003
+    sp: Chlupaciparia (Australoparia) australis
+    sp_status: NA
+    subsp: NA
+    sp_author: Feist & Mcnamara 2013
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Feist & Mcnamara 2012
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: NA
+    lat: -18.71
+    long: 124.71
+    country: Australia
+    state: NA
+    county: Kimberley
+  stratigraphy:
+    formation: Virgin Hills
+    min_age: Famennian
+    max_age: Frasnian
+    ref_age: McNamara & Feist 2006
+    basin: Canning Basin
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 1/30/2025
+  comments: NA
+-
+  ID: WAM_11.211
+  taxonomy:
+    genus: Pteroparia
+    gen_status: NA
+    subgen: NA
+    gen_author: Richter 1913
+    sp: Pteroparia extrema
+    sp_status: NA
+    subsp: NA
+    sp_author: Feist & Mcnamara 2013
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic:  Feist & McNamara 2013
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: NA
+    lat: -18.71
+    long: 124.71
+    country: Australia
+    state: NA
+    county: Kimberley
+  stratigraphy:
+    formation: Virgin Hills
+    min_age: Famennian
+    max_age: Frasnian
+    ref_age: McNamara & Feist 2006
+    basin: Canning Basin
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 1/30/2025
+  comments: NA
+-
+  ID: WAM_11.236
+  taxonomy:
+    genus: Chlupaciparia
+    gen_status: NA
+    subgen: Australoparia
+    gen_author: Feist 2003
+    sp: Chlupaciparia (Australoparia) australis
+    sp_status: NA
+    subsp: NA
+    sp_author: Feist & Mcnamara 2013
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Feist & Mcnamara 2012
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: FALSE
+    ontogeny: Holaspis
+  geography:
+    locality: NA
+    lat: -18.71
+    long: 124.71
+    country: Australia
+    state: NA
+    county: Kimberley
+  stratigraphy:
+    formation: Virgin Hills
+    min_age: Famennian
+    max_age: Frasnian
+    ref_age: McNamara & Feist 2006
+    basin: Canning Basin
+    environment: carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 1/30/2025
+  comments: NA
+-
+  ID: YPM16271
+  taxonomy:
+    genus: Fragiscutum
+    gen_status: NA
+    subgen: NA
+    gen_author: Whittington Campbell 1967
+    sp: Fragiscutum glebale
+    sp_status: NA
+    subsp: NA
+    sp_author: Campbell 1967
+    orig_genus: Fragiscutum
+    orig_sp: Fragiscutum glebalis
+  ref.pic: Edgecombe 1990
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Decaturville
+    lat: 35.58
+    long: -88.1
+    country: United States
+    state: Tennessee
+    county: Decatur
+  stratigraphy:
+    formation: Brownsport
+    min_age: Ludfordian
+    max_age: Ludfordian
+    ref_age: Ulrich Scofield 1897
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: NA
+-
+  ID: YPM16272
+  taxonomy:
+    genus: Fragiscutum
+    gen_status: NA
+    subgen: NA
+    gen_author: Whittington Campbell 1967
+    sp: Fragiscutum glebale
+    sp_status: NA
+    subsp: NA
+    sp_author: Campbell 1967
+    orig_genus: Fragiscutum
+    orig_sp: Fragiscutum glebalis
+  ref.pic: Edgecombe 1990
+  morphology:
+    cephalon: FALSE
+    pygidium: TRUE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Decaturville
+    lat: 35.58
+    long: -88.1
+    country: United States
+    state: Tennessee
+    county: Decatur
+  stratigraphy:
+    formation: Brownsport
+    min_age: Ludfordian
+    max_age: Ludfordian
+    ref_age: Ulrich Scofield 1897
+    basin: NA
+    environment: carbonate
+  enterer:
+    metadata: María-Dorado J
+    landmark: Randolfe EA
+    date: 1/29/2025
+  comments: NA
+-
+  ID: MACN_2425
+  taxonomy:
+    genus: Malimanaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Baldis & Longobucco 1977
+    sp: Malimanaspis sarudianskii
+    sp_status: NA
+    subsp: NA
+    sp_author: Baldis & Longobucco 1977
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: JJRustanPersonalPhoto
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: FALSE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chinguillos Group
+    lat: -30
+    long: -68
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Chigua Formation
+    min_age: Frasnian
+    max_age: Givetian
+    ref_age: Baldis & Longobucco 1977
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Randolfe EA
+    landmark: Randolfe EA
+    date: 8/19/2025
+  comments: NA
+-
+  ID: PIU_V_4284
+  taxonomy:
+    genus: Parabolina
+    gen_status: NA
+    subgen: NA
+    gen_author: Salter 1849
+    sp: Parabolina lobata
+    sp_status: NA
+    subsp: NA
+    sp_author: Henningsmoen 1957
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Henningsmoen 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kinnekulle
+    lat: 58.6
+    long: 13.41
+    country: Sweden
+    state: NA
+    county: Västergötland
+  stratigraphy:
+    formation: Alum shale
+    min_age: Jiangshanian
+    max_age: Tremadocian
+    ref_age: Monti 2015
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: CPBA_4430
+  taxonomy:
+    genus: Saltaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Harrington & Leanza 1957
+    sp: Saltaspis steinmanni
+    sp_status: NA
+    subsp: NA
+    sp_author: Kobayashi 1936
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Harrington & Leanza 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada de Lampazar (S.Ros-12 P18)
+    lat: -65.2
+    long: -25.49
+    country: Argentina
+    state: Salta
+    county: NA
+  stratigraphy:
+    formation: Cardonal
+    min_age: Tremadocian
+    max_age: Floian
+    ref_age: Monti Serra
+    basin: Cordillera Oriental
+    environment: siliciclastic
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: CPBA_866
+  taxonomy:
+    genus: Jujuyaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Kobayashi 1936
+    sp: Jujuyaspis keideli
+    sp_status: NA
+    subsp: NA
+    sp_author: Kobayashi 1936
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Harrington & Leanza 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada de Humahuaca
+    lat: -65.33
+    long: -23.1
+    country: Argentina
+    state: Jujuy
+    county: NA
+  stratigraphy:
+    formation: incierta
+    min_age: Tremadocian
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: Cordillera Oriental
+    environment: siliciclastic
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: Henn_1957_Plate2_Fig3
+  taxonomy:
+    genus: Acerocare
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Acerocare ecorne
+    sp_status: NA
+    subsp: NA
+    sp_author: Angelin 1854
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Henningsmoen 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Nærsnes
+    lat: 59.76
+    long: 10.51
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum Shale
+    min_age: Stage 10
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 2 Reconstruction
+-
+  ID: Henn_1957_Plate2_Fig10
+  taxonomy:
+    genus: Acerocarina
+    gen_status: NA
+    subgen: NA
+    gen_author: Poulsen 1951
+    sp: Acerocarina micropygia
+    sp_status: NA
+    subsp: NA
+    sp_author: Linnarsson 1875
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Henningsmoen 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Gamlebyen
+    lat: 59.9
+    long: 10.77
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum Shale
+    min_age: Stage 10
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 2 Reconstruction
+-
+  ID: Henn_1957_Plate2_Fig8
+  taxonomy:
+    genus: Boeckaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Henningsmoen 1955
+    sp: Boeckaspis hirsuta
+    sp_status: NA
+    subsp: NA
+    sp_author: Brögger 1882
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Henningsmoen 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Nærsnes
+    lat: 59.76
+    long: 10.51
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum Shale
+    min_age: Stage 10
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 2 Reconstruction
+-
+  ID: Henn_1957_Plate2_Fig2
+  taxonomy:
+    genus: Protopeltura
+    gen_status: NA
+    subgen: NA
+    gen_author: Brögger 1882
+    sp: Protopeltura praecursor
+    sp_status: NA
+    subsp: NA
+    sp_author: Westergard 1909
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Henningsmoen 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Nærsnes
+    lat: 59.76
+    long: 10.51
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum Shale
+    min_age: Jiangshanian
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 2 Reconstruction
+-
+  ID: Henn_1957_Plate2_Fig18
+  taxonomy:
+    genus: Ctenopyge
+    gen_status: NA
+    subgen: NA
+    gen_author: Linnarsson 1880
+    sp: Ctenopyge pecten
+    sp_status: NA
+    subsp: NA
+    sp_author: Salter 1864
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Henningsmoen 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Nærsnes
+    lat: 59.76
+    long: 10.51
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum Shale
+    min_age: Stage 10
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 2 Reconstruction
+-
+  ID: Henn_1957_Plate2_Fig20
+  taxonomy:
+    genus: Mesoctenopyge
+    gen_status: NA
+    subgen: NA
+    gen_author: Henningsmoen 1957
+    sp: Mesoctenopyge spectabilis
+    sp_status: NA
+    subsp: NA
+    sp_author: Brögger 1882
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Henningsmoen 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Nærsnes
+    lat: 59.76
+    long: 10.51
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum Shale
+    min_age: Jiangshanian
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 2 Reconstruction
+-
+  ID: Fortey_1974_fig4
+  taxonomy:
+    genus: Balnibarbi
+    gen_status: NA
+    subgen: NA
+    gen_author: Fortey 1974
+    sp: Balnibarbi pulvurea
+    sp_status: NA
+    subsp: NA
+    sp_author: Fortey 1974
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Fortey 1974
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Spitsbergen
+    lat: 79.48
+    long: 16.84
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Valhallfonna Formation
+    min_age: Floian
+    max_age: Floian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Pag. 24 fig. 4 Reconstruction
+-
+  ID: Fortey_1974_fig5
+  taxonomy:
+    genus: Cloacaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Fortey 1974
+    sp: Cloacaspis senilis
+    sp_status: NA
+    subsp: NA
+    sp_author: Fortey 1974
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Fortey 1974
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Spitsbergen
+    lat: 79.48
+    long: 16.84
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Valhallfonna Formation
+    min_age: Floian
+    max_age: Dapingian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Pag. 37 fig. 5 Reconstruction
+-
+  ID: PMO_NF_300
+  taxonomy:
+    genus: Svalbardites
+    gen_status: NA
+    subgen: NA
+    gen_author: Fortey 1974
+    sp: Svalbardites hebaxis
+    sp_status: NA
+    subsp: NA
+    sp_author: Fortey 1974
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Fortey 1974
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Spitsbergen
+    lat: 79.48
+    long: 16.84
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Valhallfonna Formation
+    min_age: Floian
+    max_age: Floian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 19 Fig 1
+-
+  ID: PMO_NF_815
+  taxonomy:
+    genus: Anaximander
+    gen_status: NA
+    subgen: NA
+    gen_author: Fortey 1974
+    sp: Anaximander clavatus
+    sp_status: NA
+    subsp: NA
+    sp_author: Fortey 1974
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Fortey 1974
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Spitsbergen
+    lat: 79.48
+    long: 16.84
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Valhallfonna Formation
+    min_age: Tremadocian
+    max_age: Floian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Plate 21 Fig 2
+-
+  ID: CPBA_1002
+  taxonomy:
+    genus: Angelina
+    gen_status: NA
+    subgen: NA
+    gen_author: Salter 1859
+    sp: Angelina hyeronimi 
+    sp_status: NA
+    subsp: NA
+    sp_author: Kayser 1876
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Monti Confalonieri 2018
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Tilcuya
+    lat: NA
+    long: NA
+    country: Bolivia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Stage 10
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Fig. 1 B
+-
+  ID: CPBA_1195
+  taxonomy:
+    genus: Parabolinella
+    gen_status: NA
+    subgen: NA
+    gen_author: Brögger 1882
+    sp: Parabolinella coelatifrons
+    sp_status: NA
+    subsp: NA
+    sp_author: Harrington & Leanza 1957
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Monti Confalonieri 2018
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Iruya
+    lat: -22.79
+    long: -65.22
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Stage 10
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Fig. 1 A
+-
+  ID: CPBA_704
+  taxonomy:
+    genus: Peltocare
+    gen_status: NA
+    subgen: NA
+    gen_author: Henningsmoen 1957
+    sp: Peltocare norvegicum 
+    sp_status: NA
+    subsp: NA
+    sp_author: Moberg Moller 1898
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Monti Confalonieri 2018
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada de Rupasca
+    lat: -24.49
+    long: -66.46
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Tremadocian
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: CPBA_5057
+  taxonomy:
+    genus: Bienvillia
+    gen_status: NA
+    subgen: NA
+    gen_author: Clark 1924
+    sp: Bienvillia parchaensis 
+    sp_status: NA
+    subsp: NA
+    sp_author: Harrington & Leanza 1957
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Monti Confalonieri 2018
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada La Salamanca
+    lat: -24.71
+    long: -65.73
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Stage 10
+    max_age: Dapingian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: CEGH_UNC_21212
+  taxonomy:
+    genus: Porterfieldia
+    gen_status: NA
+    subgen: NA
+    gen_author: Cooper 1953 
+    sp: Porterfieldia turneri
+    sp_status: NA
+    subsp: NA
+    sp_author: Baldis Pöthe de Baldis 1995
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Waisfeld Vaccari 2003
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Las Aguaditas creek
+    lat: -30.29
+    long: -68.82
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Las Aguaditas
+    min_age: Tremadocian
+    max_age: Katian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Reconstruction of figures 10-11 W V 2003
+-
+  ID: Peng_1992_Chekiangaspis
+  taxonomy:
+    genus: Chekiangaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Lu 1961
+    sp: NA
+    sp_status: sp.
+    subsp: NA
+    sp_author: NA
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Peng 1992
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Shenjiawan
+    lat: 29.1
+    long: 110
+    country: China
+    state: Hunan
+    county: Cili
+  stratigraphy:
+    formation: Huaqiao
+    min_age: Paibian
+    max_age: Paibian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: GUGM_1328
+  taxonomy:
+    genus: Chungkingaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Lu 1962
+    sp: Chungkingaspis sinensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Sheng 1958
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Ghobadi Pour 2019
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Deh-Molla
+    lat: 35.97
+    long: 54.23
+    country: Iran
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: "unamed"
+    min_age: Tremadocian
+    max_age: Tremadocian
+    ref_age: Ghobadi Pour 2019
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Reconstruction figs. 4I P N
+-
+  ID: CPBA_1231
+  taxonomy:
+    genus: Parabolina (Neoparabolina)
+    gen_status: NA
+    subgen: NA
+    gen_author: Nikolaisen Henningsmoen 1985
+    sp: Parabolina (Neoparabolina) frequens
+    sp_status: NA
+    subsp: NA
+    sp_author: Barrande 1868
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Harrington & Leanza 1957
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Iruya
+    lat: -22.79
+    long: -65.22
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Stage 10
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: CPBA_2637
+  taxonomy:
+    genus: Plicatolina
+    gen_status: NA
+    subgen: NA
+    gen_author: Shaw 1951
+    sp: Plicatolina scalpta
+    sp_status: NA
+    subsp: NA
+    sp_author: Harrington & Leanza 1957
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Monti Confalonieri 2018
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada del Sarzo
+    lat: -23.13
+    long: -64.23
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Jiangshanian
+    max_age: Floian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: CPBA_21910
+  taxonomy:
+    genus: Leptoplastides
+    gen_status: NA
+    subgen: NA
+    gen_author: Raw 1908
+    sp: Leptoplastides granulosus
+    sp_status: NA
+    subsp: NA
+    sp_author: Harrington 1938
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Monti Confalonieri 2018
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada de Rupasca
+    lat: -24.49
+    long: -66.46
+    country: Argentina
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Jiangshanian
+    max_age: Floian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: CSGM_739_89
+  taxonomy:
+    genus: Parabolinina
+    gen_status: NA
+    subgen: NA
+    gen_author: Lazarenko 1966
+    sp: Parabolinina fortunata
+    sp_status: NA
+    subsp: NA
+    sp_author: Lazarenko 1966
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Varlamov et al 2006
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Chopko River Section
+    lat: 69.33
+    long: 88.22
+    country: Russia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Chopko River
+    min_age: Jiangshanian
+    max_age: Jiangshanian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: 1023_Liu_1977
+  taxonomy:
+    genus: Huangshiaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Liu 1977
+    sp: Huangshiaspis transversus
+    sp_status: NA
+    subsp: NA
+    sp_author: Liu 1977
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Liu 1977
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Fenghuang area
+    lat: 28
+    long: 109.6
+    country: China
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Tingziguan
+    min_age: Jiangshanian
+    max_age: Jiangshanian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Pic Plate II fig 5 info PBDB 
+-
+  ID: 1020_Liu_1977
+  taxonomy:
+    genus: Hunanolenus
+    gen_status: NA
+    subgen: NA
+    gen_author: Liu 1977
+    sp: Hunanolenus genalatus
+    sp_status: NA
+    subsp: NA
+    sp_author: Liu 1977
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Liu 1977
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Hunan
+    lat: 28.16
+    long: 111.67
+    country: China
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Huaqiao
+    min_age: Paibian
+    max_age: Paibian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: LO_9639
+  taxonomy:
+    genus: Leptoplastus
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Leptoplastus stenotus 
+    sp_status: NA
+    subsp: NA
+    sp_author: Angelin 1854
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Terfelt 2006
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Andrarum
+    lat: 55.71
+    long: 13.96
+    country: Sweden
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum Shale
+    min_age: Jiangshanian
+    max_age: Jiangshanian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: MACN_PI_2481
+  taxonomy:
+    genus: Helieranella
+    gen_status: NA
+    subgen: NA
+    gen_author: Baldis Gonzalez 1984
+    sp: Helieranella negritoensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Baldis & Gonzalez 1984
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Baldis et al 1984
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Llanos Orientales
+    lat: 5.4
+    long: -71.67
+    country: Colombia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Negritos
+    min_age: Tremadocian
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: MCZ_5445P
+  taxonomy:
+    genus: Triarthrus
+    gen_status: NA
+    subgen: NA
+    gen_author: Green 1832
+    sp: Triarthrus eatoni
+    sp_status: NA
+    subsp: NA
+    sp_author: Hall 1838
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Whittington 1957 
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Trenton
+    lat: 43.24
+    long: -75.26
+    country: United States
+    state: New York
+    county: Oneida
+  stratigraphy:
+    formation: Utica Shale
+    min_age: Dapingian
+    max_age: Hirnantian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: USMN_775719
+  taxonomy:
+    genus: Mendoparabolina
+    gen_status: NA
+    subgen: NA
+    gen_author: Rusconi 1951
+    sp: Mendoparabolina nyensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Taylor 1976
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Taylor et al 2024
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Ninemile Canyon
+    lat: 38.72
+    long: -115.028
+    country: United States
+    state: Nevada
+    county: NA
+  stratigraphy:
+    formation: Windfall
+    min_age: Stage 10
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Reconstruction PLATE 5 figs 11 & 13
+-
+  ID: MGUH_33662
+  taxonomy:
+    genus: Eurycare
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Eurycare bornholmensis
+    sp_status: NA
+    subsp: NA
+    sp_author: Poulsen 1923
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Nielsen Andersen 2021
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Laesa stream
+    lat: 55.3
+    long: 14.53
+    country: Denmark
+    state: Bornholm
+    county: NA
+  stratigraphy:
+    formation: Alum shale
+    min_age: Jiangshanian
+    max_age: Jiangshanian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: Locality 6 (Hansen 1945 locality VIII)
+-
+  ID: N_704_9_CSGM
+  taxonomy:
+    genus: Nikarivshanus
+    gen_status: NA
+    subgen: NA
+    gen_author: Petrurina 2002
+    sp: Nikarivshanus miraculus
+    sp_status: NA
+    subsp: NA
+    sp_author: Petrurina 2002
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Petrurina 2002
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kuznetsk Alatau
+    lat: 54.13
+    long: 88.75
+    country: Russia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Kitat
+    min_age: Stage 10
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: N_704_26_CSGM
+  taxonomy:
+    genus: Eurycarina
+    gen_status: NA
+    subgen: NA
+    gen_author: Petrurina 2002
+    sp: Eurycarina oblonga
+    sp_status: NA
+    subsp: NA
+    sp_author: Petrurina 2002
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Petrurina 2002
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kuznetsk Alatau
+    lat: 54.13
+    long: 88.75
+    country: Russia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Kitat
+    min_age: Jiangshanian
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: N_704_47_CSGM
+  taxonomy:
+    genus: Boekaspina
+    gen_status: NA
+    subgen: NA
+    gen_author: Petrurina 2002
+    sp: Boekaspina compressa
+    sp_status: NA
+    subsp: NA
+    sp_author: Petrurina 2002
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Petrurina 2002
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Kuznetsk Alatau
+    lat: 54.13
+    long: 88.75
+    country: Russia
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Kitat
+    min_age: Tremadocian
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: Fig5a_Clarkson_Taylor_1995
+  taxonomy:
+    genus: Olenus
+    gen_status: NA
+    subgen: NA
+    gen_author: Dalman 1827
+    sp: Olenus wahlenbergi
+    sp_status: NA
+    subsp: NA
+    sp_author: Westergard 1922
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Clarkson Taylor 1995
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Andrarum
+    lat: 55.72
+    long: 13.98
+    country: Sweden
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum shale
+    min_age: Guzhangian
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: Fig7b_Bird_Clarkson_2003
+  taxonomy:
+    genus: Peltura
+    gen_status: NA
+    subgen: NA
+    gen_author: Milne-Edwards 1840
+    sp: Peltura scaraboides
+    sp_status: NA
+    subsp: NA
+    sp_author: Wahlenberg 1821
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Bird Clarkson 2003
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Varhem
+    lat: 58.38
+    long: 13.65
+    country: Sweden
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum shale
+    min_age: Jiangshanian
+    max_age: Tremadocian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: PIL_14383
+  taxonomy:
+    genus: Psilocara
+    gen_status: NA
+    subgen: NA
+    gen_author: Fortey 1974
+    sp: Psilocara lilliae
+    sp_status: NA
+    subsp: NA
+    sp_author: Tortello 1996
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Waisfeld Vaccari 2003
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Quebrada del Barranco
+    lat: -24.6
+    long: -64.6
+    country: Argentina
+    state: Salta
+    county: NA
+  stratigraphy:
+    formation: Parcha
+    min_age: Tremadocian
+    max_age: Floian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: RBCM_P977
+  taxonomy:
+    genus: Aciculolenus
+    gen_status: NA
+    subgen: NA
+    gen_author: Palmer 1965
+    sp: Aciculolenus askewi
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton 2020
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton 2020
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Bull River Valley Locality 15
+    lat: 49.52
+    long: -115.75
+    country: Canada
+    state: British Columbia
+    county: NA
+  stratigraphy:
+    formation: McKay Group
+    min_age: Jiangshanian
+    max_age: Jiangshanian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: UA14054
+  taxonomy:
+    genus: Wujiajiania
+    gen_status: NA
+    subgen: NA
+    gen_author: Lu Lin 1980
+    sp: Wujiajiania lyndasmithae
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton Gibb 2016
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton Gibb 2016
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Bull River Valley Locality 15
+    lat: 49.52
+    long: -115.75
+    country: Canada
+    state: British Columbia
+    county: NA
+  stratigraphy:
+    formation: McKay Group
+    min_age: Paibian
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: UA14277
+  taxonomy:
+    genus: Claycreekia
+    gen_status: NA
+    subgen: NA
+    gen_author: Chatterton Gibb 2016
+    sp: Claycreekia chrisorum
+    sp_status: NA
+    subsp: NA
+    sp_author: Chatterton Gibb 2016
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Chatterton Gibb 2016
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Clay Creek section
+    lat: 49.52
+    long: -115.75
+    country: Canada
+    state: British Columbia
+    county: NA
+  stratigraphy:
+    formation: McKay Group
+    min_age: Jiangshanian
+    max_age: Jiangshanian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: Fig4F_Høyberget_Bruton_2012
+  taxonomy:
+    genus: Sphaerophthalmus
+    gen_status: NA
+    subgen: NA
+    gen_author: Angelin 1854
+    sp: Sphaerophthalmus modestus
+    sp_status: NA
+    subsp: NA
+    sp_author: Henningsmoen 1957
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Høyberget Bruton 2012
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Nærsnes
+    lat: 59.76
+    long: 10.51
+    country: Norway
+    state: NA
+    county: NA
+  stratigraphy:
+    formation: Alum shale
+    min_age: Jiangshanian
+    max_age: Stage 10
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: Fig21_Opik_1963
+  taxonomy:
+    genus: Rhodonaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Whitehouse 1939
+    sp: Rhodonaspis longula
+    sp_status: NA
+    subsp: NA
+    sp_author: Whitehouse 1939
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Opik 1963
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Georgina Limestone
+    lat: -23
+    long: 139
+    country: Australia
+    state: Quensland
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Guzhangian
+    max_age: Guzhangian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
+  ID: Plate4_fig15_Westergard_1984
+  taxonomy:
+    genus: Ullaspis
+    gen_status: NA
+    subgen: NA
+    gen_author: Westergard 1984
+    sp: Ullaspis conifrons
+    sp_status: NA
+    subsp: NA
+    sp_author: Westergard 1984
+    orig_genus: NA
+    orig_sp: NA
+  ref.pic: Westergard 1984
+  morphology:
+    cephalon: TRUE
+    pygidium: FALSE
+    cranidium: TRUE
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Ullavi
+    lat: 58.67
+    long: 16.94
+    country: Sweden
+    state: Närke
+    county: NA
+  stratigraphy:
+    formation: NA
+    min_age: Guzhangian
+    max_age: Guzhangian
+    ref_age: Monti Serra
+    basin: NA
+    environment: NA
+  enterer:
+    metadata: Serra F
+    landmark: Serra F
+    date: 9/29/2025
+  comments: NA
+-
   ID: CMNH_34436
   taxonomy:
     genus: Spergenaspis
