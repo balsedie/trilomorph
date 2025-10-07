@@ -55,7 +55,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
              lm = c(1:16), #vector of desired fixed landmark configuration
              cv = c("glabella","suture","anterior","posterior"), #names or numbers of desired curves
              cvs.lm = c(12, 20, 20, 20), #number of subsampled semilandmarks in each curve
-             curves.id = c("cephalon") #name of tagma to analyze
+             curves.id = c("cephalon") #select between cephalon and pygidium
              )
 
     #note to change this configuration if analysing pygidia. Trilomorph template[^6] defines up to 3 pygidial curves.
@@ -63,7 +63,7 @@ you can then access the TriloMorph shape files that you've downloaded previously
              lm = c(1:7), #vector of desired configuration
              cv = c("axis","border","margin"), #names or numbers of desired curves
              cvs.lm = c(x,x,x), #number of subsampled semilandmarks in each curve
-             curves.id = c("pygidium") #names of maximum number of curves in the dataset
+             curves.id = c("pygidium") #select between cephalon and pygidium
              )
 
     #read the shape files. Note that sufix = "_C" is for cephala, change it to "_P" if analysing pygidia.
