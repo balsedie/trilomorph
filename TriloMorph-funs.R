@@ -84,9 +84,11 @@ shapRead <- function(fids, sufix = NULL, subdir = NULL, neg.na = TRUE) {
       dx <- shapReadXml(fxml, id = s)
     }
     if(isError(dx)) fails <- c(fails, s) else qb[[s]] <- dx
+    cat("\r",count)
   }
   attr(qb, "specimens with missing datafile") <- miss
   attr(qb, "specimens with failed loading") <- fails
+  cat("\n","")
   return(qb)
 }
 shapReadXml <- function(fs, id = NA) {
@@ -696,4 +698,5 @@ yaml_read <- function (file, flat = TRUE) {
 	} 
 	return(out)
 }
+
 
