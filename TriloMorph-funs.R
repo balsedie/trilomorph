@@ -68,6 +68,7 @@ shapRead <- function(fids, sufix = NULL, subdir = NULL, neg.na = TRUE) {
   isError <- function(x) inherits(x, "try-error")
   fails <- miss <- character()
   qb <- list()
+  count <- 0 #count read specimens
   # Look for either a TPS or XML file for each specimen ID considered.
   for(s in fids) {
     f <- paste0(s, sufix)
@@ -698,5 +699,6 @@ yaml_read <- function (file, flat = TRUE) {
 	} 
 	return(out)
 }
+
 
 
