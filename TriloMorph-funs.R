@@ -71,6 +71,7 @@ shapRead <- function(fids, sufix = NULL, subdir = NULL, neg.na = TRUE) {
   count <- 0 #count read specimens
   # Look for either a TPS or XML file for each specimen ID considered.
   for(s in fids) {
+    count <- count+1
     f <- paste0(s, sufix)
     if(!is.null(subdir)) f <- file.path(subdir, f)
     ftps <- paste0(f, ".tps")
@@ -699,6 +700,7 @@ yaml_read <- function (file, flat = TRUE) {
 	} 
 	return(out)
 }
+
 
 
 
