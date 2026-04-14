@@ -1,4 +1,42 @@
 ---
+ID: VSEGEI_49-5217
+taxonomy:
+  genus: Pseudophillipsia
+  gen_status: 
+  subgen: Carniphillipsia
+  sp: Pseudophillipsia paffenholzi
+  sp_status: 
+  subsp: NA
+  orig_genus: NA
+  sp_author: Weber 1944
+  gen_author: Gemmellaro 1892
+  orig_sp: NA
+ref.pic: Lerosey-Aubril 2012
+morphology:
+  cephalon: TRUE
+  cranidium: TRUE
+  pygidium: NA
+  eyes: TRUE
+  ontogeny: holaspis
+geography:
+  locality: Vedi River
+  country: Armenia
+  state: Ararat Province
+  county: NA
+  lat: 39.9
+  long: 44.7
+stratigraphy:
+  formation: Gnishik Formation
+  min_age: Wordian
+  max_age: NA
+  ref_age: NA
+  basin: NA
+  environment: Carbonatic
+enterer:
+  metadata: D_Aquino
+  landmark: D_Aquino
+  date: 14/04/2026
+comments: NA
 -
   ID: AM_F116995
   taxonomy:
