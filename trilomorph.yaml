@@ -1,5 +1,356 @@
 ---
 -
+  ID: GPIN_119256
+  taxonomy:
+    genus: Hunanoproetus
+    gen_status: 
+    subgen: NA
+    sp: Hunanoproetus brevicephalus
+    sp_status: sp. nov.
+    subsp: NA
+    orig_genus: NA
+    sp_author: Yuan & Li 1995
+    gen_author: Yang 1981
+    orig_sp: NA
+  ref.pic: Yuan & Li 1995
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Jiguanshan
+    country: China
+    state: Guangxi
+    county: NA
+    lat: 24.30
+    long: 109.40
+  stratigraphy:
+    formation: Tangbagou Formation
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: The image corresponds to a reconstruction of the original material 
+-
+  ID: Hahn2019_Abb61-64
+  taxonomy:
+    genus: Tawstockia
+    gen_status: 
+    subgen: NA
+    sp: Tawstockia longispina germanica
+    sp_status: 
+    subsp: germanica
+    orig_genus: NA
+    sp_author: Müller & Hahn 2018
+    gen_author: Brauckmann 1974
+    orig_sp: NA
+  ref.pic: Hahn et al. 2019
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Belecke (Kaiser-Heinrich-Quelle)
+    country: Germany
+    state: Nordrhein-Westfalen
+    county: NA
+    lat: 51.5
+    long: 8.3
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: Reconstruction based on specimens SMF 100644, SMF 100648, SMF 100647
+-
+  ID: SMF_76480a
+  taxonomy:
+    genus: Liebsteinella
+    gen_status: 
+    subgen: NA
+    sp: Liebsteinella martini
+    sp_status: 
+    subsp: NA
+    orig_genus: Tawstockia
+    sp_author: Müller 2004
+    gen_author: Müller & Hahn 2018
+    orig_sp: NA
+  ref.pic: Hahn et al. 2019
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Liebstein bei Erdbach
+    country: Germany
+    state: Hessen
+    county: NA
+    lat: 50.7
+    long: 8.4
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: The image corresponds to a reconstruction of the original material 
+-
+  ID: Hahn2019_Fig85
+  taxonomy:
+    genus: Pseudodudu
+    gen_status: 
+    subgen: NA
+    sp: Pseudodudu zappai
+    sp_status: 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Müller 2007
+    gen_author: Hahn, Hahn & Müller 1999
+    orig_sp: NA
+  ref.pic: Hahn et al. 2019, Abb. 85
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Liebstein bei Erdbach
+    country: Germany
+    state: Hessen
+    county: NA
+    lat: 50.7
+    long: 8.4
+  stratigraphy:
+    formation: Erdbach Limestone II
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: Reconstruction based on specimens SMF 76526, SMF 525292, SMF 100731
+-
+  ID: SMF_36686
+  taxonomy:
+    genus: Xenadoche
+    gen_status: 
+    subgen: NA
+    sp: Xenadoche dido
+    sp_status: 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn & Hahn 1982
+    gen_author: Hahn & Hahn 1982
+    orig_sp: NA
+  ref.pic: Hahn et al. 2019
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Steeden
+    country: Germany
+    state: Hessen
+    county: NA
+    lat: 50.6
+    long: 8.3
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: Hahn2019_Abb99-103
+  taxonomy:
+    genus: Xylomelon
+    gen_status: 
+    subgen: NA
+    sp: Xylomelon elissa
+    sp_status: 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn, Hahn & Müller 2000
+    gen_author: Müller & G. Hahn 2018
+    orig_sp: NA
+  ref.pic: Hahn et al. 2019, Abb. 99
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Steeden
+    country: Germany
+    state: Hessen
+    county: NA
+    lat: 50.6
+    long: 8.3
+  stratigraphy:
+    formation: Erdbach Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: Reconstruction based on specimens SMF 100685a, SMF 100686, SMF 100688, SMF 100699
+-
+  ID: SMF_42866
+  taxonomy:
+    genus: Globusiella
+    gen_status: 
+    subgen: NA
+    sp: Globusiella akenteta
+    sp_status: 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn, Hahn & Brauckmann 1992
+    gen_author: Hahn, Hahn & Brauckmann 1992
+    orig_sp: NA
+  ref.pic: Hahn et al. 2019, Abb. 142
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Effenberg
+    country: Germany
+    state: Nordrhein-Westfalen
+    county: Arnsberg
+    lat: 51.4
+    long: 8.1
+  stratigraphy:
+    formation: Balvium
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: NA
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID:  Hahn_et_a.2000Fig_20
+  taxonomy:
+    genus: Pseudowaribole
+    gen_status: 
+    subgen: Geigibole
+    sp: Pseudowaribole inusitata
+    sp_status: 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn, Hahn & Müller 2000
+    gen_author: Hahn & Hahn 1967
+    orig_sp: NA
+  ref.pic: Hahn et al. 2000
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Cima di Plotta
+    country: Italy
+    state: NA
+    county: NA
+    lat: 46.6
+    long: 12.9
+  stratigraphy:
+    formation: Kronhof Limestone
+    min_age: Tournaisian
+    max_age: NA
+    ref_age: Erdbachium (cu IIg, anchoralis Zone)
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: Reconstruction based on B2000/1/62 (cranidium, holotype) and B2000/1/64 (free cheek, paratype)
+-
+  ID: MGSB_5021
+  taxonomy:
+    genus: Drevermannia
+    gen_status: 
+    subgen: Pseudodrevermannia
+    sp: Drevermannia manevilai
+    sp_status: 
+    subsp: NA
+    orig_genus: NA
+    sp_author: Gandl et al. 2015
+    gen_author: Richter 1909
+    orig_sp: NA
+  ref.pic: Gandl et al. 2015
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: El Papiol
+    country: Spain
+    state: Catalonia
+    county: NA
+    lat: 41.44
+    long: 2.01
+  stratigraphy:
+    formation: Formación El Papiol
+    min_age: Viséan
+    max_age: NA
+    ref_age: Upper Viséan
+    basin: NA
+    environment: Carbonatic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 10/04/2026
+  comments: Holotype; cephalon selected due to minimal deformation and well-preserved glabella
+-
   ID: AM_F116995
   taxonomy:
     genus: Raphiophorus
