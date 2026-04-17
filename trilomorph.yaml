@@ -42,7 +42,7 @@
   ID: Hahn2019_Abb61-64
   taxonomy:
     genus: Tawstockia
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Tawstockia longispina germanica
     sp_status: 
@@ -81,7 +81,7 @@
   ID: SMF_76480a
   taxonomy:
     genus: Liebsteinella
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Liebsteinella martini
     sp_status: 
@@ -120,7 +120,7 @@
   ID: Hahn2019_Fig85
   taxonomy:
     genus: Pseudodudu
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Pseudodudu zappai
     sp_status: 
@@ -159,7 +159,7 @@
   ID: SMF_36686
   taxonomy:
     genus: Xenadoche
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Xenadoche dido
     sp_status: 
@@ -198,7 +198,7 @@
   ID: Hahn2019_Abb99-103
   taxonomy:
     genus: Xylomelon
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Xylomelon elissa
     sp_status: 
@@ -237,7 +237,7 @@
   ID: SMF_42866
   taxonomy:
     genus: Globusiella
-    gen_status: 
+    gen_status: NA
     subgen: NA
     sp: Globusiella akenteta
     sp_status: 
@@ -276,7 +276,7 @@
   ID:  Hahn_et_a.2000Fig_20
   taxonomy:
     genus: Pseudowaribole
-    gen_status: 
+    gen_status: NA
     subgen: Geigibole
     sp: Pseudowaribole inusitata
     sp_status: 
@@ -315,7 +315,7 @@
   ID: MGSB_5021
   taxonomy:
     genus: Drevermannia
-    gen_status: 
+    gen_status: NA
     subgen: Pseudodrevermannia
     sp: Drevermannia manevilai
     sp_status: 
