@@ -1,5 +1,363 @@
 ---
 -
+  ID: 1994/1/10
+  taxonomy:
+    genus: Chiops
+    gen_status: NA
+    subgen: NA
+    sp: Chiops assnitzensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn, Hahn & Kratz, 1994
+    gen_author: Hahn & Hahn, 2002
+    orig_sp: NA
+  ref.pic: Hahn et al. 2022
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: Holaspis
+  geography:
+    locality: Carnic Alps (Assnitz area)
+    country: Austria
+    state: Carinthia
+    county: The image corresponds to a reconstruction of the original material
+    lat: 46.6
+    long: 13.0
+  stratigraphy:
+    formation: Kulm facies
+    min_age: Tournaisian
+    max_age: Tournaisian
+    ref_age: NA
+    basin: Carnic Basin
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30-04-2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+-
+  ID: MB.T.5550
+  taxonomy:
+    genus: Craspedops
+    gen_status: NA
+    subgen: NA
+    sp: Craspedops erfoudensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: Chlupacula
+    sp_author: Hahn & Müller, 2012
+    gen_author: Hahn & Hahn, 2002
+    orig_sp: NA
+  ref.pic: Hahn & Müller, 2012
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: Holaspis
+  geography:
+    locality: Erfoud
+    country: Morocco
+    state: Drâa-Tafilalet
+    county: NA
+    lat: 31.4
+    long: -4.2
+  stratigraphy:
+    formation: Kulm facies
+    min_age: 358.9
+    max_age: 346.7
+    ref_age: Tournaisian
+    basin: Anti-Atlas Basin
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30-04-2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+  ID: Hahn_et_al_2022_p148
+  taxonomy:
+    genus: Diacoryphe
+    gen_status: NA
+    subgen: NA
+    sp: Diacoryphe gloriola
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Richter & Richter, 1951
+    gen_author: Richter & Richter, 1951
+    orig_sp: NA
+  ref.pic: Hahn_et_al_2022
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: Holaspis
+  geography:
+    locality: Rhenish_Slate_Mountains
+    country: Germany
+    state: North_Rhine-Westphalia
+    county: NA
+    lat: 51.3
+    long: 7.0
+  stratigraphy:
+    formation: Kulm_facies
+    min_age: 358.9
+    max_age: 346.7
+    ref_age: Tournaisian
+    basin: Rhenish_Basin
+    environment: Carbonate
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30-04-2026
+  comments: reconstruction_based_on_specimens_SMF_42906_and_MB_T_3045
+-
+-
+  ID: MB.T.4719
+  taxonomy:
+    genus: Maghrebaspis
+    gen_status: NA
+    subgen: NA
+    sp: Maghrebaspis ehhighauseni
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn_Hahn_Korn_2004
+    gen_author: Hahn_Hahn_Korn_2004
+    orig_sp: NA
+  ref.pic: Hahn et al. 2004
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Mouydir
+    country: Algeria
+    state: NA
+    county: NA
+    lat: 26.61
+    long: 3.84
+  stratigraphy:
+    formation: Argiles de Teguentour
+    min_age: Tournaisian
+    max_age: Tournaisian
+    ref_age: Hahn et al. 2004
+    basin: Mouydir
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30-04-2026
+  comments: The image corresponds to a reconstruction of the original material
+
+-
+  ID: MB.T.4725
+  taxonomy:
+    genus: Numidiaspis
+    gen_status: NA
+    subgen: NA
+    sp: Numidiaspi massinissae
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Hahn_Hahn_Korn_2004
+    gen_author: Hahn_Hahn_Korn_2004
+    orig_sp: NA
+  ref.pic: Hahn et al. 2004
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: holaspis
+  geography:
+    locality: Mouydir
+    country: Algeria
+    state: NA
+    county: NA
+    lat: 26.50
+    long: 3.91
+  stratigraphy:
+    formation: Argiles de Teguentour
+    min_age: Tournaisian
+    max_age: Tournaisian
+    ref_age: Hahn et al. 2004
+    basin: Mouydir
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30/04/2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+-
+  ID: BMNH._It._1432
+  taxonomy:
+    genus: Lichanocoryphe
+    gen_status: NA
+    subgen: NA
+    sp: Lichanocoryphe cephalispina
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Prentice_1967
+    gen_author: Owens_Tilsley_1995
+    orig_sp: NA
+  ref.pic: Hahn et al. 2022
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: Holaspis
+  geography:
+    locality: Bampton
+    country: United Kingdom
+    state: England
+    county: Devon
+    lat: 50.99
+    long: -3.48
+  stratigraphy:
+    formation: Kersdown Chert Formation
+    min_age: Tournaisian
+    max_age: Tournaisian
+    ref_age: Hahn et al. 2022
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30/04/2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+-
+  ID: CGU_ICh_2004
+  taxonomy:
+    genus: Spinibole
+    gen_status: NA
+    subgen: NA
+    sp: Spinibole olgae
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Chlupac_1966
+    gen_author: Chlupac_1966
+    orig_sp: NA
+  ref.pic: Hahn et al. 2022
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: Holaspis
+  geography:
+     locality: Březina
+    country: Czech Republic
+    state: Moravia
+    county: NA
+    lat: 49.28
+    long: 16.75
+  stratigraphy:
+    formation: NA
+    min_age: Visean
+    max_age: Visean
+    ref_age: Hahn et al. 2022
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30/04/2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+-
+  ID: IG.173.II.377
+  taxonomy:
+    genus: Archaeocoryphe
+    gen_status: NA
+    subgen: NA
+    sp: Archaeocoryphe strenuispina
+    sp_status: NA
+    subsp: NA
+    orig_genus: Diacoryphe
+    sp_author: Osmolska_1962
+    gen_author: Hahn_Hahn_Gawlick_1995
+    orig_sp: strenuispina
+  ref.pic: Hahn et al. 2022
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: TRUE
+    ontogeny: Holaspis
+  geography:
+    locality: Jabłonna
+    country: Poland
+    state: NA
+    county: NA
+    lat: 52.38
+    long: 20.89
+  stratigraphy:
+    formation: NA
+    min_age: Tournaisian
+    max_age: Tournaisian
+    ref_age: Hahn et al. 2022
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30/04/2026
+  comments: The image corresponds to a reconstruction of the original material
+-
+-
+  ID: MGSB_880
+  taxonomy:
+    genus: Canovesia
+    gen_status: NA
+    subgen: NA
+    sp: Canovesia canovesensis
+    sp_status: NA
+    subsp: NA
+    orig_genus: NA
+    sp_author: Gandl_2015
+    gen_author: Gandl_2015
+    orig_sp: NA
+  ref.pic: Hahn et al. 2022
+  morphology:
+    cephalon: TRUE
+    cranidium: TRUE
+    pygidium: NA
+    eyes: NA
+    ontogeny: holaspis
+  geography:
+    locality: Barcelopna
+    country: Spain
+    state: NA
+    county: NA
+    lat: 41.41
+    long: 2.12
+  stratigraphy:
+    formation: NA
+    min_age: Visean
+    max_age: Visean
+    ref_age: Hahn et al. 2022
+    basin: NA
+    environment: siliciclastic
+  enterer:
+    metadata: D_Aquino
+    landmark: D_Aquino
+    date: 30/04/2026
+  comments: The image corresponds to a reconstruction of the original material
+-
   ID: GPIN_119256
   taxonomy:
     genus: Hunanoproetus
