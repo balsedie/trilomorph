@@ -39,7 +39,6 @@
     date: 30-04-2026
   comments: The image corresponds to a reconstruction of the original material
 -
--
   ID: MB.T.5550
   taxonomy:
     genus: Craspedops
@@ -118,7 +117,6 @@
     date: 30-04-2026
   comments: reconstruction_based_on_specimens_SMF_42906_and_MB_T_3045
 -
--
   ID: MB.T.4719
   taxonomy:
     genus: Maghrebaspis
@@ -157,7 +155,6 @@
     landmark: D_Aquino
     date: 30-04-2026
   comments: The image corresponds to a reconstruction of the original material
-
 -
   ID: MB.T.4725
   taxonomy:
@@ -198,7 +195,6 @@
     date: 30/04/2026
   comments: The image corresponds to a reconstruction of the original material
 -
--
   ID: BMNH._It._1432
   taxonomy:
     genus: Lichanocoryphe
@@ -238,7 +234,6 @@
     date: 30/04/2026
   comments: The image corresponds to a reconstruction of the original material
 -
--
   ID: CGU_ICh_2004
   taxonomy:
     genus: Spinibole
@@ -259,7 +254,7 @@
     eyes: NA
     ontogeny: Holaspis
   geography:
-     locality: Březina
+    locality: Březina
     country: Czech Republic
     state: Moravia
     county: NA
@@ -277,7 +272,6 @@
     landmark: D_Aquino
     date: 30/04/2026
   comments: The image corresponds to a reconstruction of the original material
--
 -
   ID: IG.173.II.377
   taxonomy:
@@ -317,7 +311,6 @@
     landmark: D_Aquino
     date: 30/04/2026
   comments: The image corresponds to a reconstruction of the original material
--
 -
   ID: MGSB_880
   taxonomy:
